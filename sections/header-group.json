@@ -27,19 +27,11 @@
             "text": "Paiement 100% sécurisé",
             "url": ""
           }
-        },
-        "message_y4RXqW": {
-          "type": "message",
-          "settings": {
-            "text": "Livraison gratuite",
-            "url": ""
-          }
         }
       },
       "block_order": [
         "message",
-        "message_adU36t",
-        "message_y4RXqW"
+        "message_adU36t"
       ],
       "settings": {
         "enable_sticky": false,
