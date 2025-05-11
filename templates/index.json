@@ -90,10 +90,66 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "logo_list_NYh7Ga": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_BXGfQX": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_f44V8L": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_Qrnfy8": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_nLQkW3": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_BXGfQX",
+        "logo_f44V8L",
+        "logo_Qrnfy8",
+        "logo_nLQkW3"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Logo list",
+        "content": "",
+        "text_alignment": "start",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
     "image_with_text_overlay_ezUjx3",
-    "faq"
+    "faq",
+    "logo_list_NYh7Ga"
   ]
 }
