@@ -27,11 +27,19 @@
             "text": "Paiement 100% sécurisé",
             "url": ""
           }
+        },
+        "message_JcFtWQ": {
+          "type": "message",
+          "settings": {
+            "text": "Offre fête des mères : -30%",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "message",
-        "message_adU36t"
+        "message_adU36t",
+        "message_JcFtWQ"
       ],
       "settings": {
         "enable_sticky": false,
@@ -40,7 +48,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#c97c5d",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
