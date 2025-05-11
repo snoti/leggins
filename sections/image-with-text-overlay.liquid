@@ -14,6 +14,11 @@
       margin-block-start: calc(-1 * var(--header-height) * var(--section-is-first));
     {%- endif -%}
   }
+    @media screen and (min-width: 700px) {
+    #shopify-section-{{ section.id }} .prose {
+      margin-top: -30px;
+    }
+  }
 </style>
 
 <div {% render 'section-properties' %} {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %}>
