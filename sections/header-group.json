@@ -28,6 +28,13 @@
             "url": ""
           }
         },
+        "message_HQ86bf": {
+          "type": "message",
+          "settings": {
+            "text": "Satisfait ou remboursé",
+            "url": ""
+          }
+        },
         "message_JcFtWQ": {
           "type": "message",
           "settings": {
@@ -39,11 +46,12 @@
       "block_order": [
         "message",
         "message_adU36t",
+        "message_HQ86bf",
         "message_JcFtWQ"
       ],
       "settings": {
-        "enable_sticky": false,
-        "autoplay": false,
+        "enable_sticky": true,
+        "autoplay": true,
         "cycle_speed": 6,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
