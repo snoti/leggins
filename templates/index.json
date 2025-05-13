@@ -206,6 +206,13 @@
     "faq": {
       "type": "faq",
       "blocks": {
+        "item_Yqbig9": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
@@ -229,6 +236,7 @@
         }
       },
       "block_order": [
+        "item_Yqbig9",
         "166442457738b23caf-0",
         "166442457738b23caf-1",
         "166442457738b23caf-2"
@@ -237,14 +245,14 @@
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
+        "text_position": "center",
+        "background": "#f0f0f0",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -254,12 +262,34 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "contact_jCHdc6": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
+        "title": "Une question?",
+        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
     "image_with_text_overlay_ezUjx3",
     "logo_list_NYh7Ga",
     "featured_product_TJiwkz",
-    "faq"
+    "faq",
+    "contact_jCHdc6"
   ]
 }
