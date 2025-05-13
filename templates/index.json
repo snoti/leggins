@@ -42,45 +42,22 @@
     "logo_list_NYh7Ga": {
       "type": "logo-list",
       "blocks": {
-        "logo_ge3kUa": {
+        "logo_FHJRqj": {
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/VOGUE_revista_-_logo.png",
             "logo_width": 300,
             "link": ""
           }
-        },
-        "logo_gfa7wX": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_xzdQAh": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_BXGfQX": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "logo_ge3kUa",
-        "logo_gfa7wX",
-        "logo_xzdQAh",
-        "logo_BXGfQX"
+        "logo_FHJRqj"
       ],
+      "custom_css": [],
       "name": "Logo list",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "stack_mobile": true,
         "title": "Vu sur:",
         "content": "",
