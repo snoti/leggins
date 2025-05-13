@@ -209,15 +209,15 @@
         "item_Yqbig9": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Combien de temps dure une bougie perlée 500g ?",
+            "content": "<p>La durée de combustion dépend de l’environnement (courant d’air, température ambiante…), mais en moyenne, vous pouvez profiter de <strong>plusieurs heures d’utilisation </strong>en continu.</p>"
           }
         },
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Les bougies sont-elles parfumées ?",
+            "content": "<p>Non, nos bougies perlées <strong>ne contiennent pas de parfum</strong>. Elles sont conçues avant tout pour leur <strong>design élégant</strong> et leur <strong>lumière apaisante</strong>.</p>"
           }
         },
         "166442457738b23caf-1": {
