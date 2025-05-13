@@ -160,10 +160,10 @@
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
+            "atc_button_background": "#00a341",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "payment_button_background": "#000000",
+            "payment_button_text_color": "rgba(0,0,0,0)"
           }
         },
         "pickup_availability_F3yxDF": {
