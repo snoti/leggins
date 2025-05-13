@@ -49,10 +49,37 @@
             "logo_width": 300,
             "link": ""
           }
+        },
+        "logo_FRAhkU": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/VOGUE_revista_-_logo.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_pCCqCX": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/VOGUE_revista_-_logo.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_3Enx4W": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/VOGUE_revista_-_logo.png",
+            "logo_width": 300,
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "logo_FHJRqj"
+        "logo_FHJRqj",
+        "logo_FRAhkU",
+        "logo_pCCqCX",
+        "logo_3Enx4W"
       ],
       "custom_css": [],
       "name": "Logo list",
