@@ -158,7 +158,7 @@
         "buy_buttons_aiwp7B": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
             "atc_button_background": "#00a341",
             "atc_button_text_color": "rgba(0,0,0,0)",
@@ -184,6 +184,7 @@
         "buy_buttons_aiwp7B",
         "pickup_availability_F3yxDF"
       ],
+      "custom_css": [],
       "name": "Featured product",
       "settings": {
         "full_width": true,
