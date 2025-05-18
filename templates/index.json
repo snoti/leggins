@@ -40,40 +40,17 @@
         "overlay_opacity": 24
       }
     },
-    "impact_text_QgyAhY": {
-      "type": "impact-text",
-      "blocks": {
-        "item_Ti8re7": {
-          "type": "item",
-          "settings": {
-            "title": "",
-            "subheading": "Des bougies en perles créatives pour sublimer votre intérieur et vos cadeaux",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "item_Ti8re7"
-      ],
-      "name": "Impact text",
+    "custom_liquid_F8q4pK": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<h3 style=\"text-align: center; font-weight: normal; font-size: 4vw;\">\n  <strong>Des bougies en perles</strong> créatives <strong>pour sublimer</strong> votre intérieur et vos cadeaux\n</h2>",
         "background": "",
         "background_gradient": "",
-        "heading_text_color": "rgba(0,0,0,0)",
-        "heading_gradient": "",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "",
-        "button_text_color": ""
+        "text_color": ""
       }
     },
     "logo_list_NYh7Ga": {
@@ -129,7 +106,7 @@
         "items_per_row": 7,
         "background": "",
         "background_gradient": "",
-        "text_color": "#000000",
+        "text_color": "#636363",
         "heading_color": "",
         "heading_gradient": "",
         "logo_item_background": "",
@@ -325,7 +302,7 @@
   },
   "order": [
     "image_with_text_overlay_ezUjx3",
-    "impact_text_QgyAhY",
+    "custom_liquid_F8q4pK",
     "logo_list_NYh7Ga",
     "featured_product_TJiwkz",
     "faq",
