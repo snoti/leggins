@@ -60,7 +60,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<hr style=\"border: none; border-top: 0.3vw solid #636363; margin: 3vw auto; width: 80%;\">",
+        "liquid": "<hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw;  margin: 3vw auto; width: 80%;\">",
         "background": "",
         "background_gradient": "",
         "text_color": ""
