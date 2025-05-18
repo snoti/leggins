@@ -14,6 +14,7 @@
       "blocks": {
         "heading_kwfRH9": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Des bougies en perles créatives pour sublimer votre intérieur et vos cadeaux",
             "heading_tag": "h4"
@@ -37,6 +38,42 @@
         "text_color": "#f0f0f0",
         "overlay_color": "#000000",
         "overlay_opacity": 24
+      }
+    },
+    "impact_text_QgyAhY": {
+      "type": "impact-text",
+      "blocks": {
+        "item_Ti8re7": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "Des bougies en perles créatives pour sublimer votre intérieur et vos cadeaux",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_Ti8re7"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "rgba(0,0,0,0)",
+        "heading_gradient": "",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "logo_list_NYh7Ga": {
@@ -288,6 +325,7 @@
   },
   "order": [
     "image_with_text_overlay_ezUjx3",
+    "impact_text_QgyAhY",
     "logo_list_NYh7Ga",
     "featured_product_TJiwkz",
     "faq",
