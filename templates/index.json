@@ -171,12 +171,23 @@
             "title": "Élodie M",
             "content": "<p>Quel magnifique cadeau ! J’adore pouvoir personnaliser ma bougie à chaque nouvelle mèche. Reçu hier, je suis impatiente de profiter de ce beau contenant et de créer de petites bougies avec mes pots à la maison. Facile à utiliser et à réutiliser !</p>"
           }
+        },
+        "item_Jedz36": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1746734749__img_3140__original.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Élodie M",
+            "content": "<p>Quel magnifique cadeau ! J’adore pouvoir personnaliser ma bougie à chaque nouvelle mèche. Reçu hier, je suis impatiente de profiter de ce beau contenant et de créer de petites bougies avec mes pots à la maison. Facile à utiliser et à réutiliser !</p>"
+          }
         }
       },
       "block_order": [
         "item_M94zAH",
         "item_RDeYYy",
-        "item_JtEyBM"
+        "item_JtEyBM",
+        "item_Jedz36"
       ],
       "custom_css": [],
       "name": "Images and text scrolling",
