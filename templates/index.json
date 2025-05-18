@@ -9,6 +9,41 @@
  */
 {
   "sections": {
+    "blog_posts_WeadDb": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_KLWhCU": {
+          "type": "blog",
+          "settings": {
+            "blog": "",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_KLWhCU"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Avis clients",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "image_with_text_overlay_ezUjx3": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -325,6 +360,7 @@
     }
   },
   "order": [
+    "blog_posts_WeadDb",
     "image_with_text_overlay_ezUjx3",
     "custom_liquid_F8q4pK",
     "custom_liquid_eQmwDA",
