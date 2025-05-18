@@ -21,16 +21,23 @@
 
 <div {% render 'section-properties', narrow: true %}>
   {%- comment -%}
+  ----------------------------------------------------------------------------------------------------------------------
   MOBILE VARIATION
+  ----------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
   <images-with-text-scrolling class="images-scrolling-mobile scroll-area bleed sm:unbleed">
     {%- for block in section.blocks -%}
       <div class="images-scrolling-mobile__item snap-start" {{ block.shopify_attributes }}>
         {%- if block.settings.image != blank -%}
-          {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 5px) 100vw, 650px', widths: '200,300,400,600,800,1000,1200,1400,1600', class: 'rounded-lg' -}}
+          {{- block.settings.image | image_url: width: '250vw' | image_tag: loading: 'lazy', sizes: '(max-width: 500px) 100vw, 650px', widths: '200,300,400,600,800,1000,1200,1400,1600', class: 'rounded-lg' -}}
+        {%- else -%}
         {%- endif -%}
 
         <div class="images-scrolling__content">
+          <!-- {%- if section.settings.show_counter -%}
+            <span class="images-scrolling__counter bold">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
+          {%- endif -%}
+ -->
           <div class="prose" style="--images-scrolling-item-icon-width: {{ block.settings.icon_width }}px">
             {%- if block.settings.custom_icon != blank -%}
               {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
@@ -44,10 +51,6 @@
               <p class="h5" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
                 {%- render 'styled-text', content: block.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient, apparition_effect: true -%}
               </p>
-              <div class="images-scrolling__stars" style="margin-top: 0.25rem; font-size: 1.1rem;">
-                {% assign random_stars = "⭐⭐⭐⭐⭐,★★★★★,⭐️⭐️⭐️⭐️⭐️" | split: ',' %}
-                {{ random_stars | sample }}
-              </div>
             {%- endif -%}
 
             {{- block.settings.content -}}
@@ -58,7 +61,9 @@
   </images-with-text-scrolling>
 
   {%- comment -%}
+  ----------------------------------------------------------------------------------------------------------------------
   DESKTOP VARIATION
+  ----------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
   <images-with-text-scrolling scrolling-experience="{{ section.settings.desktop_image_effect }}" class="images-scrolling-desktop">
     <div class="images-scrolling-desktop__content-list">
@@ -81,10 +86,6 @@
               <p class="h5" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
                 {%- render 'styled-text', content: block.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient, apparition_effect: true -%}
               </p>
-              <div class="images-scrolling__stars" style="margin-top: 0.25rem; font-size: 1.1rem;">
-                {% assign random_stars = "⭐⭐⭐⭐⭐,★★★★★,⭐️⭐️⭐️⭐️⭐️" | split: ',' %}
-                {{ random_stars | sample }}
-              </div>
             {%- endif -%}
 
             {{- block.settings.content -}}
