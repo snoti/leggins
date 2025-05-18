@@ -293,6 +293,12 @@
           "disabled": true,
           "settings": {}
         },
+        "liquid_jNbhfY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.bundle-offer {\n  border-radius: 12px;\n  background: #f9f9f9;\n  padding: 20px;\n  max-width: 600px;\n  margin: auto;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n  border: 1px solid #e5e5e5;\n}\n\n.bundle-offer h2 {\n  text-align: center;\n  font-size: 20px;\n  font-weight: 600;\n  margin-bottom: 24px;\n  text-transform: uppercase;\n  color: #1c1c1c;\n}\n\n.bundle-option {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  border: 2px solid #e5e5e5;\n  border-radius: 10px;\n  padding: 16px 20px;\n  margin-bottom: 14px;\n  background: #fff;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n\n.bundle-option:hover {\n  border-color: #00a341;\n  background-color: #f1fef7;\n}\n\n.bundle-option.selected {\n  border-color: #00a341;\n  background-color: #f1fef7;\n}\n\n.bundle-left {\n  display: flex;\n  align-items: flex-start;\n  gap: 14px;\n}\n\n.bundle-radio {\n  width: 20px;\n  height: 20px;\n  border: 2px solid #aaa;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  margin-top: 4px;\n}\n\n.bundle-radio::after {\n  content: \"\";\n  width: 10px;\n  height: 10px;\n  background: #00a341;\n  border-radius: 50%;\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  opacity: 0;\n  transition: 0.2s ease;\n}\n\n.bundle-option.selected .bundle-radio::after {\n  opacity: 1;\n}\n\n.bundle-title {\n  font-weight: 600;\n  font-size: 16px;\n  margin-bottom: 4px;\n}\n\n.bundle-badge {\n  font-size: 13px;\n  font-weight: 600;\n  color: #ffffff;\n  background-color: #00a341;\n  padding: 2px 8px;\n  border-radius: 6px;\n  margin-left: 8px;\n}\n\n.bundle-sub {\n  font-size: 13px;\n  color: #666;\n}\n\n.bundle-price {\n  text-align: right;\n}\n\n.bundle-price-new {\n  font-weight: bold;\n  font-size: 16px;\n}\n\n.bundle-price-old {\n  text-decoration: line-through;\n  color: #999;\n  font-size: 14px;\n}\n</style>\n\n<div class=\"bundle-offer\">\n  <h2>Regroupez & Économisez</h2>\n\n  <!-- Option 1 : Single -->\n  <div class=\"bundle-option selected\" data-qty=\"1\">\n    <div class=\"bundle-left\">\n      <span class=\"bundle-radio\"></span>\n      <div>\n        <div class=\"bundle-title\">Single</div>\n        <div class=\"bundle-sub\">1 bougie</div>\n      </div>\n    </div>\n    <div class=\"bundle-price\">\n      <div class=\"bundle-price-new\">35,99 €</div>\n      <div class=\"bundle-price-old\">45,99 €</div>\n    </div>\n  </div>\n\n  <!-- Option 2 : Duo avec cadeau -->\n  <div class=\"bundle-option\" data-qty=\"2\">\n    <div class=\"bundle-left\">\n      <span class=\"bundle-radio\"></span>\n      <div>\n        <div class=\"bundle-title\">\n          Duo <span class=\"bundle-badge\">Offre</span>\n        </div>\n        <div class=\"bundle-sub\">2 bougies + 1 boîte de mèches offerte</div>\n      </div>\n    </div>\n    <div class=\"bundle-price\">\n      <div class=\"bundle-price-new\">59,99 €</div>\n      <div class=\"bundle-price-old\">75,99 €</div>\n    </div>\n  </div>\n</div>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  const options = document.querySelectorAll(\".bundle-option\");\n  options.forEach(option => {\n    option.addEventListener(\"click\", () => {\n      options.forEach(o => o.classList.remove(\"selected\"));\n      option.classList.add(\"selected\");\n    });\n  });\n});\n</script>"
+          }
+        },
         "buy_buttons_aiwp7B": {
           "type": "buy_buttons",
           "disabled": true,
@@ -321,6 +327,7 @@
         "description_PxFJkK",
         "variant_picker_YqegnD",
         "quantity_selector_GRQqt6",
+        "liquid_jNbhfY",
         "buy_buttons_aiwp7B",
         "pickup_availability_F3yxDF"
       ],
