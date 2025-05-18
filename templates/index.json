@@ -161,11 +161,22 @@
             "title": "Heading 2",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
+        },
+        "item_JtEyBM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-18_at_21-59-11_Foton_Pearled_Candle_The_Original_Pearled_Candle.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
         }
       },
       "block_order": [
         "item_M94zAH",
-        "item_RDeYYy"
+        "item_RDeYYy",
+        "item_JtEyBM"
       ],
       "name": "Images and text scrolling",
       "settings": {
