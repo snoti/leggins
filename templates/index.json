@@ -131,36 +131,43 @@
       "blocks": {
         "vendor_X9YREP": {
           "type": "vendor",
+          "disabled": true,
           "settings": {}
         },
         "title_ABwWJc": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h2"
           }
         },
         "badges_zwqjnx": {
           "type": "badges",
+          "disabled": true,
           "settings": {}
         },
         "price_r6mhp4": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
         },
         "rating_R8G8gR": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": false
           }
         },
         "separator_pXALcm": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "description_PxFJkK": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_width": 20,
@@ -169,6 +176,7 @@
         },
         "variant_picker_YqegnD": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
@@ -180,10 +188,12 @@
         },
         "quantity_selector_GRQqt6": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons_aiwp7B": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
@@ -195,6 +205,7 @@
         },
         "pickup_availability_F3yxDF": {
           "type": "pickup_availability",
+          "disabled": true,
           "settings": {}
         }
       },
