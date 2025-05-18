@@ -31,7 +31,7 @@
         "enable_parallax": false,
         "image_size": "sm",
         "image": "shopify://shop_images/lueur.png",
-        "mobile_image": "shopify://shop_images/lueur_mob.png",
+        "mobile_image": "shopify://shop_images/IMG_0746.png",
         "mobile_text_position": "place-self-center-start text-start",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
