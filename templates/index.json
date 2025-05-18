@@ -181,13 +181,24 @@
             "title": "Natalie C",
             "content": "<p>Aucun gaspillage, aucune contrainte. Je suis conquis. Après mon achat, lors d’un dîner en famille, tout le monde a été séduit. Ils sont repartis avec les infos pour adopter eux aussi cette belle nouveauté.</p>"
           }
+        },
+        "item_AnbNaA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1717349614__1000048219__original_1.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Eric S",
+            "content": "<p>Ma femme était ravie de la bougie !</p><p>C’était exactement ce que j’espérais. Très bien emballée et facile à utiliser.</p>"
+          }
         }
       },
       "block_order": [
         "item_M94zAH",
         "item_RDeYYy",
         "item_JtEyBM",
-        "item_Jedz36"
+        "item_Jedz36",
+        "item_AnbNaA"
       ],
       "custom_css": [],
       "name": "Images and text scrolling",
