@@ -9,41 +9,6 @@
  */
 {
   "sections": {
-    "blog_posts_WeadDb": {
-      "type": "blog-posts",
-      "blocks": {
-        "blog_KLWhCU": {
-          "type": "blog",
-          "settings": {
-            "blog": "",
-            "posts_count": 3,
-            "stack_items": false
-          }
-        }
-      },
-      "block_order": [
-        "blog_KLWhCU"
-      ],
-      "name": "Blog posts",
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": true,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": true,
-        "subheading": "",
-        "title": "Avis clients",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "image_with_text_overlay_ezUjx3": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -159,6 +124,73 @@
         "heading_gradient": "",
         "logo_item_background": "",
         "logo_item_border": ""
+      }
+    },
+    "custom_liquid_hVNDhU": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw;  margin: 3vw auto; width: 80%;\">",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_LHbBN9": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_M94zAH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-18_183401.png",
+            "icon": "none",
+            "icon_width": 44,
+            "title": "Linda R",
+            "content": "<p>Elles sont tellement esthétiques...<br/>Ces bougies sont vraiment magnifiques et faciles à utiliser. Leur parfum est agréable et subtil, pas du tout entêtant. Tu dois absolument essayer !<br/><br/></p>"
+          }
+        },
+        "item_RDeYYy": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_M94zAH",
+        "item_RDeYYy"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "custom_liquid_hbLMy6": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw;  margin: 3vw auto; width: 80%;\">",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "featured_product_TJiwkz": {
@@ -360,11 +392,13 @@
     }
   },
   "order": [
-    "blog_posts_WeadDb",
     "image_with_text_overlay_ezUjx3",
     "custom_liquid_F8q4pK",
     "custom_liquid_eQmwDA",
     "logo_list_NYh7Ga",
+    "custom_liquid_hVNDhU",
+    "images_with_text_scrolling_LHbBN9",
+    "custom_liquid_hbLMy6",
     "featured_product_TJiwkz",
     "faq",
     "contact_jCHdc6"
