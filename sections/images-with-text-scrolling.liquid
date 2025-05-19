@@ -40,7 +40,7 @@
             <span class="images-scrolling__counter bold">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
           {%- endif -%} -->
 
-          <div class="prose" style="--images-scrolling-item-icon-width: {{ block.settings.icon_width }}px">
+          <div class="prose" style="--images-scrolling-item-icon-width: {{ block.settings.icon_width }}px";text-align: center;>
             {%- if block.settings.custom_icon != blank -%}
               {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
               {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
