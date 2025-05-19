@@ -371,7 +371,7 @@
           "type": "item",
           "settings": {
             "title": "Est-ce que la cire coule ?",
-            "content": "<p>La bougie est conçue pour fondre proprement, sans coulures excessives, à condition qu’elle soit utilisée sur une surface stable, à l’abri du vent.</p>"
+            "content": "<p>La bougie est conçue pour fondre proprement, sans coulures.</p>"
           }
         },
         "166442457738b23caf-2": {
@@ -380,13 +380,21 @@
             "title": "Peut-on offrir cette bougie ?",
             "content": "<p>Absolument. Chaque bougie est livrée dans un <strong>packaging soigné</strong>, prêt à être offert, que ce soit pour un anniversaire, une pendaison de crémaillère ou tout autre événement.</p>"
           }
+        },
+        "item_RgPy4r": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les délais de livraison?",
+            "content": "<p>4 à 10 Jours en France Métropolitaine. </p>"
+          }
         }
       },
       "block_order": [
         "item_Yqbig9",
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_RgPy4r"
       ],
       "settings": {
         "full_width": false,
