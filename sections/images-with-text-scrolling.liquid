@@ -28,6 +28,31 @@
       text-align: center;
     }
 
+    .images-scrolling__media {
+      order: -1;
+      margin-bottom: 1rem;
+    }
+
+    .images-scrolling__media img {
+      border-radius: 0.5rem;
+    }
+
+    .images-scrolling__content {
+      max-width: 400px;
+    }
+
+    .images-scrolling__icon {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+    .images-scrolling__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
     .images-scrolling__media img {
       border-radius: 0.5rem;
       margin-bottom: 1rem;
@@ -82,9 +107,9 @@
     {%- endfor -%}
   </images-with-text-scrolling>
 
-  <images-with-text-scrolling scrolling-experience="{{ section.settings.desktop_image_effect }}" class="images-scrolling-desktop" style="display: flex; flex-direction: column; gap: 3rem; align-items: center;">
+  <images-with-text-scrolling scrolling-experience="{{ section.settings.desktop_image_effect }}" class="images-scrolling-desktop">
     {%- for block in section.blocks -%}
-      <div class="images-scrolling__item" {{ block.shopify_attributes }} style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+      <div class="images-scrolling__item" {{ block.shopify_attributes }} >
         <div class="images-scrolling__media">
           {%- if block.settings.image != blank -%}
             {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 100vw, 650px', widths: '200,300,400,600,800,1000,1200,1400,1600', class: 'rounded-sm' -}}
