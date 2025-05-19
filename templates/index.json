@@ -85,6 +85,13 @@
             "link": ""
           }
         },
+        "logo_nc9i9D": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
         "logo_pCCqCX": {
           "type": "logo",
           "settings": {
@@ -105,6 +112,7 @@
       "block_order": [
         "logo_FHJRqj",
         "logo_FRAhkU",
+        "logo_nc9i9D",
         "logo_pCCqCX",
         "logo_3Enx4W"
       ],
