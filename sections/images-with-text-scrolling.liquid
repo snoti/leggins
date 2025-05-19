@@ -1,8 +1,19 @@
-{%- render 'section-spacing-collapsing' -%}
+<!-- spacing collapsing retiré -->
 
 <style>
+  /* Supprimer les marges verticales inutiles */
+  .shopify-section--images-and-text-scrolling {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
   #shopify-section-{{ section.id }} {
-    --images-scrolling-block-count: {{ section.blocks.size }};
+  --images-scrolling-block-count: {{ section.blocks.size }};
+  --images-scrolling-image-ratio: {{ section.blocks.first.settings.image.aspect_ratio | default: 1 }};
+  padding-top: 0;
+  padding-bottom: 0;
+}};
     --images-scrolling-image-ratio: {{ section.blocks.first.settings.image.aspect_ratio | default: 1 }};
   }
 
@@ -13,6 +24,10 @@
   }
 
   @media screen and (min-width: 741px) {
+    #shopify-section-{{ section.id }} {
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+    }
     .images-scrolling-desktop {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -75,7 +90,7 @@
   }
 </style>
 
-<div {% render 'section-properties', narrow: true %}>
+<div {% render 'section-properties', narrow: true %} style="padding-top: 0; padding-bottom: 0;">
   <images-with-text-scrolling class="images-scrolling-mobile scroll-area bleed sm:unbleed">
     {%- for block in section.blocks -%}
       <div class="images-scrolling-mobile__item snap-start" {{ block.shopify_attributes }}>
@@ -143,6 +158,7 @@
     {%- endfor -%}
   </images-with-text-scrolling>
 </div>
+
 
 {% schema %}
 {
