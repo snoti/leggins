@@ -2,11 +2,7 @@
 
 <style>
   #shopify-section-{{ section.id }} {
-  --images-scrolling-block-count: {{ section.blocks.size }};
-  --images-scrolling-image-ratio: {{ section.blocks.first.settings.image.aspect_ratio | default: 1 }};
-  padding-top: 0;
-  padding-bottom: 0;
-}};
+    --images-scrolling-block-count: {{ section.blocks.size }};
     --images-scrolling-image-ratio: {{ section.blocks.first.settings.image.aspect_ratio | default: 1 }};
   }
 
@@ -79,7 +75,7 @@
   }
 </style>
 
-<div {% render 'section-properties', narrow: true %} style="padding-top: 0; padding-bottom: 0;">
+<div {% render 'section-properties', narrow: true %}>
   <images-with-text-scrolling class="images-scrolling-mobile scroll-area bleed sm:unbleed">
     {%- for block in section.blocks -%}
       <div class="images-scrolling-mobile__item snap-start" {{ block.shopify_attributes }}>
