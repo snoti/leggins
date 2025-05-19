@@ -14,27 +14,27 @@
 
   @media screen and (min-width: 741px) {
     .images-scrolling-desktop {
-      display: flex;
-      flex-direction: column;
-      gap: 4rem;
-      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 3rem;
+      justify-content: center;
+      text-align: center;
     }
 
     .images-scrolling__item {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
-      text-align: left;
-      max-width: 1000px;
-      gap: 2rem;
+      text-align: center;
     }
 
-    .images-scrolling__media {
-      flex: 1;
+    .images-scrolling__media img {
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
     }
 
     .images-scrolling__content {
-      flex: 1;
+      max-width: 400px;
     }
 
     .images-scrolling__icon {
@@ -46,7 +46,7 @@
     margin-top: 0.5rem;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
   }
 </style>
 
