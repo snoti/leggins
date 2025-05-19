@@ -36,9 +36,9 @@
         {%- endif -%}
 
         <div class="images-scrolling__content">
-          {%- if section.settings.show_counter -%}
+          <!-- {%- if section.settings.show_counter -%}
             <span class="images-scrolling__counter bold">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
-          {%- endif -%}
+          {%- endif -%} -->
 
           <div class="prose" style="--images-scrolling-item-icon-width: {{ block.settings.icon_width }}px">
             {%- if block.settings.custom_icon != blank -%}
