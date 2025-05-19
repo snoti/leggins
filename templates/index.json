@@ -191,6 +191,16 @@
             "title": "Eric S",
             "content": "<p>Ma femme était ravie de la bougie !</p><p>C’était exactement ce que j’espérais. Très bien emballée et facile à utiliser.</p>"
           }
+        },
+        "item_F7HnC4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1717349614__1000048219__original_1.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Eric S",
+            "content": "<p>Ma femme était ravie de la bougie !</p><p>C’était exactement ce que j’espérais. Très bien emballée et facile à utiliser.</p>"
+          }
         }
       },
       "block_order": [
@@ -198,7 +208,8 @@
         "item_RDeYYy",
         "item_JtEyBM",
         "item_Jedz36",
-        "item_AnbNaA"
+        "item_AnbNaA",
+        "item_F7HnC4"
       ],
       "custom_css": [],
       "name": "Images and text scrolling",
