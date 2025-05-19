@@ -14,11 +14,10 @@
 
   @media screen and (min-width: 741px) {
     .images-scrolling-desktop {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 3rem;
-      justify-content: center;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+      align-items: center;
     }
 
     .images-scrolling__item {
@@ -26,15 +25,11 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
+      max-width: 600px;
     }
 
-    .images-scrolling__media img {
-      border-radius: 0.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .images-scrolling__content {
-      max-width: 400px;
+    .images-scrolling__media {
+      margin-bottom: 1.5rem;
     }
 
     .images-scrolling__icon {
@@ -130,7 +125,6 @@
     {%- endfor -%}
   </images-with-text-scrolling>
 </div>
-
 
 {% schema %}
 {
