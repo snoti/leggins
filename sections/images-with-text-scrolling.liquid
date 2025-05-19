@@ -69,8 +69,8 @@
             {%- endif -%}
 
             {%- if block.settings.title != blank -%}
-              <div class="heading-stars" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-  <p class="h5" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
+              <div class="heading-stars" style="display: flex; align-items: center; justify-content: center; column-gap: 0.75rem;">
+  <p class="h5" style="margin: 0;" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
     {%- render 'styled-text', content: block.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient, apparition_effect: true -%}
   </p>
   <div class="review-stars" style="margin-top: 0;">
@@ -113,8 +113,8 @@
             {%- endif -%}
 
             {%- if block.settings.title != blank -%}
-              <div class="heading-stars" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-  <p class="h5" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
+              <div class="heading-stars" style="display: flex; align-items: center; justify-content: center; column-gap: 0.75rem;">
+  <p class="h5" style="margin: 0;" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
     {%- render 'styled-text', content: block.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient, apparition_effect: true -%}
   </p>
   <div class="review-stars" style="margin-top: 0;">
