@@ -22,14 +22,19 @@
 
     .images-scrolling__item {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
-      text-align: center;
-      max-width: 600px;
+      text-align: left;
+      max-width: 1000px;
+      gap: 2rem;
     }
 
     .images-scrolling__media {
-      margin-bottom: 1.5rem;
+      flex: 1;
+    }
+
+    .images-scrolling__content {
+      flex: 1;
     }
 
     .images-scrolling__icon {
@@ -41,7 +46,7 @@
     margin-top: 0.5rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
   }
 </style>
 
@@ -125,6 +130,7 @@
     {%- endfor -%}
   </images-with-text-scrolling>
 </div>
+
 
 {% schema %}
 {
