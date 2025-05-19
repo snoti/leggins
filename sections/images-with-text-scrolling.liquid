@@ -1,13 +1,20 @@
 <!-- spacing collapsing retiré -->
 
 <style>
+  @media screen and (min-width: 741px) {
+    #shopify-section-{{ section.id }} {
+  --images-scrolling-block-count: {{ section.blocks.size }};
+  --images-scrolling-image-ratio: {{ section.blocks.first.settings.image.aspect_ratio | default: 1 }};
+}
+    .images-scrolling-desktop {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+  }
   /* Supprimer les marges verticales inutiles */
   .shopify-section--images-and-text-scrolling {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
+  /* Rétabli à l'état initial */
+}
   #shopify-section-{{ section.id }} {
   --images-scrolling-block-count: {{ section.blocks.size }};
   --images-scrolling-image-ratio: {{ section.blocks.first.settings.image.aspect_ratio | default: 1 }};
