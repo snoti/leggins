@@ -5,6 +5,14 @@
     --images-scrolling-block-count: {{ section.blocks.size }};
     --images-scrolling-image-ratio: {{ section.blocks.first.settings.image.aspect_ratio | default: 1 }};
   }
+  /* Cacher complètement la version mobile + supprimer son hauteur sur desktop */
+  @media screen and (min-width: 768px) {
+    images-with-text-scrolling.images-scrolling-mobile {
+      display: none !important;
+      height: 0 !important;
+      overflow: hidden !important;
+    }
+  }
 
   @media screen and (max-width: 740px) {
     #shopify-section-{{ section.id }} {
