@@ -13,8 +13,27 @@
   }
 
   @media screen and (min-width: 741px) {
-    #shopify-section-{{ section.id }} {
-      --images-scrolling-grid-template-columns: {% if section.settings.image_position == 'start' %}[media] minmax(0, 1fr) [content] minmax(0, 0.8fr){% else %}[content] minmax(0, 0.8fr) [media] minmax(0, 1fr){% endif %};
+    .images-scrolling-desktop {
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .images-scrolling__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 600px;
+    }
+
+    .images-scrolling__media {
+      margin-bottom: 1.5rem;
+    }
+
+    .images-scrolling__icon {
+      margin-bottom: 0.5rem;
     }
   }
 
@@ -22,6 +41,7 @@
     margin-top: 0.5rem;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 </style>
 
@@ -64,13 +84,18 @@
   </images-with-text-scrolling>
 
   <images-with-text-scrolling scrolling-experience="{{ section.settings.desktop_image_effect }}" class="images-scrolling-desktop">
-    <div class="images-scrolling-desktop__content-list">
-      {%- for block in section.blocks -%}
-        <div class="images-scrolling__content {% unless forloop.first %}opacity-0{% endunless %}">
-          {%- if section.settings.show_counter -%}
-            <span class="images-scrolling__counter bold">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
+    {%- for block in section.blocks -%}
+      <div class="images-scrolling__item" {{ block.shopify_attributes }}>
+        <div class="images-scrolling__media">
+          {%- if block.settings.image != blank -%}
+            {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 100vw, 650px', widths: '200,300,400,600,800,1000,1200,1400,1600', class: 'rounded-sm' -}}
+          {%- else -%}
+            {%- capture image_placeholder -%}product-{%- cycle '1', '2', '3', '4' -%}{%- endcapture -%}
+            {{- image_placeholder | placeholder_svg_tag: 'placeholder' -}}
           {%- endif -%}
+        </div>
 
+        <div class="images-scrolling__content">
           <div class="prose" style="--images-scrolling-item-icon-width: {{ block.settings.icon_width }}px">
             {%- if block.settings.custom_icon != blank -%}
               {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
@@ -96,19 +121,8 @@
             {{- block.settings.content -}}
           </div>
         </div>
-      {%- endfor -%}
-    </div>
-
-    <div class="images-scrolling-desktop__media-wrapper">
-      {%- for block in section.blocks -%}
-        {%- if block.settings.image != blank -%}
-          {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 100vw, 650px', widths: '200,300,400,600,800,1000,1200,1400,1600', class: 'rounded-sm' -}}
-        {%- else -%}
-          {%- capture image_placeholder -%}product-{%- cycle '1', '2', '3', '4' -%}{%- endcapture -%}
-          {{- image_placeholder | placeholder_svg_tag: 'placeholder' -}}
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
+      </div>
+    {%- endfor -%}
   </images-with-text-scrolling>
 </div>
 
