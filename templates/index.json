@@ -47,7 +47,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<h3 style=\"text-align: center; font-weight: normal; font-size: 4vw;\">\n  <strong>Des bougies en perles</strong> créatives <strong>pour sublimer</strong> votre intérieur et vos cadeaux\n</h2>",
+        "liquid": "<h3 style=\"text-align: center; font-weight: normal; font-size: 6vw;\">\n  <strong>Des bougies en perles</strong> créatives <strong>pour sublimer</strong> votre intérieur et vos cadeaux\n</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -126,14 +126,28 @@
         "logo_item_border": ""
       }
     },
-    "custom_liquid_hVNDhU": {
+    "custom_liquid_GGwywY": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<h1 style=\"text-align: center; font-size: 5vw; margin: 1vw 0;\">\n  <strong>Ils vous en parlent mieux que nous</strong>\n</h1>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_hbLMy6": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw;  margin: 3vw auto; width: 80%;\">",
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n  <hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw; margin: 3vw auto; width: 80%;\">\n  <h1 style=\"font-size: 7vw; margin: 1vw 0;\">\n    <strong>{{ 'Ils vous en parlent mieux que nous' }}</strong>\n  </h1>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -215,7 +229,7 @@
         "heading_gradient": ""
       }
     },
-    "custom_liquid_hbLMy6": {
+    "custom_liquid_hVNDhU": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
@@ -446,9 +460,10 @@
     "custom_liquid_F8q4pK",
     "custom_liquid_eQmwDA",
     "logo_list_NYh7Ga",
-    "custom_liquid_hVNDhU",
-    "images_with_text_scrolling_LHbBN9",
+    "custom_liquid_GGwywY",
     "custom_liquid_hbLMy6",
+    "images_with_text_scrolling_LHbBN9",
+    "custom_liquid_hVNDhU",
     "featured_product_TJiwkz",
     "faq",
     "contact_jCHdc6"
