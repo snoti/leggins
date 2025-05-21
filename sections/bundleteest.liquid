@@ -3,10 +3,15 @@
   Fonctionnel, affichage dynamique, envoi au panier avec variantes
 {% endcomment %}
 
+{% assign product = all_products[section.settings.product] %}
+{% if product and product.variants.size > 0 %}
+  {% assign variant_id = product.variants.first.id %}
+{% else %}
+  {% assign variant_id = 0 %}
+{% endif %}
+
 <form id="bundle-form" class="bundle-offer" aria-labelledby="bundle-title">
   <h2 id="bundle-title" class="sr-only">Choisissez votre offre</h2>
-
-  {% assign variant_id = section.settings.product.variants.first.id %}
 
   {% for offer in (1..3) %}
     <input type="radio" id="offer{{ offer }}" name="bundle" value="{{ offer }}" {% if forloop.first %}checked{% endif %} hidden
