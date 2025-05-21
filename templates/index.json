@@ -47,7 +47,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<h3 style=\"text-align: center; font-weight: normal; font-size: 7.7vw;\">\n  <strong>Des bougies en perles</strong> créatives <strong>pour sublimer</strong> votre intérieur et vos cadeaux\n</h2>",
+        "liquid": "<h3 style=\"text-align: center; font-weight: normal; font-size: 7.4vw;\">\n  <strong>Des bougies en perles</strong> créatives <strong>pour sublimer</strong> votre intérieur et vos cadeaux\n</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
