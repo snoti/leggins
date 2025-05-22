@@ -174,7 +174,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 4
+        "overlay_opacity": 5
       }
     },
     "custom_liquid_hbLMy6": {
