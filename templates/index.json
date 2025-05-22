@@ -229,6 +229,43 @@
         "heading_gradient": ""
       }
     },
+    "image_with_text_overlay_EFGYJX": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_rfi8im": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_kUcTWt": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rfi8im",
+        "richtext_kUcTWt"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/6_benefices.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "custom_liquid_hVNDhU": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -463,6 +500,7 @@
     "custom_liquid_GGwywY",
     "custom_liquid_hbLMy6",
     "images_with_text_scrolling_LHbBN9",
+    "image_with_text_overlay_EFGYJX",
     "custom_liquid_hVNDhU",
     "featured_product_TJiwkz",
     "faq",
