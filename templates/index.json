@@ -173,7 +173,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Céline P.",
-            "content": "<p>Mon mari m’en a offert une pour la fête des mères et c’est génial !                                  Je suis super enthousiaste à l’idée de l’utiliser et d’essayer d’autres couleurs. C’est vraiment un concept trop cool !</p>"
+            "content": "<p>Mon mari m’en a offert une et c’est génial !                                  Je suis super enthousiaste à l’idée de l’utiliser et d’essayer d’autres couleurs. C’est vraiment un concept trop cool !</p>"
           }
         },
         "item_JtEyBM": {
@@ -199,7 +199,7 @@
         "item_AnbNaA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/1717349614__1000048219__original_1.png",
+            "image": "shopify://shop_images/client.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Eric S.",
