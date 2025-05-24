@@ -1,25 +1,4 @@
 {%- render 'section-spacing-collapsing' -%}
-<div {% render 'section-properties', narrow: true %}>
-  <!-- Masquer Desktop, n’afficher que Mobile -->
-  <style>
-    #shopify-section-{{ section.id }} .images-scrolling-desktop {
-      display: none !important;
-    }
-    #shopify-section-{{ section.id }} .images-scrolling-mobile {
-      display: block !important;
-    }
-  </style>
-
-  <!-- Votre bloc Mobile existant -->
-  <images-with-text-scrolling class="images-scrolling-mobile scroll-area bleed sm:unbleed">
-    …
-  </images-with-text-scrolling>
-
-  <!-- La partie Desktop peut rester mais sera masquée par le CSS -->
-  <images-with-text-scrolling scrolling-experience="{{ section.settings.desktop_image_effect }}" class="images-scrolling-desktop">
-    …
-  </images-with-text-scrolling>
-</div>
 
 <style>
   #shopify-section-{{ section.id }} {
