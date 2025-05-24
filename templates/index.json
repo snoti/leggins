@@ -47,7 +47,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .responsive-text{\n    text-align: center;\n    font-weight: normal;\n    font-size: 6vw; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw; /* Desktop */\n    }\n  }\n</style>\n\n<h3 class=\"responsive-text\">\n  <strong>Des bougies en perles</strong> créatives <strong>pour sublimer</strong> votre intérieur et vos cadeaux\n</h3>",
+        "liquid": "<style>\n  .responsive-text{\n    text-align: center;\n    font-weight: normal;\n    font-size: 5.2vw; /* Mobile par défaut */\n  }\n  @media (min-width: 768px) {\n    .responsive-text {\n      font-size: 2vw; /* Desktop */\n    }\n  }\n</style>\n\n<h3 class=\"responsive-text\">\n  <strong>Des bougies en perles</strong> créatives <strong>pour sublimer</strong> votre intérieur et vos cadeaux\n</h3>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -140,6 +140,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_QH4hKe": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw;  margin: 3vw auto; width: 80%;\">",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_EFGYJX": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -184,7 +197,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 7vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n  <hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw; margin: 3vw auto; width: 80%;\">\n  <h1 class=\"responsive-heading\">\n    <strong>{{ 'Ils vous en parlent mieux que nous' }}</strong>\n  </h1>\n</div>",
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 6vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n  <hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw; margin: 3vw auto; width: 80%;\">\n  <h1 class=\"responsive-heading\">\n    <strong>{{ 'Ils vous en parlent mieux que nous' }}</strong>\n  </h1>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -498,6 +511,7 @@
     "custom_liquid_eQmwDA",
     "logo_list_NYh7Ga",
     "custom_liquid_GGwywY",
+    "custom_liquid_QH4hKe",
     "image_with_text_overlay_EFGYJX",
     "custom_liquid_hbLMy6",
     "images_with_text_scrolling_LHbBN9",
