@@ -45,9 +45,9 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 7vw; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw; /* Desktop */\n    }\n  }\n</style>\n\n<h3 class=\"responsive-heading\">\n  <strong>Des bougies en perles</strong> créatives <strong>pour sublimer</strong> votre intérieur et vos cadeaux\n</h3>\n\n</h2>",
+        "liquid": "<style>\n  .responsive-text{\n    text-align: center;\n    font-weight: normal;\n    font-size: 6vw; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw; /* Desktop */\n    }\n  }\n</style>\n\n<h3 class=\"responsive-text\">\n  <strong>Des bougies en perles</strong> créatives <strong>pour sublimer</strong> votre intérieur et vos cadeaux\n</h3>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -169,7 +169,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/6_benefices.png",
+        "image": "shopify://shop_images/6_benefices_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
