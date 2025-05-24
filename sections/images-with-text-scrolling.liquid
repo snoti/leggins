@@ -67,7 +67,7 @@
   DESKTOP VARIATION
   ----------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
-  <!-- DESKTOP : blocs en ligne, image + texte -->
+   <!-- DESKTOP : blocs en ligne, image + texte (titre explicite) -->
   <div class="images-scrolling-desktop grid grid-cols-{{ section.blocks.size }} gap-8">
     {%- for block in section.blocks -%}
       <div class="flex flex-col items-center">
@@ -83,10 +83,7 @@
             {% assign widths = block.settings.icon_width | append: "," | append: block.settings.icon_width | times: 2 %}
             {{ block.settings.custom_icon
                | image_url: width: block.settings.icon_width
-               | image_tag: loading: 'lazy',
-                           sizes: sizes,
-                           widths: widths,
-                           class: 'mb-2 inline-block' }}
+               | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'mb-2 inline-block' }}
           {%- elsif block.settings.icon != 'none' -%}
             {%- render 'icon' with block.settings.icon,
                          width: block.settings.icon_width,
@@ -95,13 +92,9 @@
           {%- endif -%}
 
           {%- if block.settings.title != blank -%}
-            <p class="h3 mb-2" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
-              {%- render 'styled-text',
-                         content: block.settings.title,
-                         text_color: section.settings.heading_color,
-                         gradient: section.settings.heading_gradient,
-                         apparition_effect: true -%}
-            </p>
+            <h3 class="text-xl font-bold mb-2">
+              {{ block.settings.title }}
+            </h3>
           {%- endif -%}
 
           {{ block.settings.content }}
@@ -109,7 +102,6 @@
       </div>
     {%- endfor -%}
   </div>
-
 
 {% schema %}
 {
