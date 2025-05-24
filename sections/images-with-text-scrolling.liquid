@@ -66,14 +66,30 @@
    ----------------------------------------------------------------------------------------------------------------------
   DESKTOP VARIATION
   ----------------------------------------------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------------------------------------------
+  DESKTOP VARIATION
+  ----------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
-  <!-- DESKTOP : grid auto-fit, zéros padding/margin, images & textes compacts -->
+
+  <!-- 1) Override des styles pour supprimer le grand blanc et les marges de <p> -->
+  <style>
+    #shopify-section-{{ section.id }} .images-scrolling-desktop {
+      height: auto !important;
+    }
+    #shopify-section-{{ section.id }} .images-scrolling-desktop p {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  </style>
+
+  <!-- 2) Nouvelle grille ultra-light pour Desktop -->
   <div class="images-scrolling-desktop"
        style="display:grid;
               grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
               gap:1rem;
               margin:0;
-              padding:0;">
+              padding:0;
+              height:auto!important;">
     {%- for block in section.blocks -%}
       <div style="text-align:center; margin:0; padding:0;">
         {%- if block.settings.image != blank -%}
@@ -97,6 +113,7 @@
       </div>
     {%- endfor -%}
   </div>
+
 
 
 {% schema %}
