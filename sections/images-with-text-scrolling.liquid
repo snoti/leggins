@@ -67,39 +67,32 @@
   DESKTOP VARIATION
   ----------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
-  <!-- DESKTOP : blocs en ligne, image + texte (espacements réduits) -->
-  <div class="images-scrolling-desktop grid grid-cols-{{ section.blocks.size }} gap-4 mt-0 pt-0">
+  <!-- DESKTOP : grid auto-fit, zéros padding/margin, images & textes compacts -->
+  <div class="images-scrolling-desktop"
+       style="display:grid;
+              grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+              gap:1rem;
+              margin:0;
+              padding:0;">
     {%- for block in section.blocks -%}
-      <div class="flex flex-col items-center">
+      <div style="text-align:center; margin:0; padding:0;">
         {%- if block.settings.image != blank -%}
           {{ block.settings.image
-             | image_url: width: 600
-             | image_tag: loading: 'lazy', class: 'rounded-lg mb-2' }}
+             | image_url: width:400
+             | image_tag:
+               loading: 'lazy',
+               class: 'rounded-sm mb-1',
+               style: 'width:100%; max-width:400px; height:auto; margin:0;' }}
         {%- endif -%}
 
-        <div class="prose text-center">
-          {%- if block.settings.custom_icon != blank -%}
-            {% assign sizes = block.settings.icon_width | append: "px" %}
-            {% assign widths = block.settings.icon_width | append: "," | append: block.settings.icon_width | times: 2 %}
-            {{ block.settings.custom_icon
-               | image_url: width: block.settings.icon_width
-               | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'mb-1 inline-block' }}
-          {%- elsif block.settings.icon != 'none' -%}
-            {%- render 'icon' with block.settings.icon,
-                         width: block.settings.icon_width,
-                         height: block.settings.icon_width,
-                         class: 'mb-1' -%}
-          {%- endif -%}
+        {%- if block.settings.title != blank -%}
+          <h5 style="margin:0 0 .25rem; font-size:1rem; font-weight:600;">
+            {{ block.settings.title }}
+          </h5>
+        {%- endif -%}
 
-          {%- if block.settings.title != blank -%}
-            <h4 class="text-lg font-semibold mb-1">
-              {{ block.settings.title }}
-            </h4>
-          {%- endif -%}
-
-          <div class="mb-2">
-            {{ block.settings.content }}
-          </div>
+        <div style="margin:0; font-size:0.875rem; line-height:1.3;">
+          {{ block.settings.content }}
         </div>
       </div>
     {%- endfor -%}
