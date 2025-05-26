@@ -154,6 +154,64 @@
         "text_color": ""
       }
     },
+    "custom_liquid_hVNDhU": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw;  margin: 3vw auto; width: 80%;\">",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_7LfXbx": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_qyMghy": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_3yCCTh": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nzt7FN": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qyMghy",
+        "heading_3yCCTh",
+        "richtext_nzt7FN"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/6_benefices_3.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 7
+      }
+    },
     "custom_liquid_hbLMy6": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -241,64 +299,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "custom_liquid_hVNDhU": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "liquid": "<hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw;  margin: 3vw auto; width: 80%;\">",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_7LfXbx": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_qyMghy": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_3yCCTh": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_nzt7FN": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_qyMghy",
-        "heading_3yCCTh",
-        "richtext_nzt7FN"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/6_benefices_3.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 7
       }
     },
     "custom_liquid_GHeDg9": {
@@ -444,7 +444,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<section class=\"reviews-section\">\n  <style>\n    :root {\n      --green: #48c774;\n      --gray-100: #f7f7f7;\n      --gray-200: #eee;\n      --gray-500: #555;\n      --gray-600: #444;\n      --gray-800: #222;\n      --shadow: rgba(0,0,0,0.1);\n      --font: \"Helvetica Neue\", Arial, sans-serif;\n    }\n    .reviews-section {\n      max-width: 1200px;\n      margin: 2rem auto;\n      padding: 0 1rem;\n      font-family: var(--font);\n      background: var(--gray-100);\n    }\n    .reviews-header {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 1.5rem;\n    }\n    .reviews-header .left {\n      display: flex;\n      align-items: center;\n    }\n    .stars, .stars-small { display: flex; gap: 4px; }\n    .stars svg { width:20px; height:20px; fill: var(--green); }\n    .stars-small svg { width:16px; height:16px; fill: var(--green); }\n    .reviews-count {\n      display: flex;\n      align-items: center;\n      margin-left: 0.75rem;\n      font-size: 1rem;\n      color: var(--gray-500);\n      cursor: pointer;\n    }\n    .reviews-count svg {\n      width: 12px; height: 12px; margin-left: 4px;\n      fill: var(--gray-500);\n    }\n    .filter-btn {\n      background: none; border: none; cursor: pointer; padding: 4px;\n    }\n    .filter-btn svg {\n      width: 24px; height: 24px; fill: var(--gray-600);\n    }\n    .reviews-grid {\n      display: grid;\n      grid-template-columns: repeat(auto-fit, minmax(260px,1fr));\n      gap: 1.5rem;\n    }\n    .card {\n      background: #fff;\n      border-radius: 8px;\n      box-shadow: 0 2px 8px var(--shadow);\n      overflow: hidden;\n      display: flex;\n      flex-direction: column;\n    }\n    .card .avatar {\n      width: 100%;\n      aspect-ratio: 3/4;\n      object-fit: cover;\n    }\n    .card-body {\n      padding: 1rem;\n      flex: 1;\n      display: flex;\n      flex-direction: column;\n    }\n    .card-body .header {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 0.5rem;\n    }\n    .card-body h3 {\n      font-size: 1.1rem;\n      color: var(--gray-800);\n      margin: 0;\n      display: flex;\n      align-items: center;\n      gap: 6px;\n    }\n    .card-body .verified svg {\n      width: 16px;\n      height: 16px;\n      fill: var(--green);\n    }\n    .card-body p {\n      font-size: 0.95rem;\n      line-height: 1.4;\n      color: var(--gray-600);\n      flex: 1;\n      margin-bottom: 0.75rem;\n    }\n    .card-body .product {\n      display: flex;\n      align-items: center;\n      border-top: 1px solid var(--gray-200);\n      padding-top: 0.75rem;\n      gap: 0.5rem;\n      font-size: 0.9rem;\n      color: var(--gray-500);\n    }\n    .card-body .product img {\n      width: 40px; height: 40px;\n      object-fit: cover;\n      border-radius: 4px;\n    }\n  </style>\n\n  <!-- header général -->\n  <div class=\"reviews-header\">\n    <div class=\"left\">\n      <div class=\"stars\">\n        <!-- 5 étoiles -->\n        <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n        <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n        <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n        <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n        <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n      </div>\n      <div class=\"reviews-count\">\n        10 Avis\n        <svg viewbox=\"0 0 24 24\"><path d=\"M7 10l5 5 5-5H7z\"></path></svg>\n      </div>\n    </div>\n    <button class=\"filter-btn\" aria-label=\"Filtrer\">\n      <svg viewbox=\"0 0 24 24\"><path d=\"M3 5h18v2H3V5zm4 7h10v2H7v-2zm-4 7h18v2H3v-2z\"></path></svg>\n    </button>\n  </div>\n\n  <!-- grille des avis -->\n  <div class=\"reviews-grid\">\n\n    <!-- 1 -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"Alice P.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>Alice P. <span class=\"verified\" title=\"Vérifié\"><svg viewbox=\"0 0 24 24\"><path d=\"M12 0a12 12 0 1 0 12 12A12.013 12.013 0 0 0 12 0zm5.29 8.29l-6 6a1 1 0 0 1-1.42 0l-3-3a1 1 0 0 1 1.42-1.42L11 12.59l5.29-5.3a1 1 0 0 1 1.42 1.42z\"></path></svg></span>\n</h3>\n          <div class=\"stars-small\">\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg><!-- ×5 -->\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n          </div>\n        </div>\n        <p>La bougie Lueur de perle sent trop bon et dure super longtemps !</p>\n        <div class=\"product\">\n<img src=\"https://via.placeholder.com/60\" alt=\"Bougie Lueur de perle\"><span>Bougie Lueur de perle</span>\n</div>\n      </div>\n    </div>\n\n    <!-- 2 -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"Bruno T.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>Bruno T. <span class=\"verified\"><svg viewbox=\"0 0 24 24\"><path d=\"M12 0a12 12 0 1 0 12 12A12.013 12.013 0 0 0 12 0zm5.29 8.29l-6 6a1 1 0 0 1-1.42 0l-3-3a1 1 0 0 1 1.42-1.42L11 12.59l5.29-5.3a1 1 0 0 1 1.42 1.42z\"></path></svg></span>\n</h3>\n          <div class=\"stars-small\">\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg><!-- ×5 -->\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n          </div>\n        </div>\n        <p>Les mèches Lueur de perle se posent nickel, plus de galère après !</p>\n        <div class=\"product\">\n<img src=\"https://via.placeholder.com/60\" alt=\"Boîte de mèches Lueur de perle\"><span>Boîte de mèches Lueur de perle</span>\n</div>\n      </div>\n    </div>\n\n    <!-- 3 -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"Chloé L.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>Chloé L. <span class=\"verified\"><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg></span>\n</h3>\n          <div class=\"stars-small\">\n            <!-- 5 étoiles identiques -->\n            <svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg>\n          </div>\n        </div>\n        <p>Une ambiance de ouf dès que j’allume ma bougie, je recommande !</p>\n        <div class=\"product\">\n<img src=\"https://via.placeholder.com/60\" alt=\"Bougie Lueur de perle\"><span>Bougie Lueur de perle</span>\n</div>\n      </div>\n    </div>\n\n    <!-- 4 -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"David M.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>David M. <span class=\"verified\"><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg></span>\n</h3>\n          <div class=\"stars-small\">\n            <svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg>\n          </div>\n        </div>\n        <p>Top qualité, la boîte de mèches est super pratique !</p>\n        <div class=\"product\">\n<img src=\"https://via.placeholder.com/60\" alt=\"Boîte de mèches Lueur de perle\"><span>Boîte de mèches Lueur de perle</span>\n</div>\n      </div>\n    </div>\n\n    <!-- 5 -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"Emma R.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>Emma R. <span class=\"verified\"><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg></span>\n</h3>\n          <div class=\"stars-small\">\n            <svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg>\n          </div>\n        </div>\n        <p>Tellement fan de l’odeur florale, je rachète direct !</p>\n        <div class=\"product\">\n<img src=\"https://via.placeholder.com/60\" alt=\"Bougie Lueur de perle\"><span>Bougie Lueur de perle</span>\n</div>\n      </div>\n    </div>\n\n    <!-- 6 -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"Fabien K.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>Fabien K. <span class=\"verified\"><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg></span>\n</h3>\n          <div class=\"stars-small\">\n            <svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg>\n          </div>\n        </div>\n        <p>Idéal pour offrir, les boîtes de mèches font leur effet !</p>\n        <div class=\"product\">\n<img src=\"https://via.placeholder.com/60\" alt=\"Boîte de mèches Lueur de perle\"><span>Boîte de mèches Lueur de perle</span>\n</div>\n      </div>\n    </div>\n\n    <!-- 7 -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"Gwen A.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>Gwen A. <span class=\"verified\"><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg></span>\n</h3>\n          <div class=\"stars-small\">\n            <svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg>\n          </div>\n        </div>\n        <p>Ça change tout dans ma déco, l’éclairage est doux et cosy.</p>\n        <div class=\"product\">\n<img src=\"https://via.placeholder.com/60\" alt=\"Bougie Lueur de perle\"><span>Bougie Lueur de perle</span>\n</div>\n      </div>\n    </div>\n\n    <!-- 8 -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"Hugo D.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>Hugo D. <span class=\"verified\"><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg></span>\n</h3>\n          <div class=\"stars-small\">\n            <svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg>\n          </div>\n        </div>\n        <p>Pas déçu, la bougie ne noircit pas la pièce et sent toujours aussi bon.</p>\n        <div class=\"product\">\n<img src=\"https://via.placeholder.com/60\" alt=\"Bougie Lueur de perle\"><span>Bougie Lueur de perle</span>\n</div>\n      </div>\n    </div>\n\n    <!-- 9 -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"Isabelle F.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>Isabelle F. <span class=\"verified\"><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg></span>\n</h3>\n          <div class=\"stars-small\">\n            <svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg>\n          </div>\n        </div>\n        <p>Super rapport qualité/prix, je recommande à 100% !</p>\n        <div class=\"product\">\n<img src=\"https://via.placeholder.com/60\" alt=\"Bougie Lueur de perle\"><span>Bougie Lueur de perle</span>\n</div>\n      </div>\n    </div>\n\n    <!-- 10 -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"Julien V.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>Julien V. <span class=\"verified\"><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg></span>\n</h3>\n          <div class=\"stars-small\">\n            <svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg><svg viewbox=\"0 0 24 24\"><path d=\"\"></path></svg>\n          </div>\n        </div>\n        <p>Vraiment top, j’en mets partout chez moi.</p>\n        <div class=\"product\">\n<img src=\"https://via.placeholder.com/60\" alt=\"Bougie Lueur de perle\"><span>Bougie Lueur de perle</span>\n</div>\n      </div>\n    </div>\n\n  </div>\n</section>",
+        "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Avis clients</title>\n  <!-- Google Font -->\n  <link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap\" rel=\"stylesheet\">\n  <style>\n    :root {\n      --primary: #48c774;\n      --bg-light: #f9f9f9;\n      --bg-card: #ffffff;\n      --text-dark: #222222;\n      --text-secondary: #555555;\n      --text-muted: #777777;\n      --shadow-color: rgba(0, 0, 0, 0.05);\n      --font-base: 'Poppins', sans-serif;\n      --radius: 12px;\n    }\n\n    * {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n    }\n\n    body {\n      font-family: var(--font-base);\n      background-color: var(--bg-light);\n      color: var(--text-dark);\n      line-height: 1.5;\n    }\n\n    .reviews-section {\n      max-width: 1200px;\n      margin: 2rem auto;\n      padding: 0 1rem;\n    }\n\n    .reviews-header {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 2rem;\n    }\n\n    .reviews-header .left {\n      display: flex;\n      align-items: center;\n      gap: 1rem;\n    }\n\n    .stars, .stars-small {\n      display: flex;\n      gap: 0.25rem;\n    }\n\n    .stars svg {\n      width: 22px;\n      height: 22px;\n      fill: var(--primary);\n    }\n\n    .stars-small svg {\n      width: 18px;\n      height: 18px;\n      fill: var(--primary);\n    }\n\n    .reviews-count {\n      display: flex;\n      align-items: center;\n      font-size: 1rem;\n      color: var(--text-muted);\n      cursor: pointer;\n      transition: color 0.3s;\n    }\n\n    .reviews-count:hover {\n      color: var(--primary);\n    }\n\n    .reviews-count svg {\n      width: 14px;\n      height: 14px;\n      margin-left: 0.5rem;\n      fill: var(--text-muted);\n    }\n\n    .filter-btn {\n      background: none;\n      border: none;\n      cursor: pointer;\n      padding: 0.5rem;\n      border-radius: 50%;\n      transition: background 0.3s, transform 0.3s;\n    }\n\n    .filter-btn:hover {\n      background: rgba(72, 199, 116, 0.1);\n      transform: scale(1.1);\n    }\n\n    .filter-btn svg {\n      width: 24px;\n      height: 24px;\n      fill: var(--text-secondary);\n    }\n\n    .reviews-grid {\n      display: grid;\n      grid-template-columns: repeat(auto-fit, minmax(260px,1fr));\n      gap: 1.5rem;\n    }\n\n    .card {\n      background-color: var(--bg-card);\n      border-radius: var(--radius);\n      box-shadow: 0 4px 16px var(--shadow-color);\n      overflow: hidden;\n      display: flex;\n      flex-direction: column;\n      transition: transform 0.3s, box-shadow 0.3s;\n    }\n\n    .card:hover {\n      transform: translateY(-5px);\n      box-shadow: 0 8px 24px var(--shadow-color);\n    }\n\n    .card .avatar {\n      width: 100%;\n      aspect-ratio: 3/4;\n      object-fit: cover;\n    }\n\n    .card-body {\n      padding: 1.25rem;\n      flex: 1;\n      display: flex;\n      flex-direction: column;\n    }\n\n    .card-body .header {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 0.75rem;\n    }\n\n    .card-body h3 {\n      font-size: 1.125rem;\n      font-weight: 600;\n      color: var(--text-dark);\n      display: flex;\n      align-items: center;\n      gap: 0.5rem;\n    }\n\n    .card-body .verified svg {\n      width: 16px;\n      height: 16px;\n      fill: var(--primary);\n    }\n\n    .card-body p {\n      font-size: 0.95rem;\n      color: var(--text-secondary);\n      margin-bottom: 1rem;\n      flex: 1;\n    }\n\n    .card-body .product {\n      display: flex;\n      align-items: center;\n      gap: 0.75rem;\n      border-top: 1px solid var(--bg-light);\n      padding-top: 1rem;\n      font-size: 0.9rem;\n      color: var(--text-muted);\n    }\n\n    .card-body .product img {\n      width: 48px;\n      height: 48px;\n      object-fit: cover;\n      border-radius: var(--radius);\n    }\n  </style>\n\n\n\n<section class=\"reviews-section\">\n\n  <!-- Header général -->\n  <div class=\"reviews-header\">\n    <div class=\"left\">\n      <div class=\"stars\">\n        <!-- 5 étoiles -->\n        <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n        <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n        <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n        <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n        <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n      </div>\n      <div class=\"reviews-count\">\n        10 avis\n        <svg viewbox=\"0 0 24 24\"><path d=\"M7 10l5 5 5-5H7z\"></path></svg>\n      </div>\n    </div>\n    <button class=\"filter-btn\" aria-label=\"Filtrer les avis\">\n      <svg viewbox=\"0 0 24 24\"><path d=\"M3 5h18v2H3V5zm4 7h10v2H7v-2zm-4 7h18v2H3v-2z\"></path></svg>\n    </button>\n  </div>\n\n  <!-- Grille des avis -->\n  <div class=\"reviews-grid\">\n    <!-- Exemple de carte, répétez pour les 10 avis -->\n    <div class=\"card\">\n      <img class=\"avatar\" src=\"https://via.placeholder.com/300x400\" alt=\"Alice P.\">\n      <div class=\"card-body\">\n        <div class=\"header\">\n          <h3>\n            Alice P.\n            <span class=\"verified\" title=\"Vérifié\">\n              <svg viewbox=\"0 0 24 24\"><path d=\"M12 0a12 12 0 1 0 12 12A12.013 12.013 0 0 0 12 0zm5.29 8.29l-6 6a1 1 0 0 1-1.42 0l-3-3a1 1 0 0 1 1.42-1.42L11 12.59l5.29-5.3a1 1 0 0 1 1.42 1.42z\"></path></svg>\n            </span>\n          </h3>\n          <div class=\"stars-small\">\n            <!-- 5 petites étoiles -->\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n            <svg viewbox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431L24 9.748l-6 5.847L19.335 24 12 19.897 4.665 24 6 15.595 0 9.748l8.332-1.73z\"></path></svg>\n          </div>\n        </div>\n        <p>La bougie Lueur de perle sent trop bon et dure super longtemps !</p>\n        <div class=\"product\">\n          <img src=\"https://via.placeholder.com/60\" alt=\"Bougie Lueur de perle\">\n          <span>Bougie Lueur de perle</span>\n        </div>\n      </div>\n    </div>\n    <!-- Répétez les autres cartes ici... -->\n  </div>\n\n</section>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
