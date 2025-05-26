@@ -256,6 +256,64 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_7LfXbx": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_qyMghy": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_3yCCTh": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nzt7FN": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qyMghy",
+        "heading_3yCCTh",
+        "richtext_nzt7FN"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/6_benefices_3.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 7
+      }
+    },
+    "custom_liquid_GHeDg9": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw;  margin: 3vw auto; width: 80%;\">",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_TJiwkz": {
       "type": "featured-product",
       "blocks": {
@@ -489,9 +547,11 @@
     "logo_list_NYh7Ga",
     "custom_liquid_GGwywY",
     "custom_liquid_QH4hKe",
+    "custom_liquid_hVNDhU",
+    "image_with_text_overlay_7LfXbx",
     "custom_liquid_hbLMy6",
     "images_with_text_scrolling_LHbBN9",
-    "custom_liquid_hVNDhU",
+    "custom_liquid_GHeDg9",
     "featured_product_TJiwkz",
     "custom_html_RXWAAM",
     "faq",
