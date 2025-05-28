@@ -25,7 +25,6 @@
         "heading_kwfRH9"
       ],
       "custom_css": [],
-      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -42,7 +41,6 @@
     },
     "custom_liquid_F8q4pK": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -55,7 +53,6 @@
     },
     "custom_liquid_eQmwDA": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -109,7 +106,6 @@
         "logo_3Enx4W"
       ],
       "custom_css": [],
-      "name": "Logo list",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -129,7 +125,6 @@
     "custom_liquid_GGwywY": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -143,7 +138,6 @@
     "custom_liquid_QH4hKe": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -156,7 +150,6 @@
     },
     "custom_liquid_hVNDhU": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -198,7 +191,6 @@
         "heading_3yCCTh",
         "richtext_nzt7FN"
       ],
-      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -214,7 +206,6 @@
     },
     "custom_liquid_hbLMy6": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -287,7 +278,6 @@
         "item_AnbNaA"
       ],
       "custom_css": [],
-      "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -303,7 +293,6 @@
     },
     "custom_liquid_GHeDg9": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -418,7 +407,6 @@
         "pickup_availability_F3yxDF"
       ],
       "custom_css": [],
-      "name": "Featured product",
       "settings": {
         "full_width": true,
         "product": "bougie-perlee",
@@ -437,9 +425,20 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_bjk37T": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<hr style=\"border: none; border-top: 0.3vw solid #636363; border-radius: 5vw;  margin: 3vw auto; width: 80%;\">",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_html_RXWAAM": {
       "type": "custom-html",
-      "name": "Custom HTML",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -458,6 +457,13 @@
           "settings": {
             "title": "Combien de temps dure une bougie perlée 500g ?",
             "content": "<p>La durée de combustion dépend de l’environnement (courant d’air, température ambiante…), mais en moyenne, vous pouvez profiter de <strong>plusieurs heures d’utilisation </strong>en continu.</p>"
+          }
+        },
+        "item_4wy4yn": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Chaque sachet de bougies perlés contient 500 g de cire, parfait pour la fabrication de plusieurs bougies selon vos contenants. Une boîte de mèches comprend 30 mèches prêtes à l’emploi.</p>"
           }
         },
         "166442457738b23caf-0": {
@@ -491,6 +497,7 @@
       },
       "block_order": [
         "item_Yqbig9",
+        "item_4wy4yn",
         "166442457738b23caf-0",
         "166442457738b23caf-1",
         "166442457738b23caf-2",
@@ -520,7 +527,6 @@
     },
     "contact_jCHdc6": {
       "type": "contact",
-      "name": "Contact form",
       "settings": {
         "full_width": true,
         "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
@@ -553,6 +559,7 @@
     "images_with_text_scrolling_LHbBN9",
     "custom_liquid_GHeDg9",
     "featured_product_TJiwkz",
+    "custom_liquid_bjk37T",
     "custom_html_RXWAAM",
     "faq",
     "contact_jCHdc6"
