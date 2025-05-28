@@ -452,18 +452,18 @@
     "faq": {
       "type": "faq",
       "blocks": {
+        "item_4wy4yn": {
+          "type": "item",
+          "settings": {
+            "title": "Quelle est la contenance d’un sachet de bougies perlés et combien de mèches contient une boîte de mèches ?",
+            "content": "<p>Chaque sachet de bougies perlés contient 500 g de cire, parfait pour la fabrication de plusieurs bougies selon vos contenants. Une boîte de mèches comprend 30 mèches prêtes à l’emploi.</p>"
+          }
+        },
         "item_Yqbig9": {
           "type": "item",
           "settings": {
             "title": "Combien de temps dure une bougie perlée 500g ?",
             "content": "<p>La durée de combustion dépend de l’environnement (courant d’air, température ambiante…), mais en moyenne, vous pouvez profiter de <strong>plusieurs heures d’utilisation </strong>en continu.</p>"
-          }
-        },
-        "item_4wy4yn": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Chaque sachet de bougies perlés contient 500 g de cire, parfait pour la fabrication de plusieurs bougies selon vos contenants. Une boîte de mèches comprend 30 mèches prêtes à l’emploi.</p>"
           }
         },
         "166442457738b23caf-0": {
@@ -496,8 +496,8 @@
         }
       },
       "block_order": [
-        "item_Yqbig9",
         "item_4wy4yn",
+        "item_Yqbig9",
         "166442457738b23caf-0",
         "166442457738b23caf-1",
         "166442457738b23caf-2",
