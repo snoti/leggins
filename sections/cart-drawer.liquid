@@ -175,6 +175,35 @@
       </form>
     </div>
   {%- endif -%}
+
+  //AJOUT pour BOUGIES SEULES
+  <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const wickOnlyIds = [54337107296641, 54355757171073, 54355757203841];
+  const checkoutBtn = document.querySelector('[name="checkout"], .cart__checkout, .drawer__footer .btn');
+
+  fetch('/cart.js')
+    .then(res => res.json())
+    .then(cart => {
+      const onlyWick = cart.items.every(item => wickOnlyIds.includes(item.variant_id));
+
+      if (onlyWick && checkoutBtn) {
+        checkoutBtn.disabled = true;
+        checkoutBtn.style.opacity = 0.5;
+        checkoutBtn.style.pointerEvents = 'none';
+
+        const alert = document.createElement('p');
+        alert.textContent = "⚠️ Les mèches ne peuvent pas être achetées seules.";
+        alert.style.color = 'red';
+        alert.style.fontWeight = 'bold';
+        alert.style.marginTop = '1rem';
+
+        checkoutBtn.parentNode.insertBefore(alert, checkoutBtn);
+      }
+    });
+});
+</script>
+
 </cart-drawer>
 
 {% schema %}
