@@ -196,6 +196,39 @@
       </div>
     </div>
   {%- endif -%}
+
+  //bloques bougies seules
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const wickOnlyIds = [54337107296641, 54355757171073, 54355757203841];
+
+    fetch('/cart.js')
+      .then(res => res.json())
+      .then(cart => {
+        const onlyWick = cart.items.length > 0 && cart.items.every(item => wickOnlyIds.includes(item.variant_id));
+
+        if (onlyWick) {
+          const checkoutForm = document.querySelector('form[action="/checkout"]');
+          if (checkoutForm) {
+            // Bloque la soumission du formulaire
+            checkoutForm.addEventListener('submit', function (e) {
+              e.preventDefault();
+              alert("⚠️ Vous ne pouvez pas commander uniquement des mèches. Veuillez ajouter une bougie.");
+            });
+
+            // Désactive le bouton aussi
+            const checkoutBtn = checkoutForm.querySelector('button[name="checkout"], [type="submit"]');
+            if (checkoutBtn) {
+              checkoutBtn.disabled = true;
+              checkoutBtn.style.opacity = '0.5';
+              checkoutBtn.style.pointerEvents = 'none';
+            }
+          }
+        }
+      });
+  });
+</script>
+
 </div>
 
 {% schema %}
