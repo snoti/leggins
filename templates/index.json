@@ -458,7 +458,7 @@
           "type": "item",
           "settings": {
             "title": "Les bougies sont-elles parfumées ?",
-            "content": "<p>Non, nos bougies perlées <strong>ne contiennent pas de parfum</strong>. Elles sont conçues avant tout pour leur <strong>design élégant</strong> et leur <strong>lumière apaisante</strong>.</p>"
+            "content": "<p>Non, nos bougies perlées <strong>ne contiennent pas de parfum</strong>. Elles sont conçues avant tout pour leur <strong>design élégant</strong> et leur <strong>lumière apaisante</strong>.<br/>Toutefois, vous pouvez y ajouter quelques gouttes d’huiles essentielles.</p>"
           }
         },
         "166442457738b23caf-1": {
