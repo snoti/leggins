@@ -197,7 +197,7 @@
     </div>
   {%- endif -%}
 
-  <script>
+<script>
   document.addEventListener('DOMContentLoaded', function () {
     const wickOnlyIds = [54337107296641, 54355757171073, 54355757203841];
 
@@ -207,26 +207,36 @@
         const onlyWick = cart.items.length > 0 && cart.items.every(item => wickOnlyIds.includes(item.variant_id));
 
         if (onlyWick) {
-          const checkoutForm = document.querySelector('form[action="/checkout"]');
-          if (checkoutForm) {
-            // Bloque la soumission du formulaire
-            checkoutForm.addEventListener('submit', function (e) {
-              e.preventDefault();
-              alert("⚠️ Vous ne pouvez pas commander uniquement des mèches. Veuillez ajouter une bougie.");
-            });
+          // Désactive tous les boutons checkout visibles
+          const checkoutBtns = document.querySelectorAll('[name="checkout"], button[type="submit"]');
+          checkoutBtns.forEach(btn => {
+            btn.disabled = true;
+            btn.style.opacity = '0.5';
+            btn.style.pointerEvents = 'none';
+            btn.classList.add('disabled');
 
-            // Désactive le bouton aussi
-            const checkoutBtn = checkoutForm.querySelector('button[name="checkout"], [type="submit"]');
-            if (checkoutBtn) {
-              checkoutBtn.disabled = true;
-              checkoutBtn.style.opacity = '0.5';
-              checkoutBtn.style.pointerEvents = 'none';
+            const warning = document.createElement('p');
+            warning.textContent = "⚠️ Vous ne pouvez pas commander uniquement des mèches.";
+            warning.style.color = 'red';
+            warning.style.fontWeight = 'bold';
+            warning.style.marginTop = '1rem';
+            if (!btn.nextElementSibling || btn.nextElementSibling.textContent.indexOf('mèches') === -1) {
+              btn.parentNode.insertBefore(warning, btn.nextSibling);
             }
+          });
+
+          // Bloque aussi la soumission du formulaire s’il existe
+          const form = document.querySelector('form[action="/checkout"]');
+          if (form) {
+            form.addEventListener('submit', function (e) {
+              e.preventDefault();
+            });
           }
         }
       });
   });
 </script>
+
 
 </div>
 
