@@ -57,14 +57,13 @@
 
                   <tr>
                     <td>{%- render 'line-item', line_item: line_item -%}</td>
-
-<td class="hidden align-center text-center text-subdued sm:table-cell">
-  <span class="text-xs">
-    <a href="{{ line_item.url_to_remove }}" class="link" aria-label="{{ 'cart.order.remove_with_title' | t: title: line_item.title | escape }}">
-      {{- 'cart.order.remove' | t -}}
-    </a>
-  </span>
-</td>
+                      <td class="hidden align-center text-center text-subdued sm:table-cell">
+                        <span class="text-xs">
+                          <a href="{{ line_item.url_to_remove }}" class="link" aria-label="{{ 'cart.order.remove_with_title' | t: title: line_item.title | escape }}">
+                            {{- 'cart.order.remove' | t -}}
+                          </a>
+                        </span>
+                      </td>
                     </td>
 
                     <td class="hidden align-center text-subdued text-end sm:table-cell">{{ line_item.final_line_price | money }}</td>
