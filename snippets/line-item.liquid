@@ -51,8 +51,8 @@ Supported variables
 
 {% if prix_original and economie %}
   <div class="bundle-cart-pricing">
-    <span class="price-new">{{ line_item.final_line_price | money }}</span><br>
-    <span class="price-old">{{ prix_original }}</span>
+    <span class="price-new">{{ line_item.final_line_price | money }}</span>
+    <span class="price-old">{{ prix_original }}</span><br>
     <span class="savings">Vous avez économisé {{ economie }}</span>
   </div>
 {% endif %}
