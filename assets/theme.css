@@ -10115,3 +10115,22 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: -webkit-box;
   overflow: hidden;
 }
+
+.bundle-cart-pricing {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.bundle-cart-pricing .price-old {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 0.5rem;
+}
+.bundle-cart-pricing .price-new {
+  color: #000;
+  font-weight: bold;
+}
+.bundle-cart-pricing .savings {
+  color: #d62828;
+  font-weight: bold;
+  margin-top: 4px;
+}
