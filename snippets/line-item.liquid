@@ -48,7 +48,7 @@ Supported variables
       {%- render 'price-list', line_item: line_item -%}
       {% if line_item.properties['Prix original'] and line_item.properties['Économie'] %}
   <div class="bundle-cart-pricing">
-    <span class="price-new">{{ line_item.price | money }}</span><br>
+    <span class="price-old">{{ line_item.properties['Prix original'] }}</span>
     <span class="savings">Vous avez économisé {{ line_item.properties['Économie'] }}</span>
   </div>
 {% endif %}
