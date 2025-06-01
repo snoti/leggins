@@ -46,6 +46,14 @@ Supported variables
       {%- endif -%}
 
       {%- render 'price-list', line_item: line_item -%}
+      {% if line_item.properties['Prix original'] and line_item.properties['Économie'] %}
+  <div class="bundle-cart-pricing">
+    <span class="price-old">{{ line_item.properties['Prix original'] }}</span>
+    <span class="price-new">{{ line_item.price | money }}</span><br>
+    <span class="savings">Vous avez économisé {{ line_item.properties['Économie'] }}</span>
+  </div>
+{% endif %}
+
     </div>
 
     {%- unless line_item.product.has_only_default_variant or line_item.gift_card -%}
