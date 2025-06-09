@@ -40,7 +40,7 @@
       <div class="v-stack gap-6 sm:gap-8">
         <div class="cart-drawer__line-items">
           {%- for line_item in cart.items -%}
-            {%- render 'line-item', line_item: line_item, show_desktop_quantity: true -%}
+            {%- render 'line-item', line_item: line_item, show_desktop_quantity: true, from_cart: true -%}
           {%- endfor -%}
         </div>
 
@@ -176,7 +176,7 @@
     </div>
   {%- endif -%}
 
-  //AJOUT pour BOUGIES SEULES
+<!-- Script pour bloquer le paiement si seulement des mèches sont présentes -->
   <script>
 document.addEventListener('DOMContentLoaded', function () {
   const wickOnlyIds = [54337107296641, 54355757171073, 54355757203841];
