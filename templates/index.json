@@ -14,9 +14,8 @@
       "blocks": {
         "heading_kwfRH9": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "Des bougies en perles créatives pour sublimer votre intérieur et vos cadeaux",
+            "text": "Plus qu’une bougie : un geste durable  et design",
             "heading_tag": "h4"
           }
         }
@@ -30,9 +29,9 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "sm",
-        "image": "shopify://shop_images/pearl2.webp",
-        "mobile_image": "shopify://shop_images/pearl2.webp",
-        "mobile_text_position": "place-self-center-start text-start",
+        "image": "shopify://shop_images/sunset.png",
+        "mobile_image": "shopify://shop_images/sunset.png",
+        "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
         "overlay_color": "#000000",
@@ -41,6 +40,7 @@
     },
     "custom_liquid_F8q4pK": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
