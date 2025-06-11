@@ -45,7 +45,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .responsive-text{\n    text-align: center;\n    font-weight: normal;\n    font-size: 5.2vw; /* Mobile par défaut */\n  }\n  @media (min-width: 768px) {\n    .responsive-text {\n      font-size: 2vw; /* Desktop */\n    }\n  }\n</style>\n\n<h3 class=\"responsive-text\">\n <strong>Sublimez</strong> votre intérieur <br>et vos cadeaux\n</h3>",
+        "liquid": "<style>\n  .responsive-text{\n    text-align: center;\n    font-weight: normal;\n    font-size: 5.2vw; /* Mobile par défaut */\n  }\n  @media (min-width: 768px) {\n    .responsive-text {\n      font-size: 2vw; /* Desktop */\n    }\n  }\n</style>\n\n<h3 class=\"responsive-text\">\n Plus qu’une bougie : un geste <strong>durable </strong> et <strong>design\n</h3>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
