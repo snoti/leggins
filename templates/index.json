@@ -11,26 +11,14 @@
   "sections": {
     "image_with_text_overlay_ezUjx3": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_kwfRH9": {
-          "type": "heading",
-          "settings": {
-            "text": "Plus qu’une bougie : un geste durable  et design",
-            "heading_tag": "h4"
-          }
-        }
-      },
-      "block_order": [
-        "heading_kwfRH9"
-      ],
       "custom_css": [],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "sm",
-        "image": "shopify://shop_images/sunset.png",
-        "mobile_image": "shopify://shop_images/sunset.png",
+        "image_size": "auto",
+        "image": "shopify://shop_images/PERTE_DE_CHEVEUX_4.png",
+        "mobile_image": "shopify://shop_images/valoria_first_png.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
