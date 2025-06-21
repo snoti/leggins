@@ -17,13 +17,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/PERTE_DE_CHEVEUX_4.png",
-        "mobile_image": "shopify://shop_images/valoria_first_png.png",
+        "image": "shopify://shop_images/PERTE_DE_CHEVEUX.png",
+        "mobile_image": "shopify://shop_images/PERTE_DE_CHEVEUX_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
         "overlay_color": "#000000",
-        "overlay_opacity": 4
+        "overlay_opacity": 0
       }
     },
     "custom_liquid_F8q4pK": {
@@ -58,7 +58,7 @@
         "logo_FHJRqj": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/artsetdco.png",
+            "logo": "shopify://shop_images/1e19a994-5a3c-4e06-909f-4a81f45385b8.png",
             "logo_width": 300,
             "link": ""
           }
@@ -82,7 +82,7 @@
         "logo_3Enx4W": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/cote-removebg-preview.png",
+            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
             "logo_width": 300,
             "link": ""
           }
@@ -186,7 +186,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/6_benefices_3.png",
+        "image": "shopify://shop_images/6_benefices_4.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
