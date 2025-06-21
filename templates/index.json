@@ -17,8 +17,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/PERTE_DE_CHEVEUX.png",
-        "mobile_image": "shopify://shop_images/PERTE_DE_CHEVEUX_1.png",
+        "image": "shopify://shop_images/PERTE_DE_CHEVEUX_4_2ca64d51-eb01-46e6-a885-0ba283d391e0.png",
+        "mobile_image": "shopify://shop_images/PERTE_DE_CHEVEUX_3.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
@@ -150,6 +150,34 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_4diFBW": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_L3fJRA": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_L3fJRA"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/copy_2ABAD714-091F-4F85-A1F3-F6EA522F4698-_1.gif",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "image_with_text_overlay_7LfXbx": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -216,7 +244,7 @@
             "icon": "none",
             "icon_width": 40,
             "title": "Linda R.",
-            "content": "<p>Elles sont tellement esthétiques...<br/>Ces bougies sont vraiment magnifiques et faciles à utiliser. Leur parfum est agréable et subtil, pas du tout entêtant. Tu dois absolument essayer !<br/><br/></p>"
+            "content": "<p>Ma chute a ralenti dès les premières semaines, et j’ai commencé à voir des repousses. C’est pas magique, c’est efficace.</p>"
           }
         },
         "item_RDeYYy": {
@@ -226,7 +254,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Céline P.",
-            "content": "<p>Mon mari m’en a offert une et c’est génial !                                  Je suis super enthousiaste à l’idée de l’utiliser et d’essayer d’autres couleurs. C’est vraiment un concept trop cool !</p>"
+            "content": "<p>La chute post-partum a été violente. Je perdais mes cheveux par poignées. Avec Valoria, j’ai repris espoir. Les pertes ont ralenti, mes tempes repoussent, et je commence à aimer à nouveau mon reflet. Merci !</p>"
           }
         },
         "item_JtEyBM": {
@@ -236,7 +264,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Élodie M.",
-            "content": "<p>Quel magnifique cadeau ! J’adore pouvoir personnaliser ma bougie à chaque nouvelle mèche. Reçu hier, je suis impatiente de profiter de ce beau contenant et de créer de petites bougies avec mes pots à la maison. Facile à utiliser et à réutiliser !</p>"
+            "content": "<p>Je pensais mes cheveux définitivement perdus sur certaines zones. En 6 semaines, j’ai vu des repousses là où il n’y avait plus rien.</p>"
           }
         },
         "item_Jedz36": {
@@ -246,7 +274,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Natalie C.",
-            "content": "<p>Aucun gaspillage, aucune contrainte. Je suis conquis. Après mon achat, lors d’un dîner en famille, tout le monde a été séduit. Ils sont repartis avec les infos pour adopter eux aussi cette belle nouveauté.</p>"
+            "content": "<p>Cuir chevelu irrité, rougeurs… je n’en pouvais plus.<br/>En quelques jours, mon cuir chevelu a était <br/>apaisé et mes cheveux semblaient reprendre vie.</p>"
           }
         },
         "item_AnbNaA": {
@@ -256,7 +284,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Eric S.",
-            "content": "<p>Ma femme était ravie de la bougie !     C’était exactement ce que j’espérais. Très bien emballée et facile à utiliser.</p>"
+            "content": "<p>Je vois mes contours se redessiner petit à petit. Rien de miraculeux, mais assez pour me redonner espoir… et le sourire.</p>"
           }
         }
       },
@@ -539,6 +567,7 @@
     "custom_liquid_GGwywY",
     "custom_liquid_QH4hKe",
     "custom_liquid_hVNDhU",
+    "image_with_text_overlay_4diFBW",
     "image_with_text_overlay_7LfXbx",
     "custom_liquid_hbLMy6",
     "images_with_text_scrolling_LHbBN9",
