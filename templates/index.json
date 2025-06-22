@@ -104,7 +104,7 @@
         "items_per_row": 7,
         "background": "",
         "background_gradient": "",
-        "text_color": "#636363",
+        "text_color": "#1a1a1a",
         "heading_color": "",
         "heading_gradient": "",
         "logo_item_background": "",
@@ -200,7 +200,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 0vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Une micro-infusion de précision, sans douleur ni contrainte.' }}</strong>\n  </h1>\n</div>",
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Une micro-infusion de précision, sans douleur ni contrainte.' }}</strong>\n  </h1>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -229,7 +229,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 0vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-heading\">\n    <strong>{{ 'Ils vous en parlent mieux que nous' }}</strong>\n  </h1>\n</div>",
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 2.5vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-heading\">\n    <strong>{{ 'Ils vous en parlent mieux que nous' }}</strong>\n  </h1>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
