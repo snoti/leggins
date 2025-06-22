@@ -220,12 +220,13 @@
       "block_order": [
         "subheading_L3fJRA"
       ],
+      "custom_css": [],
       "name": "Image with text overlay",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
+        "image_size": "md",
         "image": "shopify://shop_images/reel-ezgif.com-optimize_2.gif",
         "mobile_image": "shopify://shop_images/reel-ezgif.com-optimize_2.gif",
         "mobile_text_position": "place-self-center text-center",
