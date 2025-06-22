@@ -194,46 +194,33 @@
         "overlay_opacity": 7
       }
     },
-    "custom_liquid_hbLMy6": {
+    "custom_liquid_AtwcUd": {
       "type": "custom-liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 4vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-heading\">\n    <strong>{{ 'Une infusion de précision, sans douleur ni contrainte.' }}</strong>\n  </h1>\n</div>",
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 0vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Une micro-infusion de précision, sans douleur ni contrainte.' }}</strong>\n  </h1>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "image_with_text_overlay_4diFBW": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_L3fJRA": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_L3fJRA"
-      ],
-      "custom_css": [],
-      "name": "Image with text overlay",
+    "video_Fw9mij": {
+      "type": "video",
+      "name": "Video",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "md",
-        "image": "shopify://shop_images/reel-ezgif.com-optimize_2.gif",
-        "mobile_image": "shopify://shop_images/reel-ezgif.com-optimize_2.gif",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify://files/videos/final.mov",
+        "mobile_video": "shopify://files/videos/final.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "poster": "shopify://shop_images/true_image.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 10
       }
     },
     "custom_liquid_qFEhYU": {
@@ -242,7 +229,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 6vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-heading\">\n    <strong>{{ 'Ils vous en parlent mieux que nous' }}</strong>\n  </h1>\n</div>",
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 0vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-heading\">\n    <strong>{{ 'Ils vous en parlent mieux que nous' }}</strong>\n  </h1>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -582,8 +569,8 @@
     "custom_liquid_QH4hKe",
     "custom_liquid_hVNDhU",
     "image_with_text_overlay_7LfXbx",
-    "custom_liquid_hbLMy6",
-    "image_with_text_overlay_4diFBW",
+    "custom_liquid_AtwcUd",
+    "video_Fw9mij",
     "custom_liquid_qFEhYU",
     "images_with_text_scrolling_LHbBN9",
     "custom_liquid_GHeDg9",
