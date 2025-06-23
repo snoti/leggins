@@ -258,6 +258,16 @@
             "content": "<p>La chute post-partum a été violente. Je perdais mes cheveux par poignées. Avec Valoria, j’ai repris espoir. Les pertes ont ralenti, mes tempes repoussent, et je commence à aimer à nouveau mon reflet. Merci !</p>"
           }
         },
+        "item_AnbNaA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/AVANT_717e217b-4ec9-4e30-a949-84d78e24001f.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Lucas S.",
+            "content": "<p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 6 mois, j’ai retrouvé de la densité et surtout… le sourire</p>"
+          }
+        },
         "item_JtEyBM": {
           "type": "item",
           "settings": {
@@ -277,24 +287,14 @@
             "title": "Natalie C.",
             "content": "<p>Cuir chevelu irrité, rougeurs… je n’en pouvais plus.<br/>En quelques jours, mon cuir chevelu a était <br/>apaisé et mes cheveux semblaient reprendre vie.</p>"
           }
-        },
-        "item_AnbNaA": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/pearl_black.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Eric S.",
-            "content": "<p>Je vois mes contours se redessiner petit à petit. Rien de miraculeux, mais assez pour me redonner espoir… et le sourire.</p>"
-          }
         }
       },
       "block_order": [
         "item_M94zAH",
         "item_RDeYYy",
+        "item_AnbNaA",
         "item_JtEyBM",
-        "item_Jedz36",
-        "item_AnbNaA"
+        "item_Jedz36"
       ],
       "custom_css": [],
       "settings": {
