@@ -241,7 +241,7 @@
         "item_M94zAH": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/71Kc0pva0JL.jpg",
+            "image": "shopify://shop_images/AVANT_7.png",
             "icon": "none",
             "icon_width": 40,
             "title": "Linda R.",
@@ -251,27 +251,17 @@
         "item_RDeYYy": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_du_2025-05-18_12-24-55.png",
+            "image": "shopify://shop_images/AVANT_5.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Céline P.",
             "content": "<p>La chute post-partum a été violente. Je perdais mes cheveux par poignées. Avec Valoria, j’ai repris espoir. Les pertes ont ralenti, mes tempes repoussent, et je commence à aimer à nouveau mon reflet. Merci !</p>"
           }
         },
-        "item_AnbNaA": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/AVANT_717e217b-4ec9-4e30-a949-84d78e24001f.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Lucas S.",
-            "content": "<p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 6 mois, j’ai retrouvé de la densité et surtout… le sourire</p>"
-          }
-        },
         "item_JtEyBM": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/AVANT.png",
+            "image": "shopify://shop_images/Copie_de_AVANT.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Élodie M.",
@@ -281,27 +271,37 @@
         "item_Jedz36": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/1746734749__img_3140__original_1_1.png",
+            "image": "shopify://shop_images/AVANT_4.png",
+            "icon": "none",
+            "icon_width": 120,
+            "title": "Natalie C.",
+            "content": "<p>Cuir chevelu irrité, rougeurs… Je n’en pouvais plus.                                                 En quelques jours, mon cuir chevelu a était <br/>apaisé et mes cheveux semblaient reprendre vie.</p>"
+          }
+        },
+        "item_AnbNaA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/AVANT_6.png",
             "icon": "none",
             "icon_width": 48,
-            "title": "Natalie C.",
-            "content": "<p>Cuir chevelu irrité, rougeurs… je n’en pouvais plus.<br/>En quelques jours, mon cuir chevelu a était <br/>apaisé et mes cheveux semblaient reprendre vie.</p>"
+            "title": "Lucas S.",
+            "content": "<p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 6 mois, j’ai retrouvé de la densité et surtout… le sourire</p>"
           }
         }
       },
       "block_order": [
         "item_M94zAH",
         "item_RDeYYy",
-        "item_AnbNaA",
         "item_JtEyBM",
-        "item_Jedz36"
+        "item_Jedz36",
+        "item_AnbNaA"
       ],
       "custom_css": [],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
         "show_counter": false,
-        "desktop_image_effect": "reveal",
+        "desktop_image_effect": "fade",
         "image_position": "end",
         "background": "",
         "background_gradient": "",
