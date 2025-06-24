@@ -17,8 +17,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/PERTE_DE_CHEVEUX_4_2ca64d51-eb01-46e6-a885-0ba283d391e0.png",
-        "mobile_image": "shopify://shop_images/PERTE_DE_CHEVEUX_3.png",
+        "image": "shopify://shop_images/PERTE_DE_CHEVEUX_6.png",
+        "mobile_image": "shopify://shop_images/PERTE_DE_CHEVEUX_5.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
@@ -186,7 +186,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/6_benefices_4.png",
+        "image": "shopify://shop_images/6_benefices_5.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -241,7 +241,7 @@
         "item_M94zAH": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/AVANT_8.png",
+            "image": "shopify://shop_images/AVANT_9_41fbae0a-79c4-4930-a379-b39efa81acb0.png",
             "icon": "none",
             "icon_width": 40,
             "title": "Lucie R.",
@@ -251,7 +251,7 @@
         "item_RDeYYy": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/AVANT_5.png",
+            "image": "shopify://shop_images/Copie_de_AVANT_4.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Céline P.",
@@ -261,7 +261,7 @@
         "item_JtEyBM": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_AVANT.png",
+            "image": "shopify://shop_images/Copie_de_AVANT_2.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Élodie M.",
@@ -271,7 +271,7 @@
         "item_Jedz36": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/AVANT_4.png",
+            "image": "shopify://shop_images/Copie_de_Copie_de_AVANT.png",
             "icon": "none",
             "icon_width": 120,
             "title": "Natalie C.",
@@ -281,7 +281,7 @@
         "item_AnbNaA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/AVANT_6.png",
+            "image": "shopify://shop_images/Copie_de_Copie_de_Copie_de_AVANT.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Lucas S.",
