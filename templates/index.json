@@ -472,6 +472,54 @@
         "text_color": ""
       }
     },
+    "tabs_cYdcCh": {
+      "type": "tabs",
+      "blocks": {
+        "tab_4YaP8w": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 1",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "page": ""
+          }
+        },
+        "tab_fY44e9": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_CjVF47": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_4YaP8w",
+        "tab_fY44e9",
+        "tab_CjVF47"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -591,6 +639,7 @@
     "featured_product_TJiwkz",
     "custom_liquid_Dd8zDM",
     "custom_liquid_bjk37T",
+    "tabs_cYdcCh",
     "faq",
     "custom_liquid_qr3Dnh",
     "custom_html_RXWAAM"
