@@ -472,6 +472,51 @@
         "text_color": ""
       }
     },
+    "video_carousel_M4tjge": {
+      "type": "video-carousel",
+      "blocks": {
+        "testimonial_nrtbfB": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/videoplayback-kbaahdzr-online-video-cuttercom_6lLkTXhF (1).mp4"
+          }
+        },
+        "testimonial_MetpUa": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/final.mov"
+          }
+        },
+        "testimonial_BNeUkD": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "testimonial_8zQKF4": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "testimonial_rJdtXP": {
+          "type": "testimonial",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "testimonial_nrtbfB",
+        "testimonial_MetpUa",
+        "testimonial_BNeUkD",
+        "testimonial_8zQKF4",
+        "testimonial_rJdtXP"
+      ],
+      "name": "Videos slider",
+      "settings": {
+        "title": "Video slider",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h5",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "tabs_cYdcCh": {
       "type": "tabs",
       "blocks": {
@@ -639,6 +684,7 @@
     "featured_product_TJiwkz",
     "custom_liquid_Dd8zDM",
     "custom_liquid_bjk37T",
+    "video_carousel_M4tjge",
     "tabs_cYdcCh",
     "faq",
     "custom_liquid_qr3Dnh",
