@@ -1,72 +1,67 @@
-{% comment %} Section: Carrousel Vidéo compatible avec le thème Impact {% endcomment %}
+{% comment %} Section: Carrousel Vidéo scrollable style natif (sans Swiper) pour thème Impact {% endcomment %}
 
 {%- style -%}
 .section-{{ section.id }}-padding {
   padding-top: {{ section.settings.padding_top }}px;
   padding-bottom: {{ section.settings.padding_bottom }}px;
 }
-.video-slider .swiper {
-  overflow: hidden;
+.video-scroll-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 1rem;
 }
-.video-slider .swiper-slide video {
+.video-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+.video-card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 250px;
+  height: 400px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.video-card video {
   width: 100%;
-  height: auto;
-  border-radius: 15px;
+  height: 100%;
+  object-fit: cover;
 }
 {%- endstyle -%}
 
-<div class="video-slider section-{{ section.id }}-padding">
-  <div class="page-width">
-    {%- if section.settings.title != blank -%}
-      <h2 class="{{ section.settings.heading_size }} {{ section.settings.heading_alignment }}">
-        {{ section.settings.title }}
-      </h2>
-    {%- endif -%}
+<div class="section-{{ section.id }}-padding page-width">
+  {% if section.settings.title != blank %}
+    <h2 class="{{ section.settings.heading_size }} {{ section.settings.heading_alignment }}">
+      {{ section.settings.title }}
+    </h2>
+  {% endif %}
 
-    <div class="swiper" id="videoSwiper-{{ section.id }}">
-      <div class="swiper-wrapper">
-        {%- for block in section.blocks -%}
-          <div class="swiper-slide" {{ block.shopify_attributes }}>
-            {% if block.settings.video != blank %}
-              {{ block.settings.video | video_tag: autoplay: true, loop: true, controls: false, muted: true, playsinline: true }}
-            {% else %}
-              <div class="media media--square">
-                {{ 'image' | placeholder_svg_tag: 'placeholder' }}
-              </div>
-            {% endif %}
-          </div>
-        {%- endfor -%}
+  <div class="video-scroll-container">
+    {% for block in section.blocks %}
+      <div class="video-card" {{ block.shopify_attributes }}>
+        {% if block.settings.video != blank %}
+          {{ block.settings.video | video_tag: autoplay: true, loop: true, muted: true, playsinline: true }}
+        {% else %}
+          {{ 'image' | placeholder_svg_tag: 'placeholder' }}
+        {% endif %}
       </div>
-    </div>
+    {% endfor %}
   </div>
 </div>
 
-<script src="https://unpkg.com/swiper@10/swiper-bundle.min.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    new Swiper('#videoSwiper-{{ section.id }}', {
-      slidesPerView: 1.2,
-      spaceBetween: 16,
-      loop: true,
-      breakpoints: {
-        768: { slidesPerView: 2.5 },
-        1024: { slidesPerView: 3.5 }
-      }
-    });
-  });
-</script>
-
 {% schema %}
 {
-  "name": "Carrousel Vidéos",
-  "tag": "section",
-  "class": "section",
+  "name": "Carrousel vidéos simple",
   "settings": [
     {
       "type": "inline_richtext",
       "id": "title",
-      "default": "Témoignages vidéos",
-      "label": "Titre"
+      "label": "Titre",
+      "default": "Vos témoignages vidéos"
     },
     {
       "type": "select",
@@ -85,8 +80,7 @@
       "label": "Alignement du titre",
       "options": [
         { "value": "left", "label": "Gauche" },
-        { "value": "center", "label": "Centre" },
-        { "value": "right", "label": "Droite" }
+        { "value": "center", "label": "Centre" }
       ],
       "default": "center"
     },
@@ -126,7 +120,7 @@
   ],
   "presets": [
     {
-      "name": "Carrousel Vidéos",
+      "name": "Carrousel vidéos simple",
       "blocks": [
         { "type": "video" },
         { "type": "video" },
