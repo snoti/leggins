@@ -474,45 +474,11 @@
     },
     "video_carousel_M4tjge": {
       "type": "video-carousel",
-      "blocks": {
-        "testimonial_nrtbfB": {
-          "type": "testimonial",
-          "settings": {
-            "video": "shopify://files/videos/videoplayback-kbaahdzr-online-video-cuttercom_6lLkTXhF (1).mp4"
-          }
-        },
-        "testimonial_MetpUa": {
-          "type": "testimonial",
-          "settings": {
-            "video": "shopify://files/videos/final.mov"
-          }
-        },
-        "testimonial_BNeUkD": {
-          "type": "testimonial",
-          "settings": {}
-        },
-        "testimonial_8zQKF4": {
-          "type": "testimonial",
-          "settings": {}
-        },
-        "testimonial_rJdtXP": {
-          "type": "testimonial",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "testimonial_nrtbfB",
-        "testimonial_MetpUa",
-        "testimonial_BNeUkD",
-        "testimonial_8zQKF4",
-        "testimonial_rJdtXP"
-      ],
       "name": "Videos slider",
       "settings": {
         "title": "Video slider",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "heading_tag": "h5",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -536,11 +502,27 @@
             "page": ""
           }
         },
+        "tab_MGwBdL": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_hieypA": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
         "tab_CjVF47": {
           "type": "tab",
           "settings": {
-            "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "title": "Service Client 7J/7",
+            "content": "<p>Notre service client est à votre écoute 7J/7.<br/></p><p>Vous pouvez nous contacter par en utilisant l'onglet \"Contact\" de notre boutique ou par email à l'adresse contact@synalya.fr</p>",
             "page": ""
           }
         }
@@ -548,6 +530,8 @@
       "block_order": [
         "tab_4YaP8w",
         "tab_fY44e9",
+        "tab_MGwBdL",
+        "tab_hieypA",
         "tab_CjVF47"
       ],
       "name": "Tabs",
