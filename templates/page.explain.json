@@ -190,6 +190,50 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_iCTE6b": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XEBDfq": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_iPV4C7": {
+          "type": "heading",
+          "settings": {
+            "text": "Procédure d’utilisation détaillée",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_fBQdcT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>1. Préparation de l’appareil</strong><br/><br/>Tournez doucement la tête à micro-aiguilles pour l’ouvrir. Remplissez la chambre du dispositif avec la quantité de sérum recommandée. <strong>Refermez sans forcer la tête à aiguille sans trop la serrer pour une application optimale : plus la tête est serrée, plus le sérum aura du mal à s’écouler.</strong></p><p>Placez le Micro-Infuseur à l’envers pendant 2 à 3 minutes pour que les micro-aiguilles s’imprègnent correctement du sérum.</p><p><strong>2. Test préalable</strong><br/><br/>Appliquez une petite quantité de sérum sur une zone du cuir chevelu pour vérifier toute éventuelle sensation de gêne ou réaction. Cette étape est essentielle pour garantir une tolérance optimale.</p><p><strong>3. Application sur le cuir chevelu</strong><br/><br/>Retirez le couvercle de protection.</p><p>Tamponnez délicatement le cuir chevelu <strong>en</strong> <strong>ciblant les zones clairsemées ou concernées par la chute de cheveux</strong>. Déplacez l’appareil en couvrant chaque zone de manière uniforme, en chevauchant légèrement vos passages pour assurer une application homogène.</p><p>Pour les zones spécifiques nécessitant une attention particulière, comme les zones de perte marquée, <strong>repassez doucement 2 à 3 fois.</strong></p><p><strong>Important</strong> : Évitez les zones présentant des plaies, des croûtes ou des irritations visibles.</p><p><strong>4. Soin final</strong><br/><br/><strong>Massez doucement l’excédent</strong> de sérum sur l’ensemble du cuir chevelu pour optimiser la pénétration des actifs.</p><p><strong><br/>Laissez agir </strong>le produit <strong>sans rincer pendant au minimum 12 heures</strong>, et pour un résultat optimal, laissez-le en place <strong>jusqu’à 24 heures</strong>, afin de permettre aux ingrédients de stimuler efficacement la régénération et la repousse.<br/><br/><strong>Complétez votre routine avec vos soins habituels </strong>si vous le souhaitez.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XEBDfq",
+        "heading_iPV4C7",
+        "richtext_fBQdcT"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -197,6 +241,7 @@
     "rich_text_wjmzf3",
     "rich_text_bNhhg9",
     "rich_text_L9CKwY",
-    "rich_text_BneNtU"
+    "rich_text_BneNtU",
+    "rich_text_iCTE6b"
   ]
 }
