@@ -119,7 +119,7 @@
         "heading_4mianm": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi notre produit est-il sûr ?",
+            "text": "Quel intervale d'utilisation ?",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -146,12 +146,57 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_BneNtU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AxCrpd": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_micbPV": {
+          "type": "heading",
+          "settings": {
+            "text": "Récapitulatif rapide de la procédure d'utilisation",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_j4WUx7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Une procédure détaillée est disponible en fin de page.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AxCrpd",
+        "heading_micbPV",
+        "richtext_j4WUx7"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "rich_text_wjmzf3",
     "rich_text_bNhhg9",
-    "rich_text_L9CKwY"
+    "rich_text_L9CKwY",
+    "rich_text_BneNtU"
   ]
 }
