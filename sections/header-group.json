@@ -35,6 +35,13 @@
             "url": ""
           }
         },
+        "message_7TQkqC": {
+          "type": "message",
+          "settings": {
+            "text": "Announce something here",
+            "url": ""
+          }
+        },
         "message_JcFtWQ": {
           "type": "message",
           "settings": {
@@ -47,6 +54,7 @@
         "message",
         "message_adU36t",
         "message_HQ86bf",
+        "message_7TQkqC",
         "message_JcFtWQ"
       ],
       "settings": {
