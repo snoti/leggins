@@ -19,18 +19,20 @@
     "rich_text_wjmzf3": {
       "type": "rich-text",
       "blocks": {
-        "subheading_3HWLfe": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_aeUPe7": {
           "type": "heading",
           "settings": {
-            "text": "Comment utiliser la Micro Infusion ?",
+            "text": "Comment utiliser la Micro Infusion Synalya?",
             "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_bpYbzL": {
+          "type": "heading",
+          "settings": {
+            "text": "Présentation de notre produit",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -38,14 +40,102 @@
         "richtext_MP3iUy": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Le Micro-Infuseur Réparation et Repousse Synalya </strong>est conçu pour offrir une expérience de soin innovante, efficace et totalement sûre.<br/>Notre formule a été minutieusement élaborée à partir d’ingrédients premium, choisis pour leur haute tolérance et leur efficacité prouvée sur tous types de cuir chevelu et de cheveux. Nous savons que commencer un nouveau traitement capillaire peut susciter des interrogations ; c’est pourquoi nous avons créé ce guide détaillé pour vous accompagner pas à pas dans votre routine.</p><p><br/></p>"
+            "content": "<p><strong>Le Micro-Infuseur Réparation et Repousse Synalya </strong>est conçu pour offrir une expérience de soin innovante, efficace et totalement sûre.<br/>Notre formule a été minutieusement élaborée à partir d’ingrédients premium, choisis pour leur haute tolérance et leur efficacité prouvée sur tous types de cuir chevelu et de cheveux. Nous savons que commencer un nouveau traitement capillaire peut susciter des interrogations ; c’est pourquoi nous avons créé ce guide détaillé pour vous accompagner pas à pas dans votre routine.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_3HWLfe",
         "heading_aeUPe7",
+        "heading_bpYbzL",
         "richtext_MP3iUy"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_bNhhg9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NtwzVj": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_xDgUkt": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi notre produit est-il sûr ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_UQEnHj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li><strong>Des micro-aiguilles douces et non invasives : </strong>Les micro-aiguilles mesurent seulement 0,5 mm de long, garantissant qu’elles ne causent aucune lésion irréversible au cuir chevelu. Elles agissent uniquement en surface pour créer des micro-canaux contrôlés, stimulant la régénération naturelle et favorisant une absorption maximale du sérum capillaire.</li></ul><p></p><ul><li><strong>Une formule propre et respectueuse : </strong>Le sérum utilisé avec notre dispositif est sans parabènes, sans sulfates et sans parfums artificiels. Il est vegan, testé dermatologiquement et parfaitement adapté aux cuirs chevelus les plus sensibles.</li></ul><p></p><ul><li><strong>Hygiène impeccable : </strong>En suivant nos recommandations d’utilisation et d’entretien, vous profitez d’une expérience saine, sûre et efficace.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NtwzVj",
+        "heading_xDgUkt",
+        "richtext_UQEnHj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_L9CKwY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dQyibi": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_4mianm": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi notre produit est-il sûr ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_xpP8VL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Afin d'obtenir des résultats optimaux nous recommandons un traitement toutes les deux semaines.</p><p>Une fois un flacon de sérum ouvert, <strong>il doit être utilisé en une semaine</strong> :</p><ul><li>Appliquer la moitié du flacon lors de la première session.<br/></li><li>Laisser passer 3 jours pour laisser agir le produit.<br/></li><li>Appliquer ensuite le reste du flacon.<br/></li><li>Après avoir terminé le flacon, laisser s’écouler la fin de la semaine puis attendre au moins <strong>une semaine supplémentaire de pause</strong> avant de commencer un nouveau flacon.<br/><br/></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dQyibi",
+        "heading_4mianm",
+        "richtext_xpP8VL"
       ],
       "name": "Rich text",
       "settings": {
@@ -60,6 +150,8 @@
   },
   "order": [
     "main",
-    "rich_text_wjmzf3"
+    "rich_text_wjmzf3",
+    "rich_text_bNhhg9",
+    "rich_text_L9CKwY"
   ]
 }
