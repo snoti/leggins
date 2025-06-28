@@ -234,6 +234,50 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_wM6QKP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_japHPh": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_WbPUba": {
+          "type": "heading",
+          "settings": {
+            "text": "Nettoyage après utilisation",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_3azq99": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Pour garantir la sécurité et l’efficacité de chaque utilisation :</p><ul><li>Nettoyez la tête à aiguille en la rinçant à l'eau tiède, puis appliquez un antiseptique ou de l'alcool doux (70°) par aspersion ou immersion. Rincez à nouveau à l'eau tiède, puis laissez sécher complètement à l'air libre.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_japHPh",
+        "heading_WbPUba",
+        "richtext_3azq99"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -242,6 +286,7 @@
     "rich_text_bNhhg9",
     "rich_text_L9CKwY",
     "rich_text_BneNtU",
-    "rich_text_iCTE6b"
+    "rich_text_iCTE6b",
+    "rich_text_wM6QKP"
   ]
 }
