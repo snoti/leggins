@@ -40,9 +40,17 @@
 <label for="offer1" class="bundle-option" tabindex="0" data-offer="1">
 
   <!-- ✅ Image du produit en haut à droite -->
-  <div class="product-image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/2-removebg-preview.png?v=1750887709" alt="Photo produit" class="bundle-product-image" />
-  </div>
+<div class="product-image-wrapper">
+ {% if section.settings.gift1_image %}
+  <img 
+    src="{{ section.settings.gift1_image | image_url: width: 100 }}" 
+    alt="Cadeau offre 1" 
+    width="25" 
+    height="25" 
+    class="gift-icon" />
+{% endif %}
+
+</div>
 
   <div class="bundle-left">
     <span class="bundle-radio" aria-hidden="true"></span>
@@ -55,7 +63,15 @@
       <span class="bundle-price-old">90,00€</span>
     </div>
 <div class="bundle-gift">
-  <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/s1.png?v=1750937771" alt="Cadeau" class="gift-icon" />
+  {% if section.settings.gift1_image %}
+  <img 
+    src="{{ section.settings.gift1_image | image_url: width: 100 }}" 
+    alt="Cadeau offre 1" 
+    width="25" 
+    height="25" 
+    class="gift-icon" />
+{% endif %}
+
   <span class="gift-text">+15 Jours offert</span>
 </div>
 
@@ -67,7 +83,14 @@
 <input type="radio" id="offer2" name="bundle" value="2" hidden data-variant-id="54355784663425">
 <label for="offer2" class="bundle-option" tabindex="0" data-offer="2">
   <div class="product-image-wrapper1">
-    <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/3-removebg-preview.png?v=1750887709" alt="Photo produit" class="bundle-product-image" />
+    {% if section.settings.offer2_image %}
+  <img 
+    src="{{ section.settings.offer2_image | image_url: width: 400 }}" 
+    alt="Photo produit offre 2" 
+    width="60" 
+    height="60" 
+    class="bundle-product-image" />
+{% endif %}
   </div>
   <div class="bundle-left">
     <span class="bundle-radio" aria-hidden="true"></span>
@@ -80,7 +103,15 @@
       <span class="bundle-price-old">120,00€</span>
     </div>
     <div class="bundle-gift">
-      <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/s2.png?v=1750937809" alt="Cadeau" class="gift-icon2" />
+      {% if section.settings.gift2_image %}
+  <img 
+    src="{{ section.settings.gift2_image | image_url: width: 100 }}" 
+    alt="Cadeau offre 2" 
+    width="25" 
+    height="25" 
+    class="gift-icon2" />
+{% endif %}
+
       <span class="gift-text">+30 Jours offert</span>
     </div>
   </div>
@@ -90,7 +121,15 @@
 <input type="radio" id="offer3" name="bundle" value="3" hidden data-variant-id="54355784696193">
 <label for="offer3" class="bundle-option" tabindex="0" data-offer="3">
   <div class="product-image-wrapper1">
-    <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/4-removebg-preview.png?v=1750887709" alt="Photo produit" class="bundle-product-image" />
+   {% if section.settings.offer3_image %}
+  <img 
+    src="{{ section.settings.offer3_image | image_url: width: 400 }}" 
+    alt="Photo produit offre 3" 
+    width="60" 
+    height="60" 
+    class="bundle-product-image" />
+{% endif %}
+
   </div>
   <span class="best-offer" aria-hidden="true">Meilleure offre !</span>
   <div class="bundle-left">
@@ -104,7 +143,15 @@
       <span class="bundle-price-old">210,00€</span>
     </div>
     <div class="bundle-gift">
-        <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/s3.png?v=1750937730" alt="Cadeau" class="gift-icon3" />
+        {% if section.settings.gift3_image %}
+  <img 
+    src="{{ section.settings.gift3_image | image_url: width: 100 }}" 
+    alt="Cadeau offre 3" 
+    width="25" 
+    height="25" 
+    class="gift-icon3" />
+{% endif %}
+
         <span class="gift-text">+45 Jours offert</span>
         </div>
       </div>
@@ -199,7 +246,15 @@
     <!-- Bouton d’ajout -->
     <button type="submit" class="button button--primary" style="margin-top:1.5rem;">Acheter maintenant</button>
     <br>
-    <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/ChatGPT_Image_1_juin_2025__17_20_23-removebg-preview.png?v=1748792077" alt="Paiement sécurisé" >
+   {% if section.settings.secure_payment_image %}
+  <img 
+    src="{{ section.settings.secure_payment_image | image_url: width: 400 }}" 
+    alt="Paiement sécurisé" 
+    width="150" 
+    height="30" 
+    class="secure-payment-img" />
+{% endif %}
+
     <br>
   </form>
 </div>
@@ -909,7 +964,43 @@ document.addEventListener("DOMContentLoaded", () => {
       "id": "product_title",
       "label": "Titre du produit",
       "default": "Micro-Infusion Capillaire – Réparation & Repousse + Sérum Offert"
-    }
+    },
+    {
+      "type": "image_picker",
+      "id": "offer1_image",
+      "label": "Image pour l'offre 1-Mois"
+    },
+    {
+      "type": "image_picker",
+      "id": "offer2_image",
+      "label": "Image pour l'offre 2-Mois"
+    },
+    {
+      "type": "image_picker",
+      "id": "offer3_image",
+      "label": "Image pour l'offre 3-Mois"
+    },
+    {
+    "type": "image_picker",
+    "id": "secure_payment_image",
+    "label": "Image de paiement sécurisé"
+    },
+    {
+    "type": "image_picker",
+    "id": "gift1_image",
+    "label": "Image cadeau Offre 1"
+  },
+  {
+      "type": "image_picker",
+      "id": "gift2_image",
+      "label": "Image cadeau Offre 2"
+  },
+  {
+      "type": "image_picker",
+      "id": "gift3_image",
+      "label": "Image cadeau Offre 3"
+  },
   ]
 }
 {% endschema %}
+
