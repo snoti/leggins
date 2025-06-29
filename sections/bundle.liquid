@@ -1,7 +1,915 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<div class="product-page">
+  <!-- Rating -->
+  <ul class="rating" aria-label="Note moyenne : 4,8 sur 5 étoiles">
+    <li><svg class="star" viewBox="0 0 20 20"><defs><linearGradient id="half"><stop offset="50%" stop-color="var(--star-fill)"/><stop offset="50%" stop-color="var(--star-empty)"/></linearGradient></defs><path fill="var(--star-fill)" d="M10 15l-5.878 3.09 1.122-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.755 4.635 1.122 6.545z"/></svg></li>
+    <li><svg class="star" viewBox="0 0 20 20"><path fill="var(--star-fill)" d="M10 15l-5.878 3.09 1.122-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.755 4.635 1.122 6.545z"/></svg></li>
+    <li><svg class="star" viewBox="0 0 20 20"><path fill="var(--star-fill)" d="M10 15l-5.878 3.09 1.122-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.755 4.635 1.122 6.545z"/></svg></li>
+    <li><svg class="star" viewBox="0 0 20 20"><path fill="var(--star-fill)" d="M10 15l-5.878 3.09 1.122-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.755 4.635 1.122 6.545z"/></svg></li>
+    <li><svg class="star half" viewBox="0 0 20 20"><path fill="url(#half)" d="M10 15l-5.878 3.09 1.122-6.545L.489 6.91l6.562-.955L10 0v15z"/></svg></li>
+    <li class="rating-text">4,8 (<span>236</span> avis)</li>
+  </ul>
+
+  <!-- Title + Price -->
+  <h1 class="product-title">{{ section.settings.product_title }}</h1>
+  <div class="price" aria-label="Prix réduit de 59,90 € à 35,90 €">
+    <span class="new">44,90€</span>
+    <span class="old">90,00€</span>
+  </div>
+
+  <!-- Stock -->
+  <div class="stock" role="status" aria-live="polite">
+     ● Stock restant : 5
+  </div>
+
+  <!-- Promo banner -->
+<!-- <div class="promo-banner-img-wrapper" role="region" aria-label="Promotion de l'été">
+  <img 
+    src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/promo.png?v=1749635721" 
+    alt="Promotion d'été 30% de réduction" 
+    class="promo-banner-img"
+  />
+</div> -->
+
+
+  <!-- Bundle options & Add to cart -->
+  <form id="bundle-form" class="bundle-offer" aria-labelledby="bundle-title">
+    <h2 id="bundle-title" class="sr-only">Choisissez votre offre</h2>
+
+<!-- Offre 1 -->
+<input type="radio" id="offer1" name="bundle" value="1" hidden checked data-variant-id="54355784630657">
+<label for="offer1" class="bundle-option" tabindex="0" data-offer="1">
+
+  <!-- ✅ Image du produit en haut à droite -->
+  <div class="product-image-wrapper">
+    <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/2-removebg-preview.png?v=1750887709" alt="Photo produit" class="bundle-product-image" />
+  </div>
+
+  <div class="bundle-left">
+    <span class="bundle-radio" aria-hidden="true"></span>
+    <p class="bundle-title">1-Mois</p>
+  </div>
+
+  <div class="bundle-price-row">
+    <div class="bundle-price">
+      <span class="bundle-price-new">44,90€</span>
+      <span class="bundle-price-old">90,00€</span>
+    </div>
+<div class="bundle-gift">
+  <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/s1.png?v=1750937771" alt="Cadeau" class="gift-icon" />
+  <span class="gift-text">+15 Jours offert</span>
+</div>
+
+</div>
+</label>
+
+
+<!-- Offre 2 -->
+<input type="radio" id="offer2" name="bundle" value="2" hidden data-variant-id="54355784663425">
+<label for="offer2" class="bundle-option" tabindex="0" data-offer="2">
+  <div class="product-image-wrapper1">
+    <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/3-removebg-preview.png?v=1750887709" alt="Photo produit" class="bundle-product-image" />
+  </div>
+  <div class="bundle-left">
+    <span class="bundle-radio" aria-hidden="true"></span>
+    <p class="bundle-title">2-Mois</p>
+  </div>
+  <p class="bundle-unit-price"><i>Revient à 20,00€/Mois</i></p>
+  <div class="bundle-price-row">
+    <div class="bundle-price">
+      <span class="bundle-price-new">59,90€</span>
+      <span class="bundle-price-old">120,00€</span>
+    </div>
+    <div class="bundle-gift">
+      <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/s2.png?v=1750937809" alt="Cadeau" class="gift-icon2" />
+      <span class="gift-text">+30 Jours offert</span>
+    </div>
+  </div>
+</label>
+
+<!-- Offre 3 -->
+<input type="radio" id="offer3" name="bundle" value="3" hidden data-variant-id="54355784696193">
+<label for="offer3" class="bundle-option" tabindex="0" data-offer="3">
+  <div class="product-image-wrapper1">
+    <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/4-removebg-preview.png?v=1750887709" alt="Photo produit" class="bundle-product-image" />
+  </div>
+  <span class="best-offer" aria-hidden="true">Meilleure offre !</span>
+  <div class="bundle-left">
+    <span class="bundle-radio" aria-hidden="true"></span>
+    <p class="bundle-title">3-Mois</p>
+  </div>
+  <p class="bundle-unit-price"><i>Revient à 15,50€/Mois</i></p>
+  <div class="bundle-price-row">
+    <div class="bundle-price">
+      <span class="bundle-price-new">69,90€</span>
+      <span class="bundle-price-old">210,00€</span>
+    </div>
+    <div class="bundle-gift">
+        <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/s3.png?v=1750937730" alt="Cadeau" class="gift-icon3" />
+        <span class="gift-text">+45 Jours offert</span>
+        </div>
+      </div>
+    </label>
+
+    <!-- Add-on boîte de mèches -->
+    <!-- <div id="extra-box" style="display:none; margin-top:1.5rem;">
+      <label style="display:flex; align-items:center; gap:0.5rem; font-size:0.95rem; color:#333;">
+        <input type="checkbox" id="add-wick" style="transform:scale(1.2);" />
+        Ajouter des mèches pour bougie<br>
+        (x30 mèches par boîte)
+      </label>
+      <div id="wick-select-wrapper" style="margin:0.75rem 0; display:none;">
+       <div style="display:flex; flex-direction:column; gap:0.25rem;">
+  <label for="wick-quantity" class="wick-box-label" style="display:flex; align-items:center; gap:0.5rem;">
+    <span class="wick-box-text">Quantité de boîtes</span>
+    <select id="wick-quantity" data-wick-variant-id="{{ section.settings.wick_box_variant_id }}" style="margin:0 0.5rem;">
+      <option value="1" selected>1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+    <span id="wick-price" class="wick-price-text">+ 4,90€</span>
+  </label>
+  <span id="wick-unit-price" style="font-size:0.8rem; color:#555; opacity:0.7;"><i>Revient à 4,90€ la boîte</i></span>
+</div>
+
+      </div>
+    </div> -->
     
+    <!-- <div class="offer-timer-section">
+      <h2 class="last-chance-text">Dernière chance</h2>
+      <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/ChatGPT_Image_22_mai_2025__14_44_09-removebg-preview.png?v=1749569976" alt="Offre bougie" class="offer-image" />
+      <p class="offer-title">Profitez de l'offre pendant<br>encore :</p>
+    
+      <div class="countdown-grid">
+        <div class="countdown-block">
+          <div id="days">00</div>
+          <div class="countdown-label">Jours</div>
+        </div>
+        <div class="countdown-block">
+          <div id="hours">00</div>
+          <div class="countdown-label">Hrs</div>
+        </div>
+        <div class="countdown-block">
+          <div id="minutes">00</div>
+          <div class="countdown-label">Mins</div>
+        </div>
+        <div class="countdown-block">
+          <div id="seconds">00</div>
+          <div class="countdown-label">Secs</div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <!-- Template couleur -->
+    <div id="color-selection-template" class="color-section" style="display:none;">
+      <h3 style="margin-bottom:0.5rem;">Choisissez vos couleurs :</h3>
+      <div class="color-lines"></div>
+      <p class="error-message" style="color:red; display:none; font-size:0.9rem;">Veuillez sélectionner une couleur pour chaque bougie.</p>
+    </div>
+    
+    <!-- <div class="delivery-info">
+      <div class="delivery-step">
+        <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/delivery_truck_colored.png?v=1748535226" alt="Commande" class="delivery-icon" />
+        <div>
+          <div>Commande</div>
+          <strong>Aujourd'hui</strong>
+        </div>
+      </div>
+      <span class="arrow">→</span>
+      <div class="delivery-step">
+        <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/delivery_person_colored.png?v=1748535273" alt="Livraison" class="delivery-icon" />
+        <div>
+          <div>Livraison</div>
+          <strong>
+            {% assign months_fr = "janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre" | split: "," %}
+            
+            {% assign date_plus_11 = 'now' | date: "%Y-%m-%d" | date: "%s" | plus: 950400 | date: "%Y-%m-%d" %}
+            {% assign date_plus_12 = 'now' | date: "%Y-%m-%d" | date: "%s" | plus: 1036800 | date: "%Y-%m-%d" %}
+            
+            {% assign jour_11 = date_plus_11 | date: "%-d" %}
+            {% assign mois_11 = date_plus_11 | date: "%-m" | minus: 1 %}
+            {% assign jour_12 = date_plus_12 | date: "%-d" %}
+            {% assign mois_12 = date_plus_12 | date: "%-m" | minus: 1 %}
+            
+            {{ jour_11 }} {% if mois_11 != mois_12 %}{{ months_fr[mois_11] }}{% endif %}– {{ jour_12 }} {{ months_fr[mois_12] }}
+          </strong>
+        </div>
+      </div>
+    </div> -->
+    <!-- Bouton d’ajout -->
+    <button type="submit" class="button button--primary" style="margin-top:1.5rem;">Acheter maintenant</button>
+    <br>
+    <img src="https://cdn.shopify.com/s/files/1/0908/3152/0129/files/ChatGPT_Image_1_juin_2025__17_20_23-removebg-preview.png?v=1748792077" alt="Paiement sécurisé" >
+    <br>
+  </form>
+</div>
+
+
+<style>
+  :root {
+    --border-radius: 3vw;
+    --primary: #48515A;
+    --accent: #949699;
+    --star-fill: #48515A;
+    --star-empty: #48515A;
+    --bg-banner: linear-gradient(135deg,#90A29D,#48515A);
   }
+  .product-page {
+  padding:1rem;
+    font-family:-apple-system,system-ui,'Segoe UI',Roboto,sans-serif;
+    color:#333;
+  }
+  .rating { display:flex; align-items:center; list-style:none; padding:0; }
+  .rating li { display:inline-block; margin-right:0.25rem; }
+  .rating-text { font-size:0.875rem; color:#666; margin-left:0.5rem; }
+  .star { width:1rem; height:1rem; transition:transform 0.2s; }
+  .star.half { transform:translateX(-1px); }
+  .star:hover { transform:scale(1.2); }
+  .product-title { font-size:1.4rem; margin:0.5rem 0; font-weight:700; }
+  .price { font-size:1.25rem; margin-bottom:1rem; }
+  .price .new { font-weight:700; color:var(--primary); margin-right:0.5rem; }
+  .price .old { text-decoration:line-through; color:#999; }
+  .stock { background:#ffecec; color:#d62828; padding:0.5rem 1rem; border-radius:2vw;
+            display:inline-block; margin-bottom:1.5rem; font-size:0.85rem; animation: blink 1s infinite; }
+  .promo-banner { background:var(--bg-banner); color:#; text-align:center;
+                   padding:0.5rem; border-radius:var(--border-radius);
+                   box-shadow:0 4px 8px rgba(0,0,0,0.1); margin-bottom:1.5rem; }
+  .promo-label { font-size:0.9rem; letter-spacing:1px; text-transform:uppercase; margin:0; }
+  .promo-big   { font-size:2rem; margin:0.25rem 0; font-weight:900; }
+  .promo-small { font-size:0.875rem; margin:0; }
+  .bundle-offer { display:grid; gap:1rem; }
+  .bundle-option { position:relative; display:flex; align-items:center;
+                   justify-content:space-between; padding:1rem;
+                   border:2px solid #ddd; border-radius:var(--border-radius);
+                   background:#fafafa; cursor:pointer;
+                   transition:background 0.3s,border-color 0.3s;
+                   box-shadow:0 2px 4px rgba(0,0,0,0.05); }
+  .bundle-option:focus-within,
+  input[type="radio"]:checked + .bundle-option {
+    border-color:var(--primary); background:#ecedef;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+  }
+  .bundle-option:focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
+  .bundle-left { display:flex; align-items:center; }
+  .bundle-radio { position:relative; width:1.25rem; height:1.25rem;
+                   border:2px solid #ccc; border-radius:50%; margin-right:0.75rem;
+                   transition:border-color 0.3s; }
+  input[type="radio"]:checked + label .bundle-radio {
+    border-color:var(--primary);
+  }
+  input[type="radio"]:checked + label .bundle-radio::after {
+    content:""; width:0.65rem; height:0.65rem;
+    background:var(--primary); border-radius:50%; position:absolute;
+    top:50%; left:calc(50% - 0.325rem); transform:translateY(-50%);
+  }
+  .bundle-title { font-size:1rem; font-weight:600; margin:0; color:#333; }
+  .bundle-price, .bundle-price-row { text-align:right; min-width:6rem; }
+  .bundle-price-row { display:flex; align-items:center; justify-content:space-between; width:100%; gap:0.5rem; }
+  .bundle-price-new { font-size:1.125rem; font-weight:700; color:var(--primary); }
+  .bundle-price-old { font-size:0.875rem; color:#999; text-decoration:line-through; }
+  .best-offer { position:absolute; top:-0.75rem; right:-0.75rem;
+                background:#48515A; color: #fff;; font-size:0.75rem; font-weight:700;
+                padding:0.35rem 0.6rem; border-radius:9999px;
+                box-shadow:0 4px 10px rgba(0,0,0,0.15); z-index:2; }
+  .bundle-gift { display:flex; align-items:center; gap:0.5rem;
+                  margin-top:0.95rem; background-color:#90A29D;
+                  padding:0.3rem 0.5rem; border-radius:8px; border:1px solid #48515A; }
+  .gift-text { font-size:0.62rem; font-weight:500; color:var(--primary); }
+  .wick-box-label { display:flex; align-items:center; gap:0.5rem; font-size:0.9rem; color:#333; }
+  #wick-quantity { padding:0.25rem 0.5rem; border:1px solid #ccc; border-radius:4px; font-size:0.9rem; }
+  .wick-price-text { font-weight:600; color:var(--primary); }
+  .color-line { position:relative; padding-left:90px; display:flex; gap:1rem; margin-bottom:1rem; align-items:center; }
+  .color-line::before { content:attr(data-label); position:absolute; left:0; width:80px; font-weight:600; color:#333; }
+  .color-option { display:flex; flex-direction:column; align-items:center; gap:0.25rem; }
+  .circle { width:28px; height:28px; border-radius:50%; border:1px solid transparent;
+            cursor:pointer; background-size:cover; background-position:center;
+            transition:border-color 0.2s,box-shadow 0.2s; box-shadow:0 0 0 0 transparent; }
+  .color-option.selected .circle { border:2px solid var(--primary); box-shadow:0 0 0 4px rgba(156,102,68,0.3); }
+  .circle:hover { box-shadow:0 0 0 3px rgba(156,102,68,0.15); transform:scale(1.05); }
+  .circle.color-blanc { background-color:#fff; }
+  .circle.color-marron { background-color:#964B00; }
+  .circle.color-noir { background-color:#000; }
+  .error-message { margin-top:0.5rem; color:red; display:none; font-size:0.9rem; }
+  @media screen and (min-width:700px) {
+    .button--primary { background-color:#48515A !important; border-color:#48515A !important;
+                       color:#fff!important; padding-block:1.075rem; display:block; width:100%; border-radius:9999px!important; }
+  }
+  @media (max-width:600px) {
+    .button--primary { background-color:#48515A !important; transition: background-color 0.2s ease, transform 0.1s ease;}
+   
+    .button--primary:active {
+    background-color: #d6c2b0 !important; /* plus sombre */
+    transform: scale(0.97);
+  }
+    .product-page { padding:0.5rem; }
+    .promo-big { font-size:2rem; }
+    .bundle-option { flex-direction:column; align-items:flex-start; }
+    .bundle-price-row { justify-content:space-between; width:100%; }
+      .bundle-unit-price { font-size: 0.80rem; /* ou 0.8rem selon ton goût */
+  }
+  }
+  @keyframes blink { 0%,100%{background-color:#ffecec;}50%{background-color:#ffbaba;} }
+  .stock-blink { animation:blink 1s infinite; }
+
+    .delivery-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* fond corrigé */
+    border: 1vw solid #48515A; /* contour */
+    border-radius: 8px;
+    padding: 16px 24px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #B08968; /* texte lisible sur fond clair */
+    gap: 16px;
+  }
+
+  .delivery-step {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .delivery-step .icon {
+    font-size: 18px;
+  }
+
+  .arrow {
+    font-size: 18px;
+  }
+
+  .delivery-step div {
+    line-height: 1.2;
+  }
+
+  .delivery-step strong {
+    font-weight: bold;
+    color: #B08968; /* texte accent également foncé */
+  }
+
+  .delivery-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.payment-icons {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.payment-icons .icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 0.5rem;
+}
+
+.payment-icons img {
+  height: 10vw; /* taille augmentée */
+  max-width: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.payment-icons .icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* espace entre icônes augmenté */
+  margin-top: 0.5rem;
+}
+
+
+.photo-line {
+  position: relative;
+  padding-left: 6rem;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.photo-line::before {
+  content: attr(data-label);
+  position: absolute;
+  left: 0;
+  width: 80px;
+  font-weight: 600;
+  color: #333;
+}
+
+.photo-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+}
+
+.photo-thumb {
+  width: 9vw;
+  height: 9vw;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid transparent;
+  transition: 0.2s ease;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.photo-option.selected .photo-thumb {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(156, 102, 68, 0.3);
+}
+
+.photo-thumb:hover {
+  transform: scale(1.05);
+}
+
+.photo-label {
+  font-size: 0.75rem;
+  color: #555;
+}
+
+@media screen and (min-width: 1024px) {
+  .color-lines {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+.promo-banner {
+  font-size: 0.6rem;
+  padding: 0.65rem 8rem;
+  border-radius: 1.2rem;
+}
+
+.promo-big {
+  font-size: 1.2rem;
+  margin: 0.1rem 0;
+}
+
+.promo-label {
+  font-size: 0.6rem;
+}
+
+.promo-small {
+  font-size: 0.55rem;
+}
+
+.photo-thumb {
+  width: 3vw;
+  height: 3vw;
+}
+  .photo-line {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 6rem;
+    margin-bottom: 0.25rem;
+    background: transparent;
+    border: none;
+  }
+
+  .photo-line::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    font-weight: 600;
+    width: 80px;
+    color: #333;
+  }
+   .bundle-option {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .bundle-price-row, 
+  .bundle-price {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .bundle-left {
+    justify-content: center !important;
+  }
+
+  .color-section {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .color-lines {
+    align-items: center;
+  }
+
+  .photo-line {
+    justify-content: center;
+    padding-left: 0;
+    position: relative;
+  }
+
+  .photo-line::before {
+    position: static;
+    margin-right: 0.5rem;
+    font-weight: bold;
+    color: #333;
+    min-width: 80px;
+    display: inline-block;
+    text-align: right;
+  }
+.bundle-option {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+  .bundle-offer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+    gap: 1rem;
+  }
+
+  .bundle-offer > .bundle-option:nth-child(7) {
+    /* Offre 3: placée seule sur une nouvelle ligne */
+    grid-column: span 2;
+    max-width: 500px;
+    margin-inline: auto;
+  }
+  .bundle-option:nth-of-type(2) .circle,
+  .bundle-option:nth-of-type(4) .circle {
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 50%;
+  }
+
+
+  .bundle-price-new,
+  .bundle-price-old {
+    display: block;
+  }
+
+  .payment-icons img {
+  height: auto;
+  max-height: 3.5vw; /* <-- Taille fixe pour PC */
+  max-width: 3.5vw;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 600px) {
+  .payment-icons img {
+    height: 10vw; /* Taille fluide uniquement sur mobile */
+  }
+}
+
+.bundle-unit-price {
+  font-size: 0.75rem !important;
+  color: #555;
+  opacity: 0.7 !important;
+  margin: 0.25rem 0 0;
+}
+
+.bundle-unit-price {
+  font-size: 0.85rem;
+  color: #333;
+  opacity: 0.7 !important;
+  margin: 0.25rem 0 0;
+}
+
+}
+
+.offer-timer-section {
+  border-radius: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.last-chance-text {
+   color: #333;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.offer-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+.offer-image {
+  max-width: 80px;
+  margin: 0.5rem auto;
+}
+
+.offer-price-info {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 0.5rem;
+}
+
+.offer-note {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.countdown {
+  font-family: monospace;
+  font-size: 1.55rem;
+  margin-top: 1rem;
+}
+.countdown-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.countdown-block {
+  color: #777;
+  text-align: center;
+  font-family: monospace;
+}
+
+.countdown-block div:first-child {
+  font-size: 2rem;
+  color: #333;
+}
+
+.countdown-label {
+  font-size: 0.75rem;
+  color: #777;
+  margin-top: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.promo-banner-img-wrapper {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.promo-banner-img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  height: auto;
+}
+
+
+.product-image-wrapper {
+  position: absolute;
+  top: -0.1rem;
+  right: 1.5rem;
+  width: 60px;
+  height: 60px;
+}
+
+.product-image-wrapper1{
+  position: absolute;
+  top: 1.1rem;
+  right: 1.5rem;
+  width: 60px;
+  height: 60px;
+}
+
+.bundle-product-image {
+  width: 100%;
+  height: 100%;
+
+}
+
+.gift-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.gift-icon2 {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.gift-icon3 {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+</style>
+
+<script>
+(function() {
+  const form = document.getElementById('bundle-form');
+  const radios = form.querySelectorAll('input[name="bundle"]');
+  const labels = form.querySelectorAll('.bundle-option');
+  const template = document.getElementById('color-selection-template');
+  const extraBox = document.getElementById('extra-box');
+  const addWick = document.getElementById('add-wick');
+  const wickWrapper = document.getElementById('wick-select-wrapper');
+  const wickSel = document.getElementById('wick-quantity');
+  const wickPrice = document.getElementById('wick-price');
+  const colors = [
+    { name: 'blanc', class: 'color-blanc' },
+    { name: 'marron', class: 'color-marron' },
+    { name: 'noir', class: 'color-noir' }
+  ];
+  const offerTexts = {1:'500G',2:'2× 500G',3:'3× 500G'};
+function makeLine(i) {
+  const div = document.createElement('div');
+  div.className = 'photo-line';
+  div.dataset.index = i;
+  div.dataset.label = `Bougie ${i + 1}`;
+
+  const images = [
+    { src: 'https://cdn.shopify.com/s/files/1/0908/3152/0129/files/texture_blanche.jpg?v=1748647799', alt: 'Blanc'  },
+    { src: 'https://cdn.shopify.com/s/files/1/0908/3152/0129/files/Screenshot_2025-05-31_012614.png?v=1748647813', alt: 'Marron'},
+    { src: 'https://cdn.shopify.com/s/files/1/0908/3152/0129/files/texture_noir.jpg?v=1748647801', alt: 'Noir' }
+  ];
+
+  images.forEach(img => {
+    const wrap = document.createElement('div');
+    wrap.className = 'photo-option';
+
+    const image = document.createElement('img');
+    image.src = img.src;
+    image.alt = img.alt;
+    image.dataset.line = i;
+    image.dataset.alt = img.alt;
+
+    image.className = 'photo-thumb';
+    image.addEventListener('click', () => {
+      document.querySelectorAll(`.photo-thumb[data-line="${i}"]`).forEach(el => el.parentNode.classList.remove('selected'));
+      wrap.classList.add('selected');
+    });
+
+    const label = document.createElement('div');
+    label.className = 'photo-label';
+    label.textContent = img.alt;
+
+    wrap.append(image, label);
+    div.appendChild(wrap);
+  });
+
+  return div;
+}
+
+  function updateColors(container,n){ const lines=container.querySelector('.color-lines'); lines.innerHTML=''; for(let i=0;i<n;i++) lines.appendChild(makeLine(i)); }
+  
+  
+  function updateWick(){
+  const n = parseInt(wickSel.value, 10);
+  const totalPrice = (4.90 + (n - 1) * 2);
+  const unitPrice = (totalPrice / n).toFixed(2).replace('.', ',');
+  
+  wickPrice.textContent = `+ ${totalPrice.toFixed(2).replace('.', ',')}€`;
+  const unitEl = document.getElementById('wick-unit-price');
+  if (unitEl) unitEl.innerHTML = `<i>Revient à ${unitPrice}€ la boîte</i>`;
+  
+  wickWrapper.style.display = addWick.checked ? 'block' : 'none';
+}
+
+
+  addWick.addEventListener('change',updateWick); wickSel.addEventListener('change',updateWick);
+  function showSelection(n,idx){ labels.forEach((lbl,i)=>{ let cs=lbl.querySelector('.color-section'); if(i===idx){ if(!cs){ cs=template.cloneNode(true); cs.id=''; cs.style.display='block'; lbl.appendChild(cs); updateColors(cs,n);} else cs.style.display='block';} else if(cs) cs.style.display='none'; }); extraBox.style.display='block'; updateWick(); }
+ 
+  function validColors(n, idx) {
+  const c = labels[idx].querySelector('.color-section');
+  const lines = c.querySelectorAll('.photo-line');
+  for (let i = 0; i < n; i++) {
+    if (!lines[i].querySelector('.photo-option.selected')) {
+      c.querySelector('.error-message').style.display = 'block';
+      return false;
+    }
+  }
+  return true;
+}
+
+
+  radios.forEach((r,i)=>r.addEventListener('change',()=>showSelection(parseInt(r.value,10),i)));
+  form.addEventListener('submit',e=>{ e.preventDefault(); const ch=form.querySelector('input[name="bundle"]:checked'); const qty=parseInt(ch.value,10); const idx=[...radios].indexOf(ch); if(!validColors(qty,idx)) return; const cont=labels[idx].querySelector('.color-section');
+  const selected = [...cont.querySelectorAll('.photo-line')].map(l => l.querySelector('.photo-option.selected .photo-label').textContent.trim()); 
+  
+const offerPrices = {
+  1: { old: 49.90, new: 35.90 },
+  2: { old: 79.90, new: 59.90 },
+  3: { old: 108.90, new: 79.90 }
+};
+
+const properties = {
+  'Offre': offerTexts[qty],
+  'Couleurs': selected.join(', '),
+  'Prix original': `${offerPrices[qty].old.toFixed(2).replace('.', ',')}€`,
+  'Prix réduit': `${offerPrices[qty].new.toFixed(2).replace('.', ',')}€`,
+  'Économie': `${(offerPrices[qty].old - offerPrices[qty].new).toFixed(2).replace('.', ',')}€`
+};
+
+if (qty === 2) {
+  properties['Cadeau'] = '1 boîte de mèches OFFERTE';
+} else if (qty === 3) {
+  properties['Cadeau'] = '2 boîtes de mèches OFFERTES';
+}
+
+
+const items = [{
+  id: parseInt(ch.dataset.variantId, 10),
+  quantity: 1,
+  properties
+}];
+  
+ const wickVariantMap = {
+  1: 54337107296641, // 1 boîte = 4,90€
+  2: 54355757171073, // 2 boîtes = 6,90€
+  3: 54355757203841  // 3 boîtes = 8,90€
+};
+
+if (addWick.checked) {
+  const wickQty = parseInt(wickSel.value, 10);
+  const wickId = wickVariantMap[wickQty];
+  if (wickId) {
+    items.push({
+      id: wickId,
+      quantity: 1 // car le prix est déjà défini pour 1, 2 ou 3 boîtes
+    });
+  }
+}
+
+  
+  fetch('/cart/add.js',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({items})}).then(r=>r.ok?r.json():Promise.reject()).then(()=>location.href='/checkout').catch(()=>alert('Erreur, réessayez')); });
+  document.addEventListener('DOMContentLoaded',()=>{ const init=form.querySelector('input[name="bundle"]:checked'); if(init) showSelection(parseInt(init.value,10),[...radios].indexOf(init));});
+  setTimeout(()=>{ const s=document.querySelector('.stock strong'); if(s){ s.textContent=s.textContent.replace(/\d+/,3); document.querySelector('.stock').classList.add('stock-blink'); } },10000);
+
+  const defaultRadio = form.querySelector('input[name="bundle"]:checked');
+if (defaultRadio) {
+  const index = [...radios].indexOf(defaultRadio);
+  showSelection(parseInt(defaultRadio.value, 10), index);
+}
+})();
+
+function startCountdown(durationSeconds) {
+  let timer = durationSeconds;
+  const daysSpan = document.getElementById("days");
+  const hoursSpan = document.getElementById("hours");
+  const minutesSpan = document.getElementById("minutes");
+  const secondsSpan = document.getElementById("seconds");
+
+  const interval = setInterval(() => {
+    const days = Math.floor(timer / (60 * 60 * 24));
+    const hours = Math.floor((timer % (60 * 60 * 24)) / 3600);
+    const minutes = Math.floor((timer % 3600) / 60);
+    const seconds = timer % 60;
+
+    daysSpan.textContent = String(days).padStart(2, "0");
+    hoursSpan.textContent = String(hours).padStart(2, "0");
+    minutesSpan.textContent = String(minutes).padStart(2, "0");
+    secondsSpan.textContent = String(seconds).padStart(2, "0");
+
+    if (timer-- <= 0) clearInterval(interval);
+  }, 1000);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  startCountdown(806); // 15 minutes
+});
+
+
+</script>
+
+{% schema %}
+{
+  "name": "Bundle Offers Product",
+  "settings": [
+    {
+      "type": "text",
+      "id": "product_title",
+      "label": "Titre du produit",
+      "default": "Micro-Infusion Capillaire – Réparation & Repousse + Sérum Offert"
+    }
+  ]
+}
 {% endschema %}
