@@ -580,7 +580,7 @@
         "arrow_border_thickness": 0,
         "arrow_radius": 100,
         "arrow_hover_effect": "color",
-        "arrow_show_desktop": false,
+        "arrow_show_desktop": true,
         "arrow_show_mobile": false,
         "card_border_color": "#000000",
         "card_shadow_color": "#000000",
