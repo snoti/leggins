@@ -478,7 +478,7 @@
         "slide_rare3n": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/videoplayback-kbaahdzr-online-video-cuttercom_6lLkTXhF (1).mp4",
+            "video": "shopify://files/videos/test.mp4",
             "video_url": "",
             "title": "",
             "stars_count": 5
@@ -487,7 +487,7 @@
         "slide_6E3pTz": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/final.mov",
+            "video": "shopify://files/videos/Design sans titre.mp4",
             "video_url": "",
             "title": "",
             "stars_count": 5
@@ -496,7 +496,7 @@
         "slide_kAXxb4": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/videoplayback-kbaahdzr-online-video-cuttercom_6lLkTXhF (1).mp4",
+            "video": "shopify://files/videos/Design sans titre (2).mp4",
             "video_url": "",
             "title": "",
             "stars_count": 5
@@ -505,7 +505,7 @@
         "slide_tctbzY": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/videoplayback-kbaahdzr-online-video-cuttercom_6lLkTXhF (1).mp4",
+            "video": "shopify://files/videos/Design sans titre (3).mp4",
             "video_url": "",
             "title": "",
             "stars_count": 5
@@ -593,7 +593,7 @@
         "arrow_bg_hover_color": "#ffffff",
         "arrow_border_color": "#000000",
         "arrow_border_hover_color": "#000000",
-        "background_color": "#ffffff",
+        "background_color": "#f0f0f0",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
