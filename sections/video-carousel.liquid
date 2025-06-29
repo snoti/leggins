@@ -1,13 +1,3 @@
-{% comment %}
-  ---------------------------------------------------------
-  Copyright © 2023 Section Store. All rights reserved.
-  Unauthorized copying, modification, distribution, or use
-  of this code or any portion of it, is strictly prohibited.
-  Violators will be prosecuted to the fullest extent of the law.
-  For inquiries or permissions, contact daniel@section.store
-  ---------------------------------------------------------
-{% endcomment %}
-
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -817,19 +807,24 @@
                       ></iframe>
                     {% endif %}
 
-                  {% else %}
-                    <video
-                      data-src="{{ block.settings.video.sources[1].url }}"
-                      {% if forloop.first %}
-                        autoplay
-                      {% endif %}
-                      muted
-                      playsinline
-                      preload="none"
-                      loop
-                      class="lazy"
-                    ></video>
-                  {% endif %}
+{% else %}
+  {% assign video_source = block.settings.video.sources[0].url %}
+  {% if block.settings.video.sources[1] %}
+    {% assign video_source = block.settings.video.sources[1].url %}
+  {% endif %}
+  <video
+    src="{{ video_source }}"
+    {% if forloop.first %}
+      autoplay
+    {% endif %}
+    muted
+    playsinline
+    preload="metadata"
+    loop
+    class="lazy"
+  ></video>
+{% endif %}
+
                 </div>
                 <div class="slider-content-{{ section.id }}">
                   {% if block.settings.title != blank %}
