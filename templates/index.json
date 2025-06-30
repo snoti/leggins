@@ -620,6 +620,72 @@
         "lazy": true
       }
     },
+    "tabs_cYdcCh": {
+      "type": "tabs",
+      "blocks": {
+        "tab_4YaP8w": {
+          "type": "tab",
+          "settings": {
+            "title": "Contenu du Kit Micro-Infusion Capillaire – Réparation & Repousse",
+            "content": "<p><strong>Contenu de chaque kit :</strong></p><ul><li><strong>1 mois</strong> : 1 embouts stériles + 2 flacons de sérum (2 traitements) + 1 Sérum extra offert</li></ul><p></p><ul><li><strong>2 mois</strong> : 2 embouts stériles + 4 flacons de sérum (4 traitements) + 2 Sérum extra offerts</li></ul><p></p><ul><li><strong>3 mois</strong> : 3 embouts stériles + 6 flacons de sérum (6 traitements) + 3 Sérum extra offerts</li></ul><p>Chaque kit de micro-infusion est conçu pour un nombre précis de traitements. Les embouts à micro-aiguilles (profondeur <strong>0,5 mm</strong>) sont stériles et réutilisables <strong>trois fois</strong>. Ils doivent être <strong>nettoyés </strong>entre chaque utilisation, garantissant une hygiène irréprochable et des résultats optimaux.</p><p><strong>UN GUIDE D’UTILISATION ET DE NETTOYAGE SERA FOURNI DANS L’E-MAIL DE CONFIRMATION DE COMMANDE.</strong></p>",
+            "page": ""
+          }
+        },
+        "tab_fY44e9": {
+          "type": "tab",
+          "settings": {
+            "title": "Composition Sérum  Réparation & Repousse Synalya ",
+            "content": "<p><strong>Ingrédients clés :</strong></p><p>• <strong>Copper Tripeptide-1</strong> : Connu pour favoriser un cuir chevelu sain et hydraté, il soutient un environnement optimal pour la croissance des cheveux.</p><p>• <strong>Caféine</strong> : Stimule la microcirculation au niveau du cuir chevelu pour des cheveux plus épais et plus résistants.</p><p>• <strong>Biotine</strong> : Favorise la production de nouvelles cellules dans les follicules pileux, pour une pousse plus rapide et plus saine.</p><p>• <strong>Huile d’arbre à thé</strong> : Aide à réduire et prévenir l’accumulation excessive de sébum, purifiant le cuir chevelu et les follicules.</p><p>• <strong>Acides aminés</strong> : Renforcent la fibre capillaire, luttent contre les frisottis et réduisent la casse pour des cheveux plus forts et plus lisses.</p><p>• <strong>Extrait de feuille de romarin</strong> : Alternative naturelle au minoxidil, il stimule la repousse des cheveux, notamment dans les cas d’alopécie androgénétique.</p><p>• <strong>Acide hyaluronique </strong>: Nourrit et hydrate intensément le cuir chevelu, créant un milieu sain pour des cheveux vigoureux.</p><p>Grâce à cette combinaison unique d’actifs puissants, notre sérum  <strong>réparation et repousse de Synalya</strong> cible les causes de la chute et de l’affaiblissement des cheveux. Il revitalise le cuir chevelu, stimule la croissance capillaire et fortifie la fibre pour une chevelure plus dense, plus forte et visiblement en meilleure santé.</p>",
+            "page": ""
+          }
+        },
+        "tab_MGwBdL": {
+          "type": "tab",
+          "settings": {
+            "title": "Est-ce indolore et sans danger ?",
+            "content": "<p>Grâce à ses <strong>micro-aiguilles ultra-fines de 0,05 mm</strong>, aussi fines qu’un cheveu, l’application est <strong>quasiment imperceptible</strong> et <strong>100 % indolore</strong> ! La plupart des utilisateurs ressentent simplement un léger picotement.</p><p>Notre <strong>système de micro-infusion</strong> est <strong>approuvé par des dermatologues</strong>, <strong>facile à utiliser</strong>, <strong>stérile</strong>, et formulé <strong>sans tests sur les animaux, sans sulfates ni parabènes</strong>.</p><p>De plus, notre sérum est composé d’ingrédients <strong>haut de gamme rigoureusement sélectionnés</strong>, respectant <strong>les normes de qualité les plus strictes</strong> du secteur et garantissant <strong>zéro risque d’effets indésirables</strong>.</p><p>✔ <strong>Sans parfum</strong><br/>✔ <strong>Non testé sur les animaux</strong><br/>✔ <strong>Sans BHA</strong><br/>✔ <strong>Sans parabènes</strong></p>",
+            "page": ""
+          }
+        },
+        "tab_hieypA": {
+          "type": "tab",
+          "settings": {
+            "title": "Satisfait ou Remboursé",
+            "content": "<p>Essayer le kit réparation et repousse ceralyne sans risque <strong>pendant 60 jours</strong>. Si vous n'êtes pas satisfait vous avez la possibilité de le demander <strong>un remboursement intégral</strong></p>",
+            "page": ""
+          }
+        },
+        "tab_CjVF47": {
+          "type": "tab",
+          "settings": {
+            "title": "Service Client 7J/7",
+            "content": "<p>Notre service client est à votre écoute 7J/7.<br/></p><p>Vous pouvez nous contacter par en utilisant l'onglet \"Contact\" de notre boutique ou par email à l'adresse contact@synalya.fr</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_4YaP8w",
+        "tab_fY44e9",
+        "tab_MGwBdL",
+        "tab_hieypA",
+        "tab_CjVF47"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "bento_pKXTVc": {
       "type": "bento",
       "blocks": {
@@ -665,24 +731,25 @@
             "button_align": "center",
             "button_align_mobile": "center",
             "button_style": "non_outline",
+            "image": "shopify://shop_images/Copie_de_Sans_titre.png",
             "image_position": "bottom",
             "image_position_mobile": "right",
             "image_width": 100,
             "image_width_mobile": 100,
-            "image_radius": 0,
+            "image_radius": 20,
             "image_border_thickness": 0,
             "image_ratio": "square",
             "image_ratio_mobile": "square",
             "hide_image": false,
-            "background_color": "#FFFFFF",
+            "background_color": "#ffffff",
             "background_gradient": "",
             "item_border_color": "#000000",
             "item_heading_color": "#121212",
             "item_heading_gradient": "",
             "item_text_color": "#121212",
             "image_border_color": "#121212",
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#FFFFFF",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
             "button_bg_color": "#000000",
             "button_bg_hover_color": "#000000",
             "button_border_color": "#000000",
@@ -740,15 +807,15 @@
             "image_ratio": "square",
             "image_ratio_mobile": "square",
             "hide_image": false,
-            "background_color": "#FFFFFF",
+            "background_color": "#ffffff",
             "background_gradient": "",
             "item_border_color": "#000000",
             "item_heading_color": "#121212",
             "item_heading_gradient": "",
             "item_text_color": "#121212",
             "image_border_color": "#121212",
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#FFFFFF",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
             "button_bg_color": "#000000",
             "button_bg_hover_color": "#000000",
             "button_border_color": "#000000",
@@ -797,24 +864,25 @@
             "button_align": "center",
             "button_align_mobile": "center",
             "button_style": "non_outline",
+            "image": "shopify://shop_images/Design_sans_titre_4.png",
             "image_position": "bottom",
             "image_position_mobile": "right",
             "image_width": 100,
             "image_width_mobile": 100,
-            "image_radius": 0,
+            "image_radius": 20,
             "image_border_thickness": 0,
             "image_ratio": "square",
-            "image_ratio_mobile": "square",
+            "image_ratio_mobile": "original",
             "hide_image": false,
-            "background_color": "#FFFFFF",
+            "background_color": "#ffffff",
             "background_gradient": "",
             "item_border_color": "#000000",
             "item_heading_color": "#121212",
             "item_heading_gradient": "",
             "item_text_color": "#121212",
             "image_border_color": "#121212",
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#FFFFFF",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
             "button_bg_color": "#000000",
             "button_bg_hover_color": "#000000",
             "button_border_color": "#000000",
@@ -872,15 +940,15 @@
             "image_ratio": "square",
             "image_ratio_mobile": "square",
             "hide_image": false,
-            "background_color": "#FFFFFF",
+            "background_color": "#ffffff",
             "background_gradient": "",
             "item_border_color": "#000000",
             "item_heading_color": "#121212",
             "item_heading_gradient": "",
             "item_text_color": "#121212",
             "image_border_color": "#121212",
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#FFFFFF",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
             "button_bg_color": "#000000",
             "button_bg_hover_color": "#000000",
             "button_border_color": "#000000",
@@ -938,15 +1006,15 @@
             "image_ratio": "square",
             "image_ratio_mobile": "square",
             "hide_image": false,
-            "background_color": "#FFFFFF",
+            "background_color": "#ffffff",
             "background_gradient": "",
             "item_border_color": "#000000",
             "item_heading_color": "#121212",
             "item_heading_gradient": "",
             "item_text_color": "#121212",
             "image_border_color": "#121212",
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#FFFFFF",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
             "button_bg_color": "#000000",
             "button_bg_hover_color": "#000000",
             "button_border_color": "#000000",
@@ -964,16 +1032,16 @@
       "name": "SS - Bento Grid",
       "settings": {
         "body_columns": "4",
-        "body_gap": 16,
+        "body_gap": 18,
         "body_gap_mobile": 16,
         "item_padding_vertical": 32,
-        "item_padding_vertical_mobile": 16,
-        "item_padding_horizontal": 32,
-        "item_padding_horizontal_mobile": 16,
-        "item_radius": 16,
+        "item_padding_vertical_mobile": 10,
+        "item_padding_horizontal": 24,
+        "item_padding_horizontal_mobile": 20,
+        "item_radius": 18,
         "item_border_thickness": 0,
-        "item_opacity": 1,
-        "item_shadow": false,
+        "item_opacity": 0.8,
+        "item_shadow": true,
         "background_color": "#f4f1f1",
         "background_gradient": "",
         "border_color": "#000000",
@@ -987,72 +1055,6 @@
         "item_width": 140,
         "border_thickness": 0,
         "lazy": true
-      }
-    },
-    "tabs_cYdcCh": {
-      "type": "tabs",
-      "blocks": {
-        "tab_4YaP8w": {
-          "type": "tab",
-          "settings": {
-            "title": "Contenu du Kit Micro-Infusion Capillaire – Réparation & Repousse",
-            "content": "<p><strong>Contenu de chaque kit :</strong></p><ul><li><strong>1 mois</strong> : 1 embouts stériles + 2 flacons de sérum (2 traitements) + 1 Sérum extra offert</li></ul><p></p><ul><li><strong>2 mois</strong> : 2 embouts stériles + 4 flacons de sérum (4 traitements) + 2 Sérum extra offerts</li></ul><p></p><ul><li><strong>3 mois</strong> : 3 embouts stériles + 6 flacons de sérum (6 traitements) + 3 Sérum extra offerts</li></ul><p>Chaque kit de micro-infusion est conçu pour un nombre précis de traitements. Les embouts à micro-aiguilles (profondeur <strong>0,5 mm</strong>) sont stériles et réutilisables <strong>trois fois</strong>. Ils doivent être <strong>nettoyés </strong>entre chaque utilisation, garantissant une hygiène irréprochable et des résultats optimaux.</p><p><strong>UN GUIDE D’UTILISATION ET DE NETTOYAGE SERA FOURNI DANS L’E-MAIL DE CONFIRMATION DE COMMANDE.</strong></p>",
-            "page": ""
-          }
-        },
-        "tab_fY44e9": {
-          "type": "tab",
-          "settings": {
-            "title": "Composition Sérum  Réparation & Repousse Synalya ",
-            "content": "<p><strong>Ingrédients clés :</strong></p><p>• <strong>Copper Tripeptide-1</strong> : Connu pour favoriser un cuir chevelu sain et hydraté, il soutient un environnement optimal pour la croissance des cheveux.</p><p>• <strong>Caféine (Caffeine)</strong> : Stimule la microcirculation au niveau du cuir chevelu pour des cheveux plus épais et plus résistants.</p><p>• <strong>Biotine (Biotin)</strong> : Favorise la production de nouvelles cellules dans les follicules pileux, pour une pousse plus rapide et plus saine.</p><p>• <strong>Huile d’arbre à thé (Tea Tree Oil)</strong> : Aide à réduire et prévenir l’accumulation excessive de sébum, purifiant le cuir chevelu et les follicules.</p><p>• <strong>Acides aminés (Amino Acids)</strong> : Renforcent la fibre capillaire, luttent contre les frisottis et réduisent la casse pour des cheveux plus forts et plus lisses.</p><p>• <strong>Extrait de feuille de romarin (Rosemary Leaf Extract)</strong> : Alternative naturelle au minoxidil, il stimule la repousse des cheveux, notamment dans les cas d’alopécie androgénétique.</p><p>• <strong>Acide hyaluronique (Hyaluronic Acid)</strong> : Nourrit et hydrate intensément le cuir chevelu, créant un milieu sain pour des cheveux vigoureux.</p><p>Grâce à cette combinaison unique d’actifs puissants, notre sérum  <strong>réparation et repousse de Synalya</strong> cible les causes de la chute et de l’affaiblissement des cheveux. Il revitalise le cuir chevelu, stimule la croissance capillaire et fortifie la fibre pour une chevelure plus dense, plus forte et visiblement en meilleure santé.</p>",
-            "page": ""
-          }
-        },
-        "tab_MGwBdL": {
-          "type": "tab",
-          "settings": {
-            "title": "Est-ce indolore et sans danger ?",
-            "content": "<p>Grâce à ses <strong>micro-aiguilles ultra-fines de 0,05 mm</strong>, aussi fines qu’un cheveu, l’application est <strong>quasiment imperceptible</strong> et <strong>100 % indolore</strong> ! La plupart des utilisateurs ressentent simplement un léger picotement.</p><p>Notre <strong>système de micro-infusion</strong> est <strong>approuvé par des dermatologues</strong>, <strong>facile à utiliser</strong>, <strong>stérile</strong>, et formulé <strong>sans tests sur les animaux, sans sulfates ni parabènes</strong>.</p><p>De plus, notre sérum est composé d’ingrédients <strong>haut de gamme rigoureusement sélectionnés</strong>, respectant <strong>les normes de qualité les plus strictes</strong> du secteur et garantissant <strong>zéro risque d’effets indésirables</strong>.</p><p>✔ <strong>Sans parfum</strong><br/>✔ <strong>Non testé sur les animaux</strong><br/>✔ <strong>Sans BHA</strong><br/>✔ <strong>Sans parabènes</strong></p>",
-            "page": ""
-          }
-        },
-        "tab_hieypA": {
-          "type": "tab",
-          "settings": {
-            "title": "Satisfait ou Remboursé",
-            "content": "<p>Essayer le kit réparation et repousse ceralyne sans risque <strong>pendant 60 jours</strong>. Si vous n'êtes pas satisfait vous avez la possibilité de le demander <strong>un remboursement intégral</strong></p>",
-            "page": ""
-          }
-        },
-        "tab_CjVF47": {
-          "type": "tab",
-          "settings": {
-            "title": "Service Client 7J/7",
-            "content": "<p>Notre service client est à votre écoute 7J/7.<br/></p><p>Vous pouvez nous contacter par en utilisant l'onglet \"Contact\" de notre boutique ou par email à l'adresse contact@synalya.fr</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_4YaP8w",
-        "tab_fY44e9",
-        "tab_MGwBdL",
-        "tab_hieypA",
-        "tab_CjVF47"
-      ],
-      "name": "Tabs",
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "",
-        "title": "",
-        "text_alignment": "center",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "faq": {
