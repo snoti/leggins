@@ -12,9 +12,17 @@
     "chatgpt_fy9JGx": {
       "type": "chatgpt",
       "blocks": {
+        "ingredient_L49JRN": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Nom de l'ingrédient",
+            "description": "Description détaillée de l'ingrédient."
+          }
+        },
         "ingredient_WaPCjy": {
           "type": "ingredient",
           "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_5.png",
             "title": "Nom de l'ingrédient",
             "description": "Description détaillée de l'ingrédient."
           }
@@ -37,6 +45,7 @@
         }
       },
       "block_order": [
+        "ingredient_L49JRN",
         "ingredient_WaPCjy",
         "ingredient_WchBLh",
         "ingredient_tD9RTW"
