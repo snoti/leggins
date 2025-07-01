@@ -112,7 +112,7 @@
   line-height: 1.5;
 }
 
-/* Mobile: scroll horizontal avec overlay */
+/* Mobile: scroll horizontal fluide et cacher la scrollbar */
 @media (max-width: 768px) {
   .ingredients-container {
     flex-wrap: nowrap;
@@ -121,6 +121,11 @@
     -webkit-overflow-scrolling: touch;
     gap: 20px;
     padding-bottom: 20px;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .ingredients-container::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
   }
 
   .ingredient-card {
