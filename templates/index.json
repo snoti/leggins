@@ -9,52 +9,6 @@
  */
 {
   "sections": {
-    "chatgpt_fy9JGx": {
-      "type": "chatgpt",
-      "blocks": {
-        "ingredient_L49JRN": {
-          "type": "ingredient",
-          "settings": {
-            "title": "Nom de l'ingrédient",
-            "description": "Description détaillée de l'ingrédient."
-          }
-        },
-        "ingredient_WaPCjy": {
-          "type": "ingredient",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_5.png",
-            "title": "Nom de l'ingrédient",
-            "description": "Description détaillée de l'ingrédient."
-          }
-        },
-        "ingredient_WchBLh": {
-          "type": "ingredient",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_10.png",
-            "title": "Nom de l'ingrédient",
-            "description": "Description détaillée de l'ingrédient."
-          }
-        },
-        "ingredient_tD9RTW": {
-          "type": "ingredient",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_9.png",
-            "title": "Nom de l'ingrédient",
-            "description": "Description détaillée de l'ingrédient."
-          }
-        }
-      },
-      "block_order": [
-        "ingredient_L49JRN",
-        "ingredient_WaPCjy",
-        "ingredient_WchBLh",
-        "ingredient_tD9RTW"
-      ],
-      "name": "Ingrédients testés",
-      "settings": {
-        "section_title": "Ingrédients testés cliniquement"
-      }
-    },
     "image_with_text_overlay_ezUjx3": {
       "type": "image-with-text-overlay",
       "custom_css": [],
@@ -732,6 +686,80 @@
         "heading_gradient": ""
       }
     },
+    "chatgpt_fy9JGx": {
+      "type": "chatgpt",
+      "blocks": {
+        "ingredient_L49JRN": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_7.png",
+            "title": "BIotine",
+            "description": "Description détaillée de l'ingrédient."
+          }
+        },
+        "ingredient_4XknW6": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_4.png",
+            "title": "Acide hyaluronique",
+            "description": "Description détaillée de l'ingrédient."
+          }
+        },
+        "ingredient_qBh3Ez": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_6.png",
+            "title": "Huile d’arbreà thé",
+            "description": "Description détaillée de l'ingrédient."
+          }
+        },
+        "ingredient_WaPCjy": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_5.png",
+            "title": "Caféine",
+            "description": "Description détaillée de l'ingrédient."
+          }
+        },
+        "ingredient_WchBLh": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_10.png",
+            "title": "Extrait de feuille de romarin",
+            "description": "Description détaillée de l'ingrédient."
+          }
+        },
+        "ingredient_k6nBei": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_Sans_titre.png",
+            "title": "Copper Tripeptide-1",
+            "description": "Description détaillée de l'ingrédient."
+          }
+        },
+        "ingredient_tD9RTW": {
+          "type": "ingredient",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_9.png",
+            "title": "Acides aminés",
+            "description": "Description détaillée de l'ingrédient."
+          }
+        }
+      },
+      "block_order": [
+        "ingredient_L49JRN",
+        "ingredient_4XknW6",
+        "ingredient_qBh3Ez",
+        "ingredient_WaPCjy",
+        "ingredient_WchBLh",
+        "ingredient_k6nBei",
+        "ingredient_tD9RTW"
+      ],
+      "name": "Ingrédients testés",
+      "settings": {
+        "section_title": "Ingrédients testés cliniquement"
+      }
+    },
     "bento_pKXTVc": {
       "type": "bento",
       "blocks": {
@@ -1345,7 +1373,6 @@
     }
   },
   "order": [
-    "chatgpt_fy9JGx",
     "image_with_text_overlay_ezUjx3",
     "custom_liquid_F8q4pK",
     "custom_liquid_eQmwDA",
@@ -1365,6 +1392,7 @@
     "custom_liquid_p7ckkw",
     "video_carousel_qXqE8Y",
     "tabs_cYdcCh",
+    "chatgpt_fy9JGx",
     "bento_pKXTVc",
     "faq",
     "custom_liquid_qr3Dnh",
