@@ -78,7 +78,7 @@
 
 .ingredients-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* aligne les cartes à gauche */
   flex-wrap: wrap;
   gap: 30px;
 }
@@ -112,7 +112,7 @@
   line-height: 1.5;
 }
 
-/* Mobile: scroll horizontal fluide et cacher la scrollbar */
+/* Mobile: scroll horizontal fluide, bien aligné à gauche et sans scrollbar visible */
 @media (max-width: 768px) {
   .ingredients-container {
     flex-wrap: nowrap;
@@ -120,12 +120,12 @@
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     gap: 20px;
-    padding-bottom: 20px;
-    scrollbar-width: none; /* Firefox */
+    padding: 0; /* retire tout padding horizontal */
+    scrollbar-width: none;
   }
 
   .ingredients-container::-webkit-scrollbar {
-    display: none; /* Chrome/Safari */
+    display: none;
   }
 
   .ingredient-card {
