@@ -1242,6 +1242,7 @@
         "item_faVXir",
         "item_HYg9aE"
       ],
+      "disabled": true,
       "name": "SS - Bento Grid",
       "settings": {
         "body_columns": "4",
