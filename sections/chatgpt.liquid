@@ -1,6 +1,119 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Ingrédients testés",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Titre de la section",
+      "default": "Ingrédients testés cliniquement"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "ingredient",
+      "name": "Ingrédient",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image de l'ingrédient"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre de l'ingrédient",
+          "default": "Nom de l'ingrédient"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description de l'ingrédient",
+          "default": "Description détaillée de l'ingrédient."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingrédients testés",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
+
+<section class="ingredients-section">
+  <h2 class="ingredients-title">
+    {{ section.settings.section_title }}
+  </h2>
+  <div class="ingredients-container">
+    {% for block in section.blocks %}
+      {% if block.type == 'ingredient' %}
+        <div class="ingredient-card">
+          {% if block.settings.image != blank %}
+            <img src="{{ block.settings.image | image_url: width: 600 }}" alt="{{ block.settings.title }}">
+          {% endif %}
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.description }}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+.ingredients-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+}
+
+.ingredients-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.ingredients-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.ingredient-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  padding: 20px;
+  flex: 1 1 300px;
+  max-width: 350px;
+}
+
+.ingredient-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.ingredient-card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.ingredient-card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .ingredients-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>
