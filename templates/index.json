@@ -245,6 +245,31 @@
         "heading_gradient": ""
       }
     },
+    "before_after_image_MbaaWq": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "before_image": "shopify://shop_images/Design_sans_titre_11_c87f2cc0-65c8-463f-aaea-7edaa39eedb3.png",
+        "after_image": "shopify://shop_images/Design_sans_titre_11_b96239dd-6fb8-4487-b4b8-fe25de7c3e79.png",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Avant",
+        "after_text": "Après",
+        "drag_initial_position": 81,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#90a29d",
+        "after_text_color": "#90a29d",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "featured_product_TJiwkz": {
       "type": "featured-product",
       "blocks": {
@@ -1016,6 +1041,7 @@
     "video_Fw9mij",
     "custom_liquid_qFEhYU",
     "images_with_text_scrolling_LHbBN9",
+    "before_after_image_MbaaWq",
     "featured_product_TJiwkz",
     "custom_liquid_Dd8zDM",
     "custom_liquid_p7ckkw",
