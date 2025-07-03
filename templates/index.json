@@ -1008,43 +1008,92 @@
         "item_4wy4yn": {
           "type": "item",
           "settings": {
-            "title": "Quelle est la contenance d’un sachet de bougies perlés et combien de mèches contient une boîte de mèches ?",
-            "content": "<p>Chaque sachet de bougies perlés contient 500 g de cire, parfait pour la fabrication de plusieurs bougies selon vos contenants. Une boîte de mèches comprend 30 mèches prêtes à l’emploi.</p>"
+            "title": "Quels sont les delais de livraison ?",
+            "content": "<p>Suite au grand succès de notre produit les délais de livraison sont les suivant:</p><ul><li>Délai de traitement : 1 à 3 jours ouvrés</li></ul><p></p><ul><li>Délai de livraison : 6 à 14 jours ouvrés</li></ul>"
           }
         },
         "item_Yqbig9": {
           "type": "item",
           "settings": {
-            "title": "Combien de temps dure une bougie perlée 500g ?",
-            "content": "<p>La durée de combustion dépend de l’environnement (courant d’air, température ambiante…), mais en moyenne, vous pouvez profiter de <strong>plusieurs heures d’utilisation </strong>en continu.</p>"
+            "title": "Comment utiliser la Micro Infusion Synalya ?",
+            "content": "<p>Notre<strong> technologie de micro-infusion </strong>révolutionnaire ouvre la voie à <strong>vos follicules endormis.</strong></p><p><strong>Des micro-aiguilles indolores</strong> créent des passages directs pour que notre sérum  ultra-concentré <strong>pénètre en profondeur</strong>, là où aucun shampoing ne peut aller.</p><p><strong>Le résultat ?</strong> Vos cheveux retrouvent leur force primitive : <strong>plus épais, plus résistants, plus nombreux.</strong></p><p>Utilisez-le <strong>toutes les deux semaines</strong> et retrouvez une peau plus lisse et tonifiée depuis le confort de votre maison, en seulement quelques séances !</p><ol><li><strong>Préparation</strong> : Remplissez l’applicateur avec le sérum et fixez une tête de micro-aiguilles stérile à usage unique.</li><li><strong>Activation</strong> : Retournez l’appareil et laissez le sérum s’imprégner pendant 1 à 2 minutes.</li><li><strong>Application</strong> : Tapotez délicatement votre cuir chevelu (zones clairsemées ou sujettes à la chute), en effectuant <strong>2 à 3 passages</strong> pour une absorption optimale.</li><li><strong>Soin après application</strong> : Massez l’excédent de sérum sur la peau et laissez agir. <strong>Laissez agir le produit</strong> <strong>sans rincer pendant au minimum 12 heures</strong>. Vous pouvez compléter avec votre routine de soins habituelle.</li></ol>"
           }
         },
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Les bougies sont-elles parfumées ?",
-            "content": "<p>Non, nos bougies perlées <strong>ne contiennent pas de parfum</strong>. Elles sont conçues avant tout pour leur <strong>design élégant</strong> et leur <strong>lumière apaisante</strong>.<br/>Toutefois, vous pouvez y ajouter quelques gouttes d’huiles essentielles.</p>"
+            "title": "Est-ce indolore et sans danger ?",
+            "content": "<p>Grâce à ses <strong>micro-aiguilles ultra-fines de 0,05 mm</strong>, aussi fines qu’un cheveu, l’application est <strong>quasiment imperceptible</strong> et <strong>100 % indolore</strong> ! La plupart des utilisateurs ressentent simplement un léger picotement.</p><p>Notre <strong>système de micro-infusion</strong> est <strong>approuvé par des dermatologues</strong>, <strong>facile à utiliser</strong>, <strong>stérile</strong>, et formulé <strong>sans tests sur les animaux, sans sulfates ni parabènes</strong>.</p><p>De plus, notre sérum est composé d’ingrédients <strong>haut de gamme rigoureusement sélectionnés</strong>, respectant <strong>les normes de qualité les plus strictes</strong> du secteur et garantissant <strong>zéro risque d’effets indésirables</strong>.</p><p>✔ <strong>Sans parfum</strong><br/>✔ <strong>Non testé sur les animaux</strong><br/>✔ <strong>Sans BHA</strong><br/>✔ <strong>Sans parabènes</strong></p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que la cire coule ?",
-            "content": "<p>La bougie est conçue pour fondre proprement, sans coulures.</p>"
+            "title": "Les têtes sont-elles réutilisables ?",
+            "content": "<p>Oui bien sûr, cependant, une fois les trois sessions de traitement complétées sur 45 jours, la tête à aiguille doit impérativement être jetée.</p><p>Pour nettoyer la tête à aiguille, rincez-la à l’eau tiède, puis appliquez un antiseptique ou de l’alcool doux (70°) par aspersion ou immersion. Rincez à nouveau à l’eau tiède et laissez sécher complètement à l’air libre.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Peut-on offrir cette bougie ?",
-            "content": "<p>Absolument. Chaque bougie est livrée dans un <strong>packaging soigné</strong>, prêt à être offert, que ce soit pour un anniversaire, une pendaison de crémaillère ou tout autre événement.</p>"
+            "title": "Les têtes sont-elles réutilisables ?",
+            "content": "<p>Oui bien sûr, cependant, une fois les trois sessions de traitement complétées sur 45 jours, la tête à aiguille doit impérativement être jetée.</p><p>Pour nettoyer la tête à aiguille, rincez-la à l’eau tiède, puis appliquez un antiseptique ou de l’alcool doux (70°) par aspersion ou immersion. Rincez à nouveau à l’eau tiède et laissez sécher complètement à l’air libre.</p>"
           }
         },
         "item_RgPy4r": {
           "type": "item",
           "settings": {
-            "title": "Quels sont les délais de livraison?",
-            "content": "<p>Expédition sous 2 à 3 jours ouvrés. Livraison en France Métropolitaine estimée entre 4 et 10 jours.</p>"
+            "title": "Où pouvez-vous l'utiliser ?",
+            "content": "<p><strong>Retrouvez la confiance</strong> que vous méritez. Ce système agit là où les shampoings échouent : directement à la racine du problème.<strong> Une séance toutes les deux semaines </strong>suffit pour transformer votre chevelure.</p><ul><li>Raie élargie </li><li>Cheveux clairsemés </li><li>Perte de volume </li><li>Tempes dégarnies </li><li>Couronne visible </li><li>Cheveux fins post-grossesse </li><li> Alopécie hormonale</li><li>Densité réduite </li><li> Repousse ralentie </li><li>Cheveux fragiles et cassants</li></ul>"
+          }
+        },
+        "item_gAXyKk": {
+          "type": "item",
+          "settings": {
+            "title": "Quand vais-je voir les premiers résultats ?",
+            "content": "<p>Dès la première séance, beaucoup d'utilisateurs ont l'impression de ressentir la différence : un cuir chevelu qui paraît revitalisé, des cheveux qui semblent plus forts. Hommes et femmes témoignent d'une chute qui tend à diminuer dès le premier mois.<br/></p><p>Mais la vraie transformation opère entre 4 et 6 séances sur 3 mois. Pourquoi ? Parce que ce traitement booste la microcirculation de 76%, réveillant chaque follicule endormi.</p><p>Résultat : une chevelure plus dense, plus volumineuse, plus confiante. Les experts capillaires le confirment : 3 mois suffisent pour retrouver la chevelure que vous méritez.</p>"
+          }
+        },
+        "item_8PikyL": {
+          "type": "item",
+          "settings": {
+            "title": "Hommes et femmes peuvent-ils l'utiliser ?",
+            "content": "<p>Bien sûr !</p><p> Notre système s'adapte à tous les profils capillaires, hommes et femmes confondus.</p><p>Que vous souffriez d'alopécie androgénétique, de chute hormonale, de stress capillaire ou simplement de cheveux qui s'affinent, la technologie agit de la même manière : elle réveille vos follicules pour une repousse naturelle, peu importe votre genre.</p>"
+          }
+        },
+        "item_apEVnz": {
+          "type": "item",
+          "settings": {
+            "title": "Ce produit est-il automatiquement renouvelé et expédié chaque mois ?",
+            "content": "<p><strong>Non</strong>, le kit Micro Infusion ne fait pas partie d’un programme de renouvellement automatique ou d’abonnement mensuel.<br/><br/>Chaque achat est une transaction unique, et les produits sont expédiés en fonction de cette commande.<br/><br/>Si vous souhaitez recevoir des kits supplémentaires à l'avenir, vous devrez passer une nouvelle commande à chaque fois.</p>"
+          }
+        },
+        "item_g3LeBN": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce facile à utiliser ? Y a-t-il de bonnes instructions ?",
+            "content": "<p>Oui, le kit Micro Infusion est simple et facile à utiliser, et chaque traitement ne prend que 5 à 10 minutes.<br/><br/>Chaque commande est accompagnée d'un manuel détaillé pour vous guider tout au long du processus, afin de vous assurer d'obtenir les meilleurs résultats.<br/><br/>Les instructions couvrent tout, de la préparation du dispositif à l'application du sérum et aux soins après traitement.<br/><br/>Même si vous êtes novice en matière de ce type de soin, vous trouverez les étapes faciles à suivre.</p>"
+          }
+        },
+        "item_8MFwX6": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je l'utiliser avec mon propre sérum ?",
+            "content": "<p>Nous ne recommandons pas d'utiliser le Micro Infusion Kit avec des sérums autres que celui fourni.</p><p>Le sérum inclus est spécialement formulé pour fonctionner en harmonie avec la technologie de microneedling du dispositif, garantissant une absorption et une efficacité optimales.</p>"
+          }
+        },
+        "item_fWk7j9": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les ingrédients ?",
+            "content": "<ul><li>Copper Tripeptide-1</li><li>Caféine</li><li>Biotine</li><li>Huile d'arbre à thé</li><li>Acides aminés</li><li>Extrait de feuille de romarin</li><li>Acide hyaluronique</li></ul><p><strong>Notre sérum est :</strong></p><ul><li>Sans Paraben</li><li>Sans Sulfate</li><li>Vegan</li><li>Organique</li><li>Sans parfum</li></ul>"
+          }
+        },
+        "item_xiwtja": {
+          "type": "item",
+          "settings": {
+            "title": "Qui devrait l'utiliser ?",
+            "content": "<p>Dès 25 ans, nos cheveux perdent naturellement de leur densité. Plus tôt vous agissez, plus les résultats sont spectaculaires.</p><p>Notre système convient à tous les adultes jusqu'à 80 ans, quel que soit votre type de cheveux ou votre degré de chute.</p><p>Seule contre-indication : évitez en cas d'irritations sévères du cuir chevelu. En cas de doute, consultez un spécialiste.</p>"
           }
         }
       },
@@ -1054,7 +1103,14 @@
         "166442457738b23caf-0",
         "166442457738b23caf-1",
         "166442457738b23caf-2",
-        "item_RgPy4r"
+        "item_RgPy4r",
+        "item_gAXyKk",
+        "item_8PikyL",
+        "item_apEVnz",
+        "item_g3LeBN",
+        "item_8MFwX6",
+        "item_fWk7j9",
+        "item_xiwtja"
       ],
       "settings": {
         "full_width": false,
