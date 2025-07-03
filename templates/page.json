@@ -1,1 +1,531 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "rich_text_mAPhtd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YqeXqb": {
+          "type": "heading",
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_QpaRpd": {
+          "type": "heading",
+          "settings": {
+            "text": "Présentation de notre produit",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_g7cXpA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Le Micro-Infuseur Réparation et Repousse Synalya </strong>est conçu pour offrir une expérience de soin innovante, efficace et totalement sûre.<br/>Notre formule a été minutieusement élaborée à partir d’ingrédients premium, choisis pour leur haute tolérance et leur efficacité prouvée sur tous types de cuir chevelu et de cheveux. Nous savons que commencer un nouveau traitement capillaire peut susciter des interrogations ; c’est pourquoi nous avons créé ce guide détaillé pour vous accompagner pas à pas dans votre routine.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YqeXqb",
+        "heading_QpaRpd",
+        "richtext_g7cXpA"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_BexNfg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fmWjTU": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_w3UBTw": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi notre produit est-il sûr ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_NiYND9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li><strong>Des micro-aiguilles douces et non invasives : </strong>Les micro-aiguilles mesurent seulement 0,5 mm de long, garantissant qu’elles ne causent aucune lésion irréversible au cuir chevelu. Elles agissent uniquement en surface pour créer des micro-canaux contrôlés, stimulant la régénération naturelle et favorisant une absorption maximale du sérum capillaire.</li></ul><p></p><ul><li><strong>Une formule propre et respectueuse : </strong>Le sérum utilisé avec notre dispositif est sans parabènes, sans sulfates et sans parfums artificiels. Il est vegan, testé dermatologiquement et parfaitement adapté aux cuirs chevelus les plus sensibles.</li></ul><p></p><ul><li><strong>Hygiène impeccable : </strong>En suivant nos recommandations d’utilisation et d’entretien, vous profitez d’une expérience saine, sûre et efficace.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fmWjTU",
+        "heading_w3UBTw",
+        "richtext_NiYND9"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_8jX3RF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KFWAPL": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_XxqLNx": {
+          "type": "heading",
+          "settings": {
+            "text": "Quel intervale d'utilisation ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ydK76W": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Afin d'obtenir des résultats optimaux nous recommandons un traitement toutes les deux semaines.</p><p>Une fois un flacon de sérum ouvert, <strong>il doit être utilisé en une semaine</strong> :</p><ul><li>Appliquer la moitié du flacon lors de la première session.<br/></li><li>Laisser passer 3 jours pour laisser agir le produit.<br/></li><li>Appliquer ensuite le reste du flacon.<br/></li><li>Après avoir terminé le flacon, laisser s’écouler la fin de la semaine puis attendre au moins <strong>une semaine supplémentaire de pause</strong> avant de commencer un nouveau flacon.<br/><br/></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KFWAPL",
+        "heading_XxqLNx",
+        "richtext_ydK76W"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_FDVcD3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FXbPTY": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_QJmFG3": {
+          "type": "heading",
+          "settings": {
+            "text": "Récapitulatif rapide de la procédure d'utilisation",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_8xmMP8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Une procédure détaillée est disponible en fin de page.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FXbPTY",
+        "heading_QJmFG3",
+        "richtext_8xmMP8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "bendo_video_NeGPA9": {
+      "type": "bendo-video",
+      "blocks": {
+        "item_wx3EPU": {
+          "type": "item",
+          "settings": {
+            "column_width": 2,
+            "row_width": 1,
+            "heading": "<h2><strong>Etape 1</strong></h2>",
+            "heading_custom": false,
+            "heading_font": "inter_n4",
+            "heading_size": 20,
+            "heading_size_mobile": 20,
+            "heading_height": 150,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "text": "<p>Ouvrez le flacon et remplissez-le avec le sérum. Refermez sans forcer pour une application optimale.</p>",
+            "text_custom": false,
+            "text_font": "inter_n4",
+            "text_size": 16,
+            "text_size_mobile": 12,
+            "text_height": 180,
+            "text_mt": 2,
+            "text_align": "left",
+            "text_align_mobile": "left",
+            "button": "",
+            "button_url": "",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 16,
+            "button_size_mobile": 16,
+            "button_height": 100,
+            "button_width": 200,
+            "button_width_mobile": 200,
+            "button_mt": 16,
+            "button_mt_mobile": 16,
+            "button_padding_vertical": 16,
+            "button_padding_vertical_mobile": 16,
+            "button_padding_horizontal": 24,
+            "button_padding_horizontal_mobile": 24,
+            "button_radius": 4,
+            "button_border_thickness": 1,
+            "button_align": "center",
+            "button_align_mobile": "center",
+            "button_style": "non_outline",
+            "video": "https://cdn.shopify.com/videos/c/o/v/e09a06fabeb740cd93ac67550eb4d3c7.mp4",
+            "video_position": "right",
+            "video_position_mobile": "right",
+            "video_width": 100,
+            "video_width_mobile": 100,
+            "video_radius": 10,
+            "video_border_thickness": 0,
+            "video_ratio": "square",
+            "video_ratio_mobile": "square",
+            "hide_video": false,
+            "background_color": "#ffffff",
+            "background_gradient": "",
+            "item_border_color": "#000000",
+            "item_heading_color": "#121212",
+            "item_heading_gradient": "",
+            "item_text_color": "#121212",
+            "video_border_color": "#121212",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "button_bg_hover_color": "#000000",
+            "button_border_color": "#000000",
+            "button_border_hover_color": "#000000"
+          }
+        },
+        "item_MdWhzU": {
+          "type": "item",
+          "settings": {
+            "column_width": 2,
+            "row_width": 1,
+            "heading": "<h2><strong>Etape 2</strong></h2>",
+            "heading_custom": false,
+            "heading_font": "inter_n4",
+            "heading_size": 20,
+            "heading_size_mobile": 20,
+            "heading_height": 150,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "text": "<p>Retournez le flacon et laissez-le à l’envers pendant 2 minutes afin que les micro-aiguilles s’imprègnent parfaitement du sérum.</p>",
+            "text_custom": false,
+            "text_font": "inter_n4",
+            "text_size": 16,
+            "text_size_mobile": 12,
+            "text_height": 180,
+            "text_mt": 2,
+            "text_align": "left",
+            "text_align_mobile": "left",
+            "button": "",
+            "button_url": "",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 16,
+            "button_size_mobile": 14,
+            "button_height": 100,
+            "button_width": 200,
+            "button_width_mobile": 200,
+            "button_mt": 16,
+            "button_mt_mobile": 16,
+            "button_padding_vertical": 16,
+            "button_padding_vertical_mobile": 16,
+            "button_padding_horizontal": 24,
+            "button_padding_horizontal_mobile": 24,
+            "button_radius": 4,
+            "button_border_thickness": 1,
+            "button_align": "center",
+            "button_align_mobile": "center",
+            "button_style": "non_outline",
+            "video": "https://cdn.shopify.com/videos/c/o/v/0ea650f0100f44cbaa0c9a51f4beb465.mp4",
+            "video_position": "right",
+            "video_position_mobile": "right",
+            "video_width": 100,
+            "video_width_mobile": 100,
+            "video_radius": 10,
+            "video_border_thickness": 0,
+            "video_ratio": "square",
+            "video_ratio_mobile": "square",
+            "hide_video": false,
+            "background_color": "#ffffff",
+            "background_gradient": "",
+            "item_border_color": "#000000",
+            "item_heading_color": "#121212",
+            "item_heading_gradient": "",
+            "item_text_color": "#121212",
+            "video_border_color": "#121212",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "button_bg_hover_color": "#000000",
+            "button_border_color": "#000000",
+            "button_border_hover_color": "#000000"
+          }
+        },
+        "item_Yq6hw7": {
+          "type": "item",
+          "settings": {
+            "column_width": 2,
+            "row_width": 1,
+            "heading": "<h2><strong>Etape 3</strong></h2>",
+            "heading_custom": false,
+            "heading_font": "inter_n4",
+            "heading_size": 20,
+            "heading_size_mobile": 20,
+            "heading_height": 150,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "text": "<p>Tapotez délicatement votre cuir chevelu (zones clairsemées ou sujettes à la chute). Répétez 2 à 3 fois pour des résultats visibles plus rapidement. </p>",
+            "text_custom": false,
+            "text_font": "inter_n4",
+            "text_size": 16,
+            "text_size_mobile": 12,
+            "text_height": 180,
+            "text_mt": 2,
+            "text_align": "left",
+            "text_align_mobile": "left",
+            "button": "",
+            "button_url": "",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 16,
+            "button_size_mobile": 16,
+            "button_height": 100,
+            "button_width": 200,
+            "button_width_mobile": 200,
+            "button_mt": 16,
+            "button_mt_mobile": 16,
+            "button_padding_vertical": 16,
+            "button_padding_vertical_mobile": 16,
+            "button_padding_horizontal": 24,
+            "button_padding_horizontal_mobile": 24,
+            "button_radius": 4,
+            "button_border_thickness": 1,
+            "button_align": "center",
+            "button_align_mobile": "center",
+            "button_style": "non_outline",
+            "video": "https://cdn.shopify.com/videos/c/o/v/1d5c4b066d0d4712a94da10efd6a7b3c.mp4",
+            "video_position": "right",
+            "video_position_mobile": "right",
+            "video_width": 100,
+            "video_width_mobile": 100,
+            "video_radius": 10,
+            "video_border_thickness": 0,
+            "video_ratio": "square",
+            "video_ratio_mobile": "square",
+            "hide_video": false,
+            "background_color": "#ffffff",
+            "background_gradient": "",
+            "item_border_color": "#000000",
+            "item_heading_color": "#121212",
+            "item_heading_gradient": "",
+            "item_text_color": "#121212",
+            "video_border_color": "#121212",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "button_bg_hover_color": "#000000",
+            "button_border_color": "#000000",
+            "button_border_hover_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "item_wx3EPU",
+        "item_MdWhzU",
+        "item_Yq6hw7"
+      ],
+      "name": "Bento Video Grid",
+      "settings": {
+        "body_columns": "4",
+        "body_gap": 16,
+        "body_gap_mobile": 16,
+        "item_padding_vertical": 32,
+        "item_padding_vertical_mobile": 12,
+        "item_padding_horizontal": 32,
+        "item_padding_horizontal_mobile": 12,
+        "item_radius": 16,
+        "item_border_thickness": 0,
+        "item_opacity": 1,
+        "item_shadow": true,
+        "background_color": "#f4f1f1",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1,
+        "full_width": false,
+        "item_width": 140,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "rich_text_Y38Fym": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rKcHNN": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_wWEkpf": {
+          "type": "heading",
+          "settings": {
+            "text": "Procédure d’utilisation détaillée",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_kBRp7Y": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>1. Préparation de l’appareil</strong><br/><br/>Tournez doucement la tête à micro-aiguilles pour l’ouvrir. Remplissez la chambre du dispositif avec la quantité de sérum recommandée. <strong>Refermez sans forcer la tête à aiguille sans trop la serrer pour une application optimale : plus la tête est serrée, plus le sérum aura du mal à s’écouler.</strong></p><p>Placez le Micro-Infuseur à l’envers pendant 2 à 3 minutes pour que les micro-aiguilles s’imprègnent correctement du sérum.</p><p><strong>2. Test préalable</strong><br/><br/>Appliquez une petite quantité de sérum sur une zone du cuir chevelu pour vérifier toute éventuelle sensation de gêne ou réaction. Cette étape est essentielle pour garantir une tolérance optimale.</p><p><strong>3. Application sur le cuir chevelu</strong><br/><br/>Retirez le couvercle de protection.</p><p>Tamponnez délicatement le cuir chevelu <strong>en</strong> <strong>ciblant les zones clairsemées ou concernées par la chute de cheveux</strong>. Déplacez l’appareil en couvrant chaque zone de manière uniforme, en chevauchant légèrement vos passages pour assurer une application homogène.</p><p>Pour les zones spécifiques nécessitant une attention particulière, comme les zones de perte marquée, <strong>repassez doucement 2 à 3 fois.</strong></p><p><strong>Important</strong> : Évitez les zones présentant des plaies, des croûtes ou des irritations visibles.</p><p><strong>4. Soin final</strong><br/><br/><strong>Massez doucement l’excédent</strong> de sérum sur l’ensemble du cuir chevelu pour optimiser la pénétration des actifs.</p><p><strong><br/>Laissez agir </strong>le produit <strong>sans rincer pendant au minimum 12 heures</strong>, et pour un résultat optimal, laissez-le en place <strong>jusqu’à 24 heures</strong>, afin de permettre aux ingrédients de stimuler efficacement la régénération et la repousse.<br/><br/><strong>Complétez votre routine avec vos soins habituels </strong>si vous le souhaitez.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rKcHNN",
+        "heading_wWEkpf",
+        "richtext_kBRp7Y"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_VKUbAK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nRdATe": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Comment utiliser la Micro Infusion Synalya?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_rW3ewg": {
+          "type": "heading",
+          "settings": {
+            "text": "Nettoyage après utilisation",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_YrMhAQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Pour garantir la sécurité et l’efficacité de chaque utilisation :</p><ul><li>Nettoyez la tête à aiguille en la rinçant à l'eau tiède, puis appliquez un antiseptique ou de l'alcool doux (70°) par aspersion ou immersion. Rincez à nouveau à l'eau tiède, puis laissez sécher complètement à l'air libre.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nRdATe",
+        "heading_rW3ewg",
+        "richtext_YrMhAQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_mAPhtd",
+    "rich_text_BexNfg",
+    "rich_text_8jX3RF",
+    "rich_text_FDVcD3",
+    "bendo_video_NeGPA9",
+    "rich_text_Y38Fym",
+    "rich_text_VKUbAK"
+  ]
+}
