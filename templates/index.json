@@ -944,6 +944,18 @@
         "lazy": true
       }
     },
+    "custom_liquid_9M9gtm": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 2.5vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-heading\">\n    <strong>{{ 'Pourquoi nous ?' }}</strong>\n  </h1>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_t4DGAM": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -1096,6 +1108,7 @@
     "chatgpt_fy9JGx",
     "custom_liquid_FnJLWE",
     "bendo_video_JpgPUE",
+    "custom_liquid_9M9gtm",
     "image_with_text_overlay_t4DGAM",
     "faq",
     "custom_html_RXWAAM"
