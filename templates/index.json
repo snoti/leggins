@@ -971,22 +971,64 @@
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que la cire coule ?",
-            "content": "<p>La bougie est conçue pour fondre proprement, sans coulures.</p>"
+            "title": "Les têtes sont-elles réutilisables ?",
+            "content": "<p>Oui bien sûr, cependant, une fois les trois sessions de traitement complétées sur 45 jours, la tête à aiguille doit impérativement être jetée.</p><p>Pour nettoyer la tête à aiguille, rincez-la à l’eau tiède, puis appliquez un antiseptique ou de l’alcool doux (70°) par aspersion ou immersion. Rincez à nouveau à l’eau tiède et laissez sécher complètement à l’air libre.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Peut-on offrir cette bougie ?",
-            "content": "<p>Absolument. Chaque bougie est livrée dans un <strong>packaging soigné</strong>, prêt à être offert, que ce soit pour un anniversaire, une pendaison de crémaillère ou tout autre événement.</p>"
+            "title": "Où pouvez-vous l'utiliser ?",
+            "content": "<p><strong>Retrouvez la confiance</strong> que vous méritez. Ce système agit là où les shampoings échouent : directement à la racine du problème.<strong> Une séance toutes les deux semaines </strong>suffit pour transformer votre chevelure.</p><ul><li>Raie élargie </li><li>Cheveux clairsemés </li><li>Perte de volume </li><li>Tempes dégarnies </li><li>Couronne visible </li><li>Cheveux fins post-grossesse </li><li> Alopécie hormonale</li><li>Densité réduite </li><li> Repousse ralentie </li><li>Cheveux fragiles et cassants</li></ul>"
           }
         },
         "item_RgPy4r": {
           "type": "item",
           "settings": {
-            "title": "Quels sont les délais de livraison?",
-            "content": "<p>Expédition sous 2 à 3 jours ouvrés. Livraison en France Métropolitaine estimée entre 4 et 10 jours.</p>"
+            "title": "Quand vais-je voir les premiers résultats ?",
+            "content": "<p>Dès la première séance, beaucoup d'utilisateurs ont l'impression de ressentir la différence : un cuir chevelu qui paraît revitalisé, des cheveux qui semblent plus forts. Hommes et femmes témoignent d'une chute qui tend à diminuer dès le premier mois.<br/></p><p>Mais la vraie transformation opère entre 4 et 6 séances sur 3 mois. Pourquoi ? Parce que ce traitement booste la microcirculation de 76%, réveillant chaque follicule endormi.</p><p>Résultat : une chevelure plus dense, plus volumineuse, plus confiante. Les experts capillaires le confirment : 3 mois suffisent pour retrouver la chevelure que vous méritez.</p>"
+          }
+        },
+        "item_8WcLhm": {
+          "type": "item",
+          "settings": {
+            "title": "Hommes et femmes peuvent-ils l'utiliser ?",
+            "content": "<p>Bien sûr !</p><p> Notre système s'adapte à tous les profils capillaires, hommes et femmes confondus.</p><p>Que vous souffriez d'alopécie androgénétique, de chute hormonale, de stress capillaire ou simplement de cheveux qui s'affinent, la technologie agit de la même manière : elle réveille vos follicules pour une repousse naturelle, peu importe votre genre.</p>"
+          }
+        },
+        "item_LnNkYy": {
+          "type": "item",
+          "settings": {
+            "title": "Ce produit est-il automatiquement renouvelé et expédié chaque mois ?",
+            "content": "<p><strong>Non</strong>, le kit Micro Infusion ne fait pas partie d’un programme de renouvellement automatique ou d’abonnement mensuel.<br/><br/>Chaque achat est une transaction unique, et les produits sont expédiés en fonction de cette commande.<br/><br/>Si vous souhaitez recevoir des kits supplémentaires à l'avenir, vous devrez passer une nouvelle commande à chaque fois.</p>"
+          }
+        },
+        "item_pTGbhq": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce facile à utiliser ? Y a-t-il de bonnes instructions ?",
+            "content": "<p>Oui, le kit Micro Infusion est simple et facile à utiliser, et chaque traitement ne prend que 5 à 10 minutes.<br/><br/>Chaque commande est accompagnée d'un manuel détaillé pour vous guider tout au long du processus, afin de vous assurer d'obtenir les meilleurs résultats.<br/><br/>Les instructions couvrent tout, de la préparation du dispositif à l'application du sérum et aux soins après traitement.<br/><br/>Même si vous êtes novice en matière de ce type de soin, vous trouverez les étapes faciles à suivre.</p>"
+          }
+        },
+        "item_JCDDMy": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je l'utiliser avec mon propre sérum ?",
+            "content": "<p>Nous ne recommandons pas d'utiliser le Micro Infusion Kit avec des sérums autres que celui fourni.</p><p>Le sérum inclus est spécialement formulé pour fonctionner en harmonie avec la technologie de microneedling du dispositif, garantissant une absorption et une efficacité optimales.</p>"
+          }
+        },
+        "item_YMxPzh": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les ingrédients ?",
+            "content": "<ul><li>Copper Tripeptide-1</li><li>Caféine</li><li>Biotine</li><li>Huile d'arbre à thé</li><li>Acides aminés</li><li>Extrait de feuille de romarin</li><li>Acide hyaluronique</li></ul><p><strong>Notre sérum est :</strong></p><ul><li>Sans Paraben</li><li>Sans Sulfate</li><li>Vegan</li><li>Organique</li><li>Sans parfum</li></ul>"
+          }
+        },
+        "item_LeaNex": {
+          "type": "item",
+          "settings": {
+            "title": "Qui devrait l'utiliser ?",
+            "content": "<p>Dès 25 ans, nos cheveux perdent naturellement de leur densité. Plus tôt vous agissez, plus les résultats sont spectaculaires.</p><p>Notre système convient à tous les adultes jusqu'à 80 ans, quel que soit votre type de cheveux ou votre degré de chute.</p><p>Seule contre-indication : évitez en cas d'irritations sévères du cuir chevelu. En cas de doute, consultez un spécialiste.</p>"
           }
         }
       },
@@ -996,7 +1038,13 @@
         "166442457738b23caf-0",
         "166442457738b23caf-1",
         "166442457738b23caf-2",
-        "item_RgPy4r"
+        "item_RgPy4r",
+        "item_8WcLhm",
+        "item_LnNkYy",
+        "item_pTGbhq",
+        "item_JCDDMy",
+        "item_YMxPzh",
+        "item_LeaNex"
       ],
       "settings": {
         "full_width": false,
