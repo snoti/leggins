@@ -1033,13 +1033,6 @@
             "content": "<p>Oui bien sûr, cependant, une fois les trois sessions de traitement complétées sur 45 jours, la tête à aiguille doit impérativement être jetée.</p><p>Pour nettoyer la tête à aiguille, rincez-la à l’eau tiède, puis appliquez un antiseptique ou de l’alcool doux (70°) par aspersion ou immersion. Rincez à nouveau à l’eau tiède et laissez sécher complètement à l’air libre.</p>"
           }
         },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Les têtes sont-elles réutilisables ?",
-            "content": "<p>Oui bien sûr, cependant, une fois les trois sessions de traitement complétées sur 45 jours, la tête à aiguille doit impérativement être jetée.</p><p>Pour nettoyer la tête à aiguille, rincez-la à l’eau tiède, puis appliquez un antiseptique ou de l’alcool doux (70°) par aspersion ou immersion. Rincez à nouveau à l’eau tiède et laissez sécher complètement à l’air libre.</p>"
-          }
-        },
         "item_RgPy4r": {
           "type": "item",
           "settings": {
@@ -1102,7 +1095,6 @@
         "item_Yqbig9",
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2",
         "item_RgPy4r",
         "item_gAXyKk",
         "item_8PikyL",
