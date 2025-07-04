@@ -247,6 +247,9 @@
     },
     "before_after_image_MbaaWq": {
       "type": "before-after-image",
+      "custom_css": [
+        "@media screen and (min-width: 700px) {.before-after {max-width: 40% !important; /* Réduit la largeur de moitié */ margin: 0 auto !important; /* Centre le conteneur */ } .before-after__before-image, .before-after__after-image {max-width: 100% !important; /* Assure que les images s'adaptent */ }}"
+      ],
       "name": "Before/after image",
       "settings": {
         "full_width": true,
