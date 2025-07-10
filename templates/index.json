@@ -180,7 +180,7 @@
             "icon": "none",
             "icon_width": 40,
             "title": "Lucie R.",
-            "content": "<p>Ma chute a ralenti dès les premières semaines, et j’ai commencé à voir des repousses. C’est pas magique, c’est efficace.</p>"
+            "content": "<h5> Chute de cheveux chronique<br/></h5><p>Ma chute a ralenti dès les premières semaines, et j’ai commencé à voir des repousses. C’est pas magique, c’est efficace.</p>"
           }
         },
         "item_RDeYYy": {
@@ -190,7 +190,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Céline P.",
-            "content": "<p>La chute post-partum a été violente. Je perdais mes cheveux par poignées. Avec Valoria, j’ai repris espoir. Les pertes ont ralenti, mes tempes repoussent, et je commence à aimer à nouveau mon reflet. Merci !</p>"
+            "content": "<h5><strong>Perte de cheveux post-partum</strong><br/></h5><p>La chute post-partum a été violente. Je perdais mes cheveux par poignées. Avec Valoria, j’ai repris espoir. Les pertes ont ralenti, mes tempes repoussent, et je commence à aimer à nouveau mon reflet. Merci !</p>"
           }
         },
         "item_JtEyBM": {
@@ -200,7 +200,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Élodie M.",
-            "content": "<p>Je pensais mes cheveux définitivement perdus sur certaines zones. En 6 semaines, j’ai vu des repousses là où il n’y avait plus rien.</p>"
+            "content": "<h5>Zones dégarnies<br/></h5><p>Je pensais mes cheveux définitivement perdus sur certaines zones. En 6 semaines, j’ai vu des repousses là où il n’y avait plus rien.</p>"
           }
         },
         "item_Jedz36": {
@@ -210,7 +210,7 @@
             "icon": "none",
             "icon_width": 120,
             "title": "Natalie C.",
-            "content": "<p>Cuir chevelu irrité, rougeurs… Je n’en pouvais plus.                                                 En quelques jours, mon cuir chevelu a était <br/>apaisé et mes cheveux semblaient reprendre vie.</p>"
+            "content": "<h5>Cuir chevelu irrité et inflammé<br/></h5><p>Cuir chevelu irrité, rougeurs… Je n’en pouvais plus.                                                 En quelques jours, mon cuir chevelu a était <br/>apaisé et mes cheveux semblaient reprendre vie.</p>"
           }
         },
         "item_AnbNaA": {
@@ -220,7 +220,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Lucas S.",
-            "content": "<p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 6 mois, j’ai retrouvé de la densité et surtout… Le sourire</p>"
+            "content": "<h5>Alopécie androgénétique<br/></h5><p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 6 mois, j’ai retrouvé de la densité et surtout… Le sourire</p>"
           }
         }
       },
