@@ -170,79 +170,94 @@
         "text_color": ""
       }
     },
-    "images_with_text_scrolling_LHbBN9": {
-      "type": "images-with-text-scrolling",
+    "multi_column_HcAbgD": {
+      "type": "multi-column",
       "blocks": {
-        "item_M94zAH": {
+        "item_3aHNRK": {
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/AVANT_9_41fbae0a-79c4-4930-a379-b39efa81acb0.png",
-            "icon": "none",
-            "icon_width": 40,
-            "title": "Lucie R.",
-            "content": "<h5> Chute de cheveux chronique<br/></h5><p>Ma chute a ralenti dès les premières semaines, et j’ai commencé à voir des repousses. C’est pas magique, c’est efficace.</p>"
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h5",
+            "content": "<p><strong>Lucie R.</strong> Cliente vérifiée ✓<br/></p><p><strong>Chute de cheveux chronique</strong></p><p>Ma chute a ralenti dès les premières semaines, et j’ai commencé à voir des repousses. C’est pas magique, c’est efficace.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "item_RDeYYy": {
+        "item_LY8UGy": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_AVANT_4.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Céline P.",
-            "content": "<h5><strong>Perte de cheveux post-partum</strong><br/></h5><p>La chute post-partum a été violente. Je perdais mes cheveux par poignées. Avec Valoria, j’ai repris espoir. Les pertes ont ralenti, mes tempes repoussent, et je commence à aimer à nouveau mon reflet. Merci !</p>"
+            "image": "shopify://shop_images/AVANT_5.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Céline P.</strong> Cliente vérifiée ✓</p><p><strong>Perte de cheveux post-partum</strong></p><p>La chute post-partum a été violente. Je perdais mes cheveux par poignées. Avec Valoria, j’ai repris espoir. Les pertes ont ralenti, mes tempes repoussent, et je commence à aimer à nouveau mon reflet. Merci !</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "item_JtEyBM": {
+        "item_HhUrrR": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_AVANT_2.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Élodie M.",
-            "content": "<h5>Zones dégarnies<br/></h5><p>Je pensais mes cheveux définitivement perdus sur certaines zones. En 6 semaines, j’ai vu des repousses là où il n’y avait plus rien.</p>"
+            "image": "shopify://shop_images/Copie_de_AVANT.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Élodie M. </strong>Cliente vérifiée ✓</p><p><strong>Zones dégarnies</strong></p><p>Je pensais mes cheveux définitivement perdus sur certaines zones. En 6 semaines, j’ai vu des repousses là où il n’y avait plus rien.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "item_Jedz36": {
+        "item_KUbdhB": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_Copie_de_AVANT.png",
-            "icon": "none",
-            "icon_width": 120,
-            "title": "Natalie C.",
-            "content": "<h5>Cuir chevelu irrité et inflammé<br/></h5><p>Cuir chevelu irrité, rougeurs… Je n’en pouvais plus.                                                 En quelques jours, mon cuir chevelu a était <br/>apaisé et mes cheveux semblaient reprendre vie.</p>"
+            "image": "shopify://shop_images/AVANT_4.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Natalie C. </strong>Cliente vérifiée ✓</p><p><strong>Cuir chevelu irrité et inflammé</strong></p><p>Cuir chevelu irrité, rougeurs… Je n’en pouvais plus. En quelques jours, mon cuir chevelu a était<br/>apaisé et mes cheveux semblaient reprendre vie</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "item_AnbNaA": {
+        "item_gfX6kg": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_Copie_de_Copie_de_AVANT.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Lucas S.",
-            "content": "<h5>Alopécie androgénétique<br/></h5><p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 6 mois, j’ai retrouvé de la densité et surtout… Le sourire</p>"
+            "image": "shopify://shop_images/AVANT_6.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Lucas S.  </strong>Client vérifié ✓</p><p><strong>Alopécie androgénétique</strong></p><p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 6 mois, j’ai retrouvé de la densité et surtout… Le sourire</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         }
       },
       "block_order": [
-        "item_M94zAH",
-        "item_RDeYYy",
-        "item_JtEyBM",
-        "item_Jedz36",
-        "item_AnbNaA"
+        "item_3aHNRK",
+        "item_LY8UGy",
+        "item_HhUrrR",
+        "item_KUbdhB",
+        "item_gfX6kg"
       ],
-      "custom_css": [],
+      "name": "Multi-column",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "show_counter": false,
-        "desktop_image_effect": "fade",
-        "image_position": "end",
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "text_color": ""
       }
     },
     "before_after_image_MbaaWq": {
@@ -1149,7 +1164,7 @@
     "custom_liquid_AtwcUd",
     "video_Fw9mij",
     "custom_liquid_qFEhYU",
-    "images_with_text_scrolling_LHbBN9",
+    "multi_column_HcAbgD",
     "before_after_image_MbaaWq",
     "featured_product_TJiwkz",
     "custom_liquid_Dd8zDM",
