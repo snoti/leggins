@@ -146,6 +146,18 @@
       {%- endif -%}
     </div>
   </product-rerender>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('video').forEach(video => {
+      video.muted = true;
+      video.playsInline = true;
+      video.autoplay = true;
+      video.loop = true;
+      video.load();
+      video.play().catch(() => {});
+    });
+  });
+</script>
 </div>
 
 {% schema %}
