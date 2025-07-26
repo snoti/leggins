@@ -85,6 +85,18 @@
         "logo_item_border": ""
       }
     },
+    "custom_liquid_AtwcUd": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Pourquoi choisir la Micro Infusion Synalya ?' }}</strong>\n  </h1>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_7LfXbx": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -129,13 +141,13 @@
         "overlay_opacity": 0
       }
     },
-    "custom_liquid_AtwcUd": {
+    "custom_liquid_gLtWJM": {
       "type": "custom-liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Une micro-infusion de précision, sans douleur ni contrainte.' }}</strong>\n  </h1>\n</div>",
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Une infusion innovante et indolore' }}</strong>\n  </h1>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -1160,8 +1172,9 @@
   "order": [
     "image_with_text_overlay_ezUjx3",
     "logo_list_NYh7Ga",
-    "image_with_text_overlay_7LfXbx",
     "custom_liquid_AtwcUd",
+    "image_with_text_overlay_7LfXbx",
+    "custom_liquid_gLtWJM",
     "video_Fw9mij",
     "before_after_image_MbaaWq",
     "custom_liquid_qFEhYU",
