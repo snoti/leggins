@@ -121,12 +121,12 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/6_benefices_5_fc3a09b7-207d-412b-b65c-f2a578faff4d.png",
+        "image": "shopify://shop_images/Copie_de_Copie_de_Template_section_benefice.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 7
+        "overlay_opacity": 0
       }
     },
     "custom_liquid_AtwcUd": {
@@ -156,6 +156,34 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 10
+      }
+    },
+    "before_after_image_MbaaWq": {
+      "type": "before-after-image",
+      "custom_css": [
+        "@media screen and (min-width: 700px) {.before-after {max-width: 50% !important; /* Réduit la largeur de moitié */ margin: 0 auto !important; /* Centre le conteneur */ } .before-after__before-image, .before-after__after-image {max-width: 100% !important; /* Assure que les images s'adaptent */ }}"
+      ],
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "before_image": "shopify://shop_images/Design_sans_titre_11_c87f2cc0-65c8-463f-aaea-7edaa39eedb3.png",
+        "after_image": "shopify://shop_images/Design_sans_titre_11_b96239dd-6fb8-4487-b4b8-fe25de7c3e79.png",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Avant",
+        "after_text": "Après",
+        "drag_initial_position": 81,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#90a29d",
+        "after_text_color": "#90a29d",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     },
     "custom_liquid_qFEhYU": {
@@ -258,34 +286,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "before_after_image_MbaaWq": {
-      "type": "before-after-image",
-      "custom_css": [
-        "@media screen and (min-width: 700px) {.before-after {max-width: 50% !important; /* Réduit la largeur de moitié */ margin: 0 auto !important; /* Centre le conteneur */ } .before-after__before-image, .before-after__after-image {max-width: 100% !important; /* Assure que les images s'adaptent */ }}"
-      ],
-      "name": "Before/after image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "before_image": "shopify://shop_images/Design_sans_titre_11_c87f2cc0-65c8-463f-aaea-7edaa39eedb3.png",
-        "after_image": "shopify://shop_images/Design_sans_titre_11_b96239dd-6fb8-4487-b4b8-fe25de7c3e79.png",
-        "expand_image": false,
-        "text_position": "start",
-        "before_after_text_position": "top",
-        "before_text": "Avant",
-        "after_text": "Après",
-        "drag_initial_position": 81,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#90a29d",
-        "after_text_color": "#90a29d",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
       }
     },
     "featured_product_TJiwkz": {
