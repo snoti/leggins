@@ -17,8 +17,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/PERTE_DE_CHEVEUX_9.png",
-        "mobile_image": "shopify://shop_images/PERTE_DE_CHEVEUX_10.png",
+        "image": "shopify://shop_images/PERTE_DE_CHEVEUX_12.png",
+        "mobile_image": "shopify://shop_images/PERTE_DE_CHEVEUX_11.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
@@ -976,6 +976,7 @@
     },
     "custom_liquid_9M9gtm": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -1017,6 +1018,7 @@
         "heading_wwjfDn",
         "richtext_iQPXP3"
       ],
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
