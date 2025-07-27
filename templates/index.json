@@ -976,7 +976,6 @@
     },
     "custom_liquid_9M9gtm": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -1020,7 +1019,7 @@
       ],
       "name": "Image with text overlay",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
