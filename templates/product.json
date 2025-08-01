@@ -95,6 +95,7 @@
         "quantity_selector",
         "buy_buttons"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
