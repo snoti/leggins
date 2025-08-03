@@ -436,154 +436,6 @@
         "text_color": ""
       }
     },
-    "custom_liquid_p7ckkw": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head3 {\n    text-align: center;\n    font-weight: normal;\n    font-size: 4.5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head3 {\n      font-size: 2vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h6 class=\"responsive-head3\">\n    {{ 'Vous et Synalya' }}\n  </h6>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_carousel_qXqE8Y": {
-      "type": "video-carousel",
-      "blocks": {
-        "slide_rare3n": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/test.mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 5
-          }
-        },
-        "slide_6E3pTz": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre.mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 5
-          }
-        },
-        "slide_kAXxb4": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (2).mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 5
-          }
-        },
-        "slide_tctbzY": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (3).mp4",
-            "video_url": "",
-            "title": "",
-            "stars_count": 5
-          }
-        }
-      },
-      "block_order": [
-        "slide_rare3n",
-        "slide_6E3pTz",
-        "slide_kAXxb4",
-        "slide_tctbzY"
-      ],
-      "name": "SS - Video Slider",
-      "settings": {
-        "slider_view": 4,
-        "slider_view_mobile": 1.5,
-        "slider_gap": 10,
-        "slider_gap_mobile": 10,
-        "slider_rotate": 0,
-        "card_padding_vertical": 20,
-        "card_padding_vertical_mobile": 26,
-        "card_padding_horizontal": 20,
-        "card_padding_horizontal_mobile": 20,
-        "card_radius": 16,
-        "card_border_thickness": 0,
-        "card_shadow": true,
-        "card_ratio": "portrait",
-        "card_ratio_mobile": "portrait",
-        "card_overlay": 0,
-        "content_horizontal_position": "center",
-        "content_horizontal_position_mobile": "center",
-        "content_vertical_position": "end",
-        "content_vertical_position_mobile": "end",
-        "title_custom": false,
-        "title_font": "josefin_sans_n4",
-        "title_size": 16,
-        "title_size_mobile": 16,
-        "title_height": 100,
-        "stars_size": 16,
-        "stars_size_mobile": 10,
-        "stars_mt": 16,
-        "stars_mt_mobile": 16,
-        "hide_stars": true,
-        "use_action": false,
-        "action_size": 40,
-        "action_size_mobile": 40,
-        "action_icon_size": 24,
-        "action_icon_size_mobile": 24,
-        "action_border_thickness": 0,
-        "use_sound": false,
-        "sound_size": 40,
-        "sound_size_mobile": 40,
-        "sound_icon_size": 24,
-        "sound_icon_size_mobile": 24,
-        "sound_border_thickness": 0,
-        "arrow_size": 48,
-        "arrow_size_mobile": 48,
-        "arrow_icon_size": 8,
-        "arrow_icon_size_mobile": 8,
-        "arrow_border_thickness": 0,
-        "arrow_radius": 100,
-        "arrow_hover_effect": "color",
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
-        "card_border_color": "#000000",
-        "card_shadow_color": "#000000",
-        "card_overlay_color": "#000000",
-        "title_color": "#ffffff",
-        "stars_color": "#ffffff",
-        "action_color": "#ffffff",
-        "action_hover_color": "#ffffff",
-        "action_bg_color": "#ffffff",
-        "action_bg_hover_color": "#ffffff",
-        "action_border_color": "#ffffff",
-        "action_border_hover_color": "#ffffff",
-        "sound_icon_color": "#ffffff",
-        "sound_icon_hover_color": "#ffffff",
-        "sound_bg_color": "#ffffff",
-        "sound_bg_hover_color": "#ffffff",
-        "sound_border_color": "#ffffff",
-        "sound_border_hover_color": "#ffffff",
-        "arrow_color": "#ffffff",
-        "arrow_hover_color": "#434343",
-        "arrow_bg_color": "#434343",
-        "arrow_bg_hover_color": "#ffffff",
-        "arrow_border_color": "#000000",
-        "arrow_border_hover_color": "#000000",
-        "background_color": "#f0f0f0",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 4,
-        "padding_horizontal_mobile": 0,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "tabs_cYdcCh": {
       "type": "tabs",
       "blocks": {
@@ -988,35 +840,6 @@
     },
     "image_with_text_overlay_t4DGAM": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_8j6BzT": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_wwjfDn": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_iQPXP3": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_8j6BzT",
-        "heading_wwjfDn",
-        "richtext_iQPXP3"
-      ],
       "name": "Image with text overlay",
       "settings": {
         "full_width": false,
@@ -1181,8 +1004,6 @@
     "multi_column_HcAbgD",
     "featured_product_TJiwkz",
     "custom_liquid_Dd8zDM",
-    "custom_liquid_p7ckkw",
-    "video_carousel_qXqE8Y",
     "tabs_cYdcCh",
     "chatgpt_fy9JGx",
     "custom_liquid_FnJLWE",
