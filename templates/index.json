@@ -32,7 +32,7 @@
         "logo_FHJRqj": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/1e19a994-5a3c-4e06-909f-4a81f45385b8.png",
+            "logo": "shopify://shop_images/telechargement-removebg-preview.webp",
             "logo_width": 300,
             "link": ""
           }
@@ -45,18 +45,18 @@
             "link": ""
           }
         },
-        "logo_pCCqCX": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/VOGUE_revista_-_logo.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
         "logo_3Enx4W": {
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_pCCqCX": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/top_santer-removebg-preview.webp",
             "logo_width": 300,
             "link": ""
           }
@@ -65,8 +65,8 @@
       "block_order": [
         "logo_FHJRqj",
         "logo_FRAhkU",
-        "logo_pCCqCX",
-        "logo_3Enx4W"
+        "logo_3Enx4W",
+        "logo_pCCqCX"
       ],
       "custom_css": [],
       "settings": {
