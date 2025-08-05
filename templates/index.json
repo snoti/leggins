@@ -204,7 +204,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 2.5vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-heading\">\n    <strong>{{ 'Ils vous en parlent mieux que nous' }}</strong>\n  </h1>\n</div>",
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-heading {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 2.5vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-heading {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-heading\">\n    <strong>{{ 'Elles vous en parlent mieux que nous' }}</strong>\n  </h1>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -213,19 +213,6 @@
     "multi_column_HcAbgD": {
       "type": "multi-column",
       "blocks": {
-        "item_3aHNRK": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/AVANT_9_41fbae0a-79c4-4930-a379-b39efa81acb0.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h5",
-            "content": "<p><strong>Lucie R.</strong> Cliente vérifiée ✓<br/></p><p><strong>Chute de cheveux chronique</strong></p><p>Ma chute a ralenti dès les premières semaines, et j’ai commencé à voir des repousses. C’est pas magique, c’est efficace.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_LY8UGy": {
           "type": "item",
           "settings": {
@@ -234,19 +221,6 @@
             "title": "",
             "heading_tag": "h4",
             "content": "<p><strong>Céline P.</strong> Cliente vérifiée ✓</p><p><strong>Perte de cheveux post-partum</strong></p><p>La chute post-partum a été violente. Je perdais mes cheveux par poignées. Avec Synalya, j’ai repris espoir. Les pertes ont ralenti, mes tempes repoussent, et je commence à aimer à nouveau mon reflet. Merci !</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_HhUrrR": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_AVANT_2.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>Élodie M. </strong>Cliente vérifiée ✓</p><p><strong>Zones dégarnies</strong></p><p>Je pensais mes cheveux définitivement perdus sur certaines zones. En quelques semaines, j’ai vu des repousses là où il n’y avait plus rien.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -265,14 +239,40 @@
             "link_style": "link"
           }
         },
-        "item_gfX6kg": {
+        "item_3aHNRK": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_Copie_de_Copie_de_AVANT.png",
+            "image": "shopify://shop_images/AVANT_9_41fbae0a-79c4-4930-a379-b39efa81acb0.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h5",
+            "content": "<p><strong>Lucie R.</strong> Cliente vérifiée ✓<br/></p><p><strong>Chute de cheveux chronique</strong></p><p>Ma chute a ralenti dès les premières semaines, et j’ai commencé à voir des repousses. C’est pas magique, c’est efficace.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_HhUrrR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_AVANT_2.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Lucas S.  </strong>Client vérifié ✓</p><p><strong>Alopécie androgénétique</strong></p><p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 6 mois, j’ai retrouvé de la densité et surtout… Le sourire</p>",
+            "content": "<p><strong>Élodie M. </strong>Cliente vérifiée ✓</p><p><strong>Zones dégarnies</strong></p><p>Je pensais mes cheveux définitivement perdus sur certaines zones. En quelques semaines, j’ai vu des repousses là où il n’y avait plus rien.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_gfX6kg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_AVANT_1.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Rosana S.  </strong>Client vérifié ✓</p><p><strong>Alopécie androgénétique</strong></p><p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 6 mois, j’ai retrouvé de la densité et surtout… Le sourire</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -280,10 +280,10 @@
         }
       },
       "block_order": [
-        "item_3aHNRK",
         "item_LY8UGy",
-        "item_HhUrrR",
         "item_KUbdhB",
+        "item_3aHNRK",
+        "item_HhUrrR",
         "item_gfX6kg"
       ],
       "name": "Multi-column",
