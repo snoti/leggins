@@ -226,6 +226,19 @@
             "link_style": "link"
           }
         },
+        "item_gfX6kg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_AVANT_5.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Rosana S.  </strong>Cliente vérifié ✓</p><p><strong>Alopécie androgénétique</strong></p><p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 3 mois, j’ai retrouvé de la densité et surtout… Le sourire</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_KUbdhB": {
           "type": "item",
           "settings": {
@@ -264,27 +277,14 @@
             "link_text": "",
             "link_style": "link"
           }
-        },
-        "item_gfX6kg": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_AVANT_5.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>Rosana S.  </strong>Cliente vérifié ✓</p><p><strong>Alopécie androgénétique</strong></p><p>Je vois mes cheveux repousser progressivement, et mes zones clairsemées se combler petit à petit. En 3 mois, j’ai retrouvé de la densité et surtout… Le sourire</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
         }
       },
       "block_order": [
         "item_3aHNRK",
+        "item_gfX6kg",
         "item_KUbdhB",
         "item_LY8UGy",
-        "item_HhUrrR",
-        "item_gfX6kg"
+        "item_HhUrrR"
       ],
       "name": "Multi-column",
       "settings": {
