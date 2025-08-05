@@ -213,19 +213,6 @@
     "multi_column_HcAbgD": {
       "type": "multi-column",
       "blocks": {
-        "item_3aHNRK": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/AVANT_9_9726f663-58c2-4e5b-a460-179228dbbeb8.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h5",
-            "content": "<p><strong>Lucie R.</strong> Cliente vérifiée ✓<br/></p><p><strong>Chute de cheveux chronique</strong></p><p>Ma chute a ralenti dès les premières semaines, et j’ai commencé à voir des repousses. C’est pas magique, c’est efficace.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_gfX6kg": {
           "type": "item",
           "settings": {
@@ -247,6 +234,19 @@
             "title": "",
             "heading_tag": "h4",
             "content": "<p><strong>Natalie C. </strong>Cliente vérifiée ✓</p><p><strong>Cuir chevelu irrité et inflammé</strong></p><p>Cuir chevelu irrité, rougeurs… Je n’en pouvais plus. En quelques jours, mon cuir chevelu a était<br/>apaisé et mes cheveux semblaient reprendre vie</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_3aHNRK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/AVANT_9_9726f663-58c2-4e5b-a460-179228dbbeb8.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h5",
+            "content": "<p><strong>Lucie R.</strong> Cliente vérifiée ✓<br/></p><p><strong>Chute de cheveux chronique</strong></p><p>Ma chute a ralenti dès les premières semaines, et j’ai commencé à voir des repousses. C’est pas magique, c’est efficace.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -280,9 +280,9 @@
         }
       },
       "block_order": [
-        "item_3aHNRK",
         "item_gfX6kg",
         "item_KUbdhB",
+        "item_3aHNRK",
         "item_LY8UGy",
         "item_HhUrrR"
       ],
