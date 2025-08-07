@@ -226,14 +226,14 @@
             "link_style": "link"
           }
         },
-        "item_gfX6kg": {
+        "item_LY8UGy": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_AVANT_5.png",
+            "image": "shopify://shop_images/Copie_de_AVANT_3.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Rosana S.  </strong>Cliente vérifié ✓</p><p><strong>Alopécie androgénétique</strong></p><p><br/>Je souffrais d’alopécie androgénétique, et voir mon cuir chevelu se dégarnir chaque jour était un vrai poids. Mais avec Synalya, j’ai commencé à voir mes cheveux repousser progressivement. En 3 mois, mes zones clairsemées se sont comblées et j’ai retrouvé de la densité… et surtout, j’ai retrouvé le sourire. Je me sens à nouveau moi-même.<br/><br/></p>",
+            "content": "<p><strong>Céline P.</strong> Cliente vérifiée ✓</p><p><strong>Perte de cheveux post-partum</strong></p><p><br/>Après la chute post-partum, mes cheveux tombaient par poignées. Avec Synalya, les pertes ont ralenti rapidement, mes tempes repoussent… et surtout, je recommence à aimer ce que je vois dans le miroir.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -252,19 +252,6 @@
             "link_style": "link"
           }
         },
-        "item_LY8UGy": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_AVANT_3.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>Céline P.</strong> Cliente vérifiée ✓</p><p><strong>Perte de cheveux post-partum</strong></p><p><br/>Après la chute post-partum, mes cheveux tombaient par poignées. Avec Synalya, les pertes ont ralenti rapidement, mes tempes repoussent… et surtout, je recommence à aimer ce que je vois dans le miroir.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_HhUrrR": {
           "type": "item",
           "settings": {
@@ -277,14 +264,27 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_gfX6kg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_AVANT_5.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Rosana S.  </strong>Cliente vérifié ✓</p><p><strong>Alopécie androgénétique</strong></p><p><br/>Je souffrais d’alopécie androgénétique, et voir mon cuir chevelu se dégarnir chaque jour était un vrai poids. Mais avec Synalya, j’ai commencé à voir mes cheveux repousser progressivement. En 3 mois, mes zones clairsemées se sont comblées et j’ai retrouvé de la densité… et surtout, j’ai retrouvé le sourire. Je me sens à nouveau moi-même.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
         "item_3aHNRK",
-        "item_gfX6kg",
-        "item_KUbdhB",
         "item_LY8UGy",
-        "item_HhUrrR"
+        "item_KUbdhB",
+        "item_HhUrrR",
+        "item_gfX6kg"
       ],
       "name": "Multi-column",
       "settings": {
