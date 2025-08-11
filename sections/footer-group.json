@@ -73,6 +73,7 @@
         "discount",
         "payment"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -109,8 +110,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "Nous contacter",
-            "content": "<p><strong>Service client</strong> : contact@synalya.fr<br/><br/><strong>Horaires </strong>: Du Lun au Ven de 9h à 12h et de 14h à 18h / Sam et Dim de 10h à 12h</p>",
+            "title": "Contattaci",
+            "content": "<p><strong>Servizio clienti</strong> : contact@synalya.fr<br/><br/><br/><strong>Orari:</strong> dal lunedì al venerdì dalle 9:00 alle 12:00 e dalle 14:00 alle 18:00 / sabato e domenica dalle 10:00 alle 12:00<br/><br/></p>",
             "enable_follow_on_shop": true
           }
         }

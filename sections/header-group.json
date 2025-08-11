@@ -17,28 +17,28 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Livraison gratuite",
+            "text": "Spedizione gratuita",
             "url": ""
           }
         },
         "message_adU36t": {
           "type": "message",
           "settings": {
-            "text": "Paiement 100% sécurisé",
+            "text": "Pagamento 100% sicuro",
             "url": ""
           }
         },
         "message_HQ86bf": {
           "type": "message",
           "settings": {
-            "text": "Satisfait ou remboursé",
+            "text": "Soddisfatti o rimborsati",
             "url": ""
           }
         },
         "message_JcFtWQ": {
           "type": "message",
           "settings": {
-            "text": "Promotion de l'été : -50%",
+            "text": "Sconti imperdibili di stagione: -50%",
             "url": ""
           }
         }
@@ -66,7 +66,6 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
-        "logo": "shopify://shop_images/Synalya.png",
         "logo_max_width": 120,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
@@ -81,7 +80,6 @@
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/ChatGPT_Image_3_mai_2025_15_18_11-Photoroom_1c533c4b-9036-43dc-9935-6c3ba8c71ab0.png",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
