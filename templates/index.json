@@ -17,7 +17,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/WESH_PELO.png",
+        "image": "shopify://shop_images/WESH_PELO_2.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
