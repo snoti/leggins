@@ -29,16 +29,18 @@
     "logo_list_NYh7Ga": {
       "type": "logo-list",
       "blocks": {
-        "logo_FHJRqj": {
+        "logo_FRAhkU": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/f8c72402-ca9b-45d4-97fb-fa6656beffbd.png",
             "logo_width": 300,
             "link": ""
           }
         },
-        "logo_FRAhkU": {
+        "logo_FHJRqj": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/05b6c6e9-bfcc-45cb-9064-5c02c30790ba.png",
             "logo_width": 300,
             "link": ""
           }
@@ -46,6 +48,7 @@
         "logo_3Enx4W": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Femme-actuelle-logo-1-1024x512.png",
             "logo_width": 300,
             "link": ""
           }
@@ -53,14 +56,15 @@
         "logo_pCCqCX": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/VOGUE_revista_-_logo.png",
             "logo_width": 300,
             "link": ""
           }
         }
       },
       "block_order": [
-        "logo_FHJRqj",
         "logo_FRAhkU",
+        "logo_FHJRqj",
         "logo_3Enx4W",
         "logo_pCCqCX"
       ],
